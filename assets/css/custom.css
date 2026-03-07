@@ -1,9 +1,14 @@
-/* 桌面端：content + TOC 并排布局 */
+/* 桌面端：撑宽文章容器，content + TOC 并排 */
 @media only screen and (min-width: 900px) {
+    /* 用 :has() 只在文章页扩展容器宽度，不影响首页/列表页 */
+    .main:has(.post-body-wrapper) {
+        max-width: 1100px;
+    }
+
     .post-body-wrapper {
         display: flex;
         align-items: flex-start;
-        gap: 2rem;
+        gap: 2.5rem;
     }
 
     .post-content {
@@ -13,18 +18,33 @@
 
     .toc-sidebar {
         flex-shrink: 0;
-        width: 240px;
+        width: 220px;
         position: sticky;
         top: 80px;
         max-height: calc(100vh - 120px);
         overflow-y: auto;
+        scrollbar-width: thin;
     }
 
     .toc-sidebar .toc {
         background: var(--entry);
         border: 1px solid var(--border);
         border-radius: 8px;
-        padding: 0.75rem 1rem;
+        padding: 0.8rem 1rem;
+    }
+
+    /* 目录标题 */
+    .toc-sidebar .toc::before {
+        content: "目录";
+        display: block;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--secondary);
+        margin-bottom: 0.6rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid var(--border);
     }
 
     /* 始终展开，隐藏 summary 折叠按钮 */
@@ -40,6 +60,42 @@
         display: block;
         max-height: none;
         overflow: visible;
+    }
+
+    /* 目录链接样式 */
+    .toc-sidebar .toc ul {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .toc-sidebar .toc ul ul {
+        padding-left: 0.9rem;
+        border-left: 1px solid var(--border);
+        margin-left: 0.1rem;
+    }
+
+    .toc-sidebar .toc li {
+        margin: 0;
+        line-height: 1.4;
+    }
+
+    .toc-sidebar .toc a {
+        display: block;
+        font-size: 0.8rem;
+        color: var(--secondary);
+        text-decoration: none;
+        padding: 0.25rem 0.4rem;
+        border-radius: 4px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        transition: color 0.15s, background 0.15s;
+    }
+
+    .toc-sidebar .toc a:hover {
+        color: var(--primary);
+        background: var(--border);
     }
 }
 
