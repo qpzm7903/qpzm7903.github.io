@@ -1,4 +1,4 @@
 {{- /* custom head */ -}}
-{{- $css := resources.Get "css/custom.css" | minify -}}
-<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+{{- $css := resources.Get "css/custom.css" | minify | fingerprint -}}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous">
 {{- /* end custom head */ -}}
