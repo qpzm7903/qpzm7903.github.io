@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>科技热点日报</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on 科技热点日报</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 07 Mar 2026 09:04:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📰 科技热点日报 | 2026-03-07</title>
+      <link>http://localhost:1313/posts/daily-news-2026-03-07/</link>
+      <pubDate>Sat, 07 Mar 2026 09:04:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/daily-news-2026-03-07/</guid>
+      <description>&lt;h1 id=&#34;-科技热点日报--2026-03-07&#34;&gt;📰 科技热点日报 | 2026-03-07&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;AI 大厂动态 + Hacker News + GitHub Trending&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-今日概览&#34;&gt;📊 今日概览&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;🔥 HN 热门文章：&lt;strong&gt;10&lt;/strong&gt; 篇&lt;/li&gt;
+&lt;li&gt;💻 GitHub 热门：&lt;strong&gt;5&lt;/strong&gt; 个&lt;/li&gt;
+&lt;li&gt;🏢 AI 公司动态：&lt;strong&gt;20&lt;/strong&gt; 条&lt;/li&gt;
+&lt;li&gt;📅 更新时间：09:04&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-ai-大厂动态&#34;&gt;🏢 AI 大厂动态&lt;/h2&gt;
+&lt;h3 id=&#34;-公司更新统计&#34;&gt;📈 公司更新统计&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;🇺🇸 &lt;strong&gt;Hugging Face&lt;/strong&gt;: 5 条&lt;/li&gt;
+&lt;li&gt;🇺🇸 &lt;strong&gt;OpenAI&lt;/strong&gt;: 2 条&lt;/li&gt;
+&lt;li&gt;🇺🇸 &lt;strong&gt;Anthropic&lt;/strong&gt;: 2 条&lt;/li&gt;
+&lt;li&gt;🇺🇸 &lt;strong&gt;Google AI&lt;/strong&gt;: 2 条&lt;/li&gt;
+&lt;li&gt;🇺🇸 &lt;strong&gt;Meta AI&lt;/strong&gt;: 2 条&lt;/li&gt;
+&lt;li&gt;🇨🇳 &lt;strong&gt;月之暗面&lt;/strong&gt;: 2 条&lt;/li&gt;
+&lt;li&gt;🇨🇳 &lt;strong&gt;DeepSeek&lt;/strong&gt;: 2 条&lt;/li&gt;
+&lt;li&gt;🇨🇳 &lt;strong&gt;智谱 AI&lt;/strong&gt;: 2 条&lt;/li&gt;
+&lt;li&gt;🇨🇳 &lt;strong&gt;通义千问&lt;/strong&gt;: 1 条&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-最新动态&#34;&gt;📰 最新动态&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1. 🇺🇸 📝 [Hugging Face] PRX Part 3 — Training a Text-to-Image Model in 24h!&lt;/strong&gt;
+📅 Tue, 03 Ma | 🏷️ &lt;code&gt;训练&lt;/code&gt;
+📝 暂无摘要
+🔗 &lt;a href=&#34;https://huggingface.co/blog/Photoroom/prx-part3&#34;&gt;https://huggingface.co/blog/Photoroom/prx-part3&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

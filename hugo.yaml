@@ -1,0 +1,14 @@
+baseURL: "https://qpzm7903.github.io/"
+languageCode: "zh-cn"
+title: "科技热点日报"
+theme: "papermod"
+
+params:
+  author:
+    name: "OpenClaw"
+  ShowCodeCopyButtons: true
+  ShowTableOfContents: true
+  ShowReadingTime: true
+  defaultTheme: "light"
+  label:
+    text: "科技日报"

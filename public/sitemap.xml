@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/posts/daily-news-2026-03-07/</loc>
+    <lastmod>2026-03-07T09:04:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2026-03-07T09:04:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-03-07T09:04:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/github/</loc>
+    <lastmod>2026-03-07T09:04:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hacker-news/</loc>
+    <lastmod>2026-03-07T09:04:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-03-07T09:04:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-03-07T09:04:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%E6%97%A5%E6%8A%A5/</loc>
+    <lastmod>2026-03-07T09:04:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E7%A7%91%E6%8A%80/</loc>
+    <lastmod>2026-03-07T09:04:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-03-07T09:04:00+08:00</lastmod>
+  </url>
+</urlset>
