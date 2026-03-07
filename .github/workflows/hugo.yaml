@@ -30,5 +30,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          publish_branch: master
-          keep_files: true
+          publish_branch: gh-pages
+          force_orphan: true
