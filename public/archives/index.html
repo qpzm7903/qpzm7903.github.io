@@ -34,6 +34,15 @@
         document.querySelector("html").dataset.theme = 'dark';
     }
 
+</script><link rel="stylesheet" href="/openclaw-blog/css/custom.css">
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    
+    var tocDetails = document.querySelector('.toc details');
+    if (tocDetails) {
+        tocDetails.setAttribute('open', 'true');
+    }
+});
 </script><meta property="og:url" content="https://qpzm7903.github.io/openclaw-blog/archives/">
   <meta property="og:site_name" content="科技热点日报">
   <meta property="og:title" content="归档">
@@ -152,7 +161,15 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a>
+</a><script>
+(function() {
+    
+    var tocDetails = document.querySelector('.toc details');
+    if (tocDetails) {
+        tocDetails.setAttribute('open', 'true');
+    }
+})();
+</script>
 
 <script>
     let menu = document.getElementById('menu');

@@ -1,0 +1,73 @@
+/* 自定义 TOC 样式 - 始终展开并显示在右侧 */
+.toc details {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.toc details[open] {
+    display: block !important;
+}
+
+.toc details > summary {
+    display: none !important;
+}
+
+.toc details > .inner {
+    display: block !important;
+    max-height: none !important;
+    overflow: visible !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: transparent !important;
+}
+
+/* 隐藏 summary 也就是"Table of Contents"标题 */
+.toc summary {
+    display: none !important;
+}
+
+/* 确保 toc 内容始终可见 */
+.toc ul {
+    display: block !important;
+}
+
+.toc li {
+    display: block !important;
+}
+
+/* 桌面端 TOC 在右侧 */
+@media only screen and (min-width: 769px) {
+    .toc {
+        position: sticky !important;
+        top: 80px !important;
+        float: right !important;
+        width: 260px !important;
+        max-height: calc(100vh - 120px) !important;
+        overflow-y: auto !important;
+        margin-left: 1.5rem !important;
+        margin-bottom: 1rem !important;
+        padding: 0.5rem !important;
+        background: #f8f9fa !important;
+        border-radius: 8px !important;
+        border: 1px solid #e9ecef !important;
+    }
+    
+    .post-content {
+        display: flow-root !important;
+    }
+    
+    .toc ul {
+        padding-left: 0.5rem !important;
+    }
+}
+
+/* 移动端 TOC */
+@media only screen and (max-width: 768px) {
+    .toc {
+        position: relative !important;
+        width: 100% !important;
+        margin-bottom: 1rem !important;
+        float: none !important;
+    }
+}

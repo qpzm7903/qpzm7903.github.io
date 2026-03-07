@@ -1,0 +1,12 @@
+{{- /* custom head */ -}}
+<link rel="stylesheet" href="{{ `css/custom.css` | relURL }}">
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // 强制展开 TOC
+    var tocDetails = document.querySelector('.toc details');
+    if (tocDetails) {
+        tocDetails.setAttribute('open', 'true');
+    }
+});
+</script>
+{{- /* end custom head */ -}}

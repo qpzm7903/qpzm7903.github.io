@@ -13,7 +13,10 @@ params:
   ShowReadingTime: true
   ShowBreadCrumbs: true
   ShowPostTaxonomies: true
+  
+  # TOC 设置 - 始终展开
   ShowToc: true
+  TocOpen: true
   
   # 主题切换
   defaultTheme: "light"
@@ -65,3 +68,8 @@ outputs:
   page:
     - HTML
     - RSS
+
+# 自定义 CSS
+assets:
+  excludeCSS:
+    - "css/custom.css"
