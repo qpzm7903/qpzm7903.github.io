@@ -1,73 +1,51 @@
-/* 自定义 TOC 样式 - 始终展开并显示在右侧 */
-.toc details {
-    display: block !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-}
-
-.toc details[open] {
-    display: block !important;
-}
-
-.toc details > summary {
-    display: none !important;
-}
-
-.toc details > .inner {
-    display: block !important;
-    max-height: none !important;
-    overflow: visible !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    background: transparent !important;
-}
-
-/* 隐藏 summary 也就是"Table of Contents"标题 */
-.toc summary {
-    display: none !important;
-}
-
-/* 确保 toc 内容始终可见 */
-.toc ul {
-    display: block !important;
-}
-
-.toc li {
-    display: block !important;
-}
-
-/* 桌面端 TOC 在右侧 */
-@media only screen and (min-width: 769px) {
-    .toc {
-        position: sticky !important;
-        top: 80px !important;
-        float: right !important;
-        width: 260px !important;
-        max-height: calc(100vh - 120px) !important;
-        overflow-y: auto !important;
-        margin-left: 1.5rem !important;
-        margin-bottom: 1rem !important;
-        padding: 0.5rem !important;
-        background: #f8f9fa !important;
-        border-radius: 8px !important;
-        border: 1px solid #e9ecef !important;
+/* 桌面端：content + TOC 并排布局 */
+@media only screen and (min-width: 900px) {
+    .post-body-wrapper {
+        display: flex;
+        align-items: flex-start;
+        gap: 2rem;
     }
-    
+
     .post-content {
-        display: flow-root !important;
+        flex: 1;
+        min-width: 0;
     }
-    
-    .toc ul {
-        padding-left: 0.5rem !important;
+
+    .toc-sidebar {
+        flex-shrink: 0;
+        width: 240px;
+        position: sticky;
+        top: 80px;
+        max-height: calc(100vh - 120px);
+        overflow-y: auto;
+    }
+
+    .toc-sidebar .toc {
+        background: var(--entry);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 0.75rem 1rem;
+    }
+
+    /* 始终展开，隐藏 summary 折叠按钮 */
+    .toc-sidebar .toc details {
+        display: block;
+    }
+
+    .toc-sidebar .toc summary {
+        display: none;
+    }
+
+    .toc-sidebar .toc .inner {
+        display: block;
+        max-height: none;
+        overflow: visible;
     }
 }
 
-/* 移动端 TOC */
-@media only screen and (max-width: 768px) {
-    .toc {
-        position: relative !important;
-        width: 100% !important;
-        margin-bottom: 1rem !important;
-        float: none !important;
+/* 移动端：TOC 在内容上方正常流 */
+@media only screen and (max-width: 899px) {
+    .toc details[open] .inner {
+        display: block;
     }
 }
