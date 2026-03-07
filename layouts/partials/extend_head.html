@@ -1,3 +1,4 @@
 {{- /* custom head */ -}}
-<link rel="stylesheet" href="{{ `css/custom.css` | relURL }}">
+{{- $css := resources.Get "css/custom.css" | minify -}}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
 {{- /* end custom head */ -}}
