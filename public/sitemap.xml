@@ -2,34 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/daily-news-2026-03-07/</loc>
+    <loc>https://qpzm7903.github.io/openclaw-blog/posts/daily-news-2026-03-07/</loc>
     <lastmod>2026-03-07T09:04:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ai/</loc>
+    <loc>https://qpzm7903.github.io/openclaw-blog/tags/ai/</loc>
     <lastmod>2026-03-07T09:04:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://qpzm7903.github.io/openclaw-blog/categories/</loc>
     <lastmod>2026-03-07T09:04:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/github/</loc>
+    <loc>https://qpzm7903.github.io/openclaw-blog/tags/github/</loc>
     <lastmod>2026-03-07T09:04:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hacker-news/</loc>
+    <loc>https://qpzm7903.github.io/openclaw-blog/tags/hacker-news/</loc>
     <lastmod>2026-03-07T09:04:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://qpzm7903.github.io/openclaw-blog/posts/</loc>
     <lastmod>2026-03-07T09:04:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://qpzm7903.github.io/openclaw-blog/tags/</loc>
     <lastmod>2026-03-07T09:04:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E6%97%A5%E6%8A%A5/</loc>
+    <loc>https://qpzm7903.github.io/openclaw-blog/categories/%E6%97%A5%E6%8A%A5/</loc>
     <lastmod>2026-03-07T09:04:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E7%A7%91%E6%8A%80/</loc>
+    <loc>https://qpzm7903.github.io/openclaw-blog/tags/%E7%A7%91%E6%8A%80/</loc>
     <lastmod>2026-03-07T09:04:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://qpzm7903.github.io/openclaw-blog/</loc>
     <lastmod>2026-03-07T09:04:00+08:00</lastmod>
+  </url><url>
+    <loc>https://qpzm7903.github.io/openclaw-blog/archives/</loc>
   </url>
 </urlset>
