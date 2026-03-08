@@ -22,17 +22,17 @@ echo "✅ 已复制日报到博客"
 if ! grep -q "^---" "$TARGET_FILE"; then
     # 添加 front matter
     TEMP_FILE=$(mktemp)
-    cat > "$TEMP_FILE" << 'EOF'
+    cat > "$TEMP_FILE" << EOF
 ---
-title: "📰 科技热点日报"
-date: DATE_PLACEHOLDERT00:00:00+08:00
+title: "📰 科技热点日报 DATE_PLACEHOLDER"
+date: DATE_PLACEHOLDERT12:00:00+08:00
 draft: false
-tags: ["AI", "科技", "日报"]
+tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["日报"]
 ---
 
 EOF
-    sed "s/DATE_PLACEHOLDER/$TODAY/" "$TEMP_FILE" > "${TEMP_FILE}.tmp"
+    sed "s/DATE_PLACEHOLDER/$TODAY/g" "$TEMP_FILE" > "${TEMP_FILE}.tmp"
     cat "${TEMP_FILE}.tmp" "$TARGET_FILE" > "${TARGET_FILE}.new"
     mv "${TARGET_FILE}.new" "$TARGET_FILE"
     rm -f "$TEMP_FILE" "${TEMP_FILE}.tmp"
