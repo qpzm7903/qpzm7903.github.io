@@ -1,11 +1,3 @@
----
-title: "📰 科技热点日报 2026-03-09"
-date: 2026-03-09T07:02:00+08:00
-draft: false
-tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
-categories: ["日报"]
----
-
 # 📰 科技热点日报 | 2026-03-09
 
 **AI 大厂动态 + Hacker News + GitHub Trending**
@@ -17,7 +9,7 @@ categories: ["日报"]
 - 🔥 HN 热门文章：**10** 篇
 - 💻 GitHub 热门：**6** 个  
 - 🏢 AI 公司动态：**20** 条
-- 📅 更新时间：07:02
+- 📅 更新时间：16:29
 
 ---
 
@@ -62,99 +54,99 @@ categories: ["日报"]
 📝 GGML and llama.cpp join HF to ensure the long-term progress of Local AI * [Models](https://huggingface.co/models)
 🔗 https://huggingface.co/blog/ggml-joins-hf
 
-**6. 🇺🇸 🔥 [OpenAI] 🔥 AI-Research-Assistant**
-📅 2026-03-08 | 🏷️ `AI Agent`
-📝 🤖 Enhance your research efficiency with an AI-powered assistant that analyzes documents and provides insights through a smart multi-agent system.
-🔗 https://github.com/ggrbipin/AI-Research-Assistant
+**6. 🇺🇸 🔥 [OpenAI] 🔥 sopgenius-ai**
+📅 2026-03-09 | 🏷️ `GPT`
+📝 SOPGenius.AI 🐙 AI Streamlit app that generates SOPs, LORs, resumes and visa letters with GPT-powered writing, download-ready files and a clean respons
+🔗 https://github.com/alizarin97/sopgenius-ai
 
-**7. 🇺🇸 🔥 [OpenAI] 🔥 ai-resume-optimizer**
-📅 2026-03-08 | 🏷️ `GPT`
-📝 An AI-powered resume optimization tool using OpenAI GPT-4 for ATS analysis and keyword Boolean matching.
-🔗 https://github.com/dmehta94/ai-resume-optimizer
+**7. 🇺🇸 🔥 [OpenAI] 🔥 queens-schedule-verification**
+📅 2026-03-09 | 🏷️ `GPT`
+📝 Uses GCPs DocAI and OpenAI's GPT to extract text from a first year CS students schedule and tells them if they're missing any courses.
+🔗 https://github.com/Sayar-21223/queens-schedule-verification
 
-**8. 🇺🇸 🔥 [Anthropic] 🔥 agents**
-📅 2026-03-08 | 🏷️ `AI Agent`
-📝 🤖 Build and manage your AI agent stack efficiently with AgentStack for streamlined development and deployment.
-🔗 https://github.com/nerdzinha/agents
+**8. 🇺🇸 🔥 [Anthropic] 🔥 claude4-audit-recon**
+📅 2026-03-09 | 🏷️ `Claude`
+📝 🐙 Ethical red-team audit of Claude 4 with clear introspection and policy visibility. Includes JSON data and Python tooling; Mermaid diagrams map model
+🔗 https://github.com/Yosuraki/claude4-audit-recon
 
-**9. 🇺🇸 🔥 [Anthropic] 🔥 agents**
-📅 2026-03-08 | 🏷️ `多模态` | `AI Agent`
-📝 🎤 Build real-time multimodal conversational AI agents with this open-source framework, enabling seamless interaction and enhancing user experiences.
-🔗 https://github.com/Kunal190/agents
+**9. 🇺🇸 🔥 [Anthropic] 🔥 Text-Editor-CLI**
+📅 2026-03-09 | 🏷️ `AI`
+📝 Text-Editor-CLI is a Python command-line tool to read, edit, analyze, and save text files with word counts, terms, replacements, highlights, and an in
+🔗 https://github.com/Selahaddin67/Text-Editor-CLI
 
-**10. 🇺🇸 🔥 [Google AI] 🔥 AI-Prompt-Prettify**
-📅 2026-03-08 | 🏷️ `Gemini`
-📝 🚀 Enhance your AI prompts easily with AI Prompt Prettify for improved responses and better interactions using leading models like Google Gemini.
-🔗 https://github.com/iwillsureaboutthisx2/AI-Prompt-Prettify
+**10. 🇺🇸 🔥 [Google AI] 🔥 Faraday-Web-Researcher-Agent**
+📅 2026-03-09 | 🏷️ `AI Agent` | `API`
+📝 Faraday: An Autonomous Web Research Agent (LangGraph/Streamlit). 🕵️♀️ Investigates queries using dynamic tools (Tavily, Google, NewsAPI, etc.), gather
+🔗 https://github.com/DennisDRX/Faraday-Web-Researcher-Agent
 
-**11. 🇺🇸 🔥 [Google AI] 🔥 QGISChat**
-📅 2026-03-08 | 🏷️ `GPT` | `Claude` | `Gemini`
-📝 AI-powered chat assistant for QGIS — natural language GIS operations with Google Earth Engine integration. Supports Claude, GPT, Gemini, Ollama.
-🔗 https://github.com/Nagyhoho1234/QGISChat
+**11. 🇺🇸 🔥 [Google AI] 🔥 gemini-live**
+📅 2026-03-09 | 🏷️ `Gemini` | `API`
+📝 This project enables real-time streaming of audio (and optionally video or screen captures) from your local device to Google Gemini using the Live API
+🔗 https://github.com/Creature-112/gemini-live
 
-**12. 🇺🇸 🔥 [Meta AI] 🔥 AI-Meeting-Companion-STT**
-📅 2026-03-08 | 🏷️ `AI`
-📝 📝 Capture, transcribe, and summarize meetings effortlessly with AI using Whisper and Llama 3 for clear insights and key points extraction.
-🔗 https://github.com/Sameer125132/AI-Meeting-Companion-STT
-
-**13. 🇺🇸 🔥 [Meta AI] 🔥 AlphaExtract**
-📅 2026-03-08 | 🏷️ `AI`
+**12. 🇺🇸 🔥 [Meta AI] 🔥 AlphaExtract**
+📅 2026-03-09 | 🏷️ `AI`
 📝 AlphaExtract is a sophisticated PDF summarization tool that combines cutting-edge AI technology with efficient document processing. The project is bui
 🔗 https://github.com/LoupXpro/AlphaExtract
 
-**14. 🇨🇳 🔥 [月之暗面] 🔥 No-one**
-📅 2026-03-08 | 🏷️ `AI`
-📝 🌐 Manage Java WebShells effortlessly with No-one, a modern tool for secure testing and deeper understanding of web attack scenarios.
-🔗 https://github.com/gekonge/No-one
+**13. 🇺🇸 🔥 [Meta AI] 🔥 metabolic-care-assistant**
+📅 2026-03-09 | 🏷️ `AI`
+📝 Provide AI-based dietary advice and blood sugar tracking tailored for people managing diabetes with real-world clinical safety.
+🔗 https://github.com/yebgallery/metabolic-care-assistant
 
-**15. 🇨🇳 🔥 [月之暗面] 🔥 kimi-agent-internals**
-📅 2026-03-08 | 🏷️ `AI Agent`
+**14. 🇨🇳 🔥 [月之暗面] 🔥 kimi-agent-internals**
+📅 2026-03-09 | 🏷️ `AI Agent`
 📝 🔍 Analyze the architecture of Moonshot AI's Kimi agent (K2.5 model) with insights on its performance and conversational extraction methodology.
 🔗 https://github.com/Visakan08/kimi-agent-internals
+
+**15. 🇨🇳 🔥 [月之暗面] 🔥 Kimi-K2**
+📅 2026-03-09 | 🏷️ `AI Agent`
+📝 🤖 Build intelligent agents with Kimi-K2, a platform designed for developing open agentic AI models that enhance interaction and learning.
+🔗 https://github.com/bach999-vamous/Kimi-K2
 
 ---
 
 ## 🔥 Hacker News Top Stories
 
-### 1. 📰 Blacksky AppView
-- 🔥 **49** points | 💬 **2** comments
-- 🏷️ 分类：`General` | 🌐 来源：github.com
+### 1. 🤖 US Court of Appeals: TOS may be updated by email, use can imply consent [pdf]
+- 🔥 **113** points | 💬 **24** comments
+- 🏷️ 分类：`AI` | 🌐 来源：cdn.ca9.uscourts.gov
 
 ### 2. 📰 Agent Safehouse – macOS-native sandboxing for local agents
-- 🔥 **166** points | 💬 **14** comments
+- 🔥 **548** points | 💬 **47** comments
 - 🏷️ 分类：`General` | 🌐 来源：agent-safehouse.dev
 
-### 3. 📰 Every single board computer I tested in 2025
-- 🔥 **70** points | 💬 **7** comments
-- 🏷️ 分类：`General` | 🌐 来源：bret.dk
-
-### 4. 💻 We should revisit literate programming in the agent era
-- 🔥 **69** points | 💬 **16** comments
-- 🏷️ 分类：`Dev` | 🌐 来源：silly.business
-
-### 5. 📰 Microscopes Can See Video on a LaserDisc
-- 🔥 **117** points | 💬 **6** comments
-- 🏷️ 分类：`General` | 🌐 来源：youtube.com
-
-### 6. 📰 Lil Finder Guy
-- 🔥 **40** points | 💬 **7** comments
-- 🏷️ 分类：`General` | 🌐 来源：basicappleguy.com
-
-### 7. 📰 FrameBook
-- 🔥 **324** points | 💬 **23** comments
-- 🏷️ 分类：`General` | 🌐 来源：fb.edoo.gg
-
-### 8. 📰 Show HN: I built a real-time OSINT dashboard pulling 15 live global feeds
-- 🔥 **121** points | 💬 **20** comments
+### 3. 📰 Show HN: Mcp2cli – One CLI for every API, 96-99% fewer tokens than native MCP
+- 🔥 **38** points | 💬 **14** comments
 - 🏷️ 分类：`General` | 🌐 来源：github.com
 
-### 9. 📰 My Homelab Setup
-- 🔥 **98** points | 💬 **19** comments
-- 🏷️ 分类：`General` | 🌐 来源：bryananthonio.com
+### 4. 📰 Microscopes can see video on a laserdisc
+- 🔥 **403** points | 💬 **14** comments
+- 🏷️ 分类：`General` | 🌐 来源：youtube.com
 
-### 10. 💻 Artificial-life: A simple (300 lines of code) reproduction of Computational Life
-- 🔥 **33** points | 💬 **2** comments
-- 🏷️ 分类：`Dev` | 🌐 来源：github.com
+### 5. 📰 PCB devboard the size of a USB-C plug
+- 🔥 **153** points | 💬 **10** comments
+- 🏷️ 分类：`General` | 🌐 来源：github.com
+
+### 6. 📰 Ask HN: What Are You Working On? (March 2026)
+- 🔥 **133** points | 💬 **336** comments
+- 🏷️ 分类：`General` | 🌐 来源：news.ycombinator.com
+
+### 7. 📰 Every single board computer I tested in 2025
+- 🔥 **157** points | 💬 **9** comments
+- 🏷️ 分类：`General` | 🌐 来源：bret.dk
+
+### 8. 📰 FrameBook
+- 🔥 **417** points | 💬 **29** comments
+- 🏷️ 分类：`General` | 🌐 来源：fb.edoo.gg
+
+### 9. 🤖 The death of social media is the renaissance of RSS (2025)
+- 🔥 **104** points | 💬 **24** comments
+- 🏷️ 分类：`AI` | 🌐 来源：smartlab.at
+
+### 10. 💻 We should revisit literate programming in the agent era
+- 🔥 **223** points | 💬 **45** comments
+- 🏷️ 分类：`Dev` | 🌐 来源：silly.business
 
 ---
 
@@ -171,4 +163,4 @@ categories: ["日报"]
 
 ---
 
-*Generated by OpenClaw | 2026-03-09 07:02*
+*Generated by OpenClaw | 2026-03-09 16:29*
