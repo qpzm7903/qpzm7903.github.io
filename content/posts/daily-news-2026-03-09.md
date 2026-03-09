@@ -9,7 +9,7 @@
 - 🔥 HN 热门文章：**10** 篇
 - 💻 GitHub 热门：**6** 个  
 - 🏢 AI 公司动态：**20** 条
-- 📅 更新时间：16:29
+- 📅 更新时间：17:30
 
 ---
 
@@ -54,99 +54,99 @@
 📝 GGML and llama.cpp join HF to ensure the long-term progress of Local AI * [Models](https://huggingface.co/models)
 🔗 https://huggingface.co/blog/ggml-joins-hf
 
-**6. 🇺🇸 🔥 [OpenAI] 🔥 sopgenius-ai**
-📅 2026-03-09 | 🏷️ `GPT`
-📝 SOPGenius.AI 🐙 AI Streamlit app that generates SOPs, LORs, resumes and visa letters with GPT-powered writing, download-ready files and a clean respons
-🔗 https://github.com/alizarin97/sopgenius-ai
+**6. 🇺🇸 🔥 [OpenAI] 🔥 Open-AutoGemini**
+📅 2026-03-09 | 🏷️ `Gemini`
+📝 🤖 Automate tasks on Android, iOS, and HarmonyOS with Open-AutoGemini, an easy-to-deploy framework powered by Gemini's advanced AI capabilities.
+🔗 https://github.com/Mwebesanorman/Open-AutoGemini
 
-**7. 🇺🇸 🔥 [OpenAI] 🔥 queens-schedule-verification**
-📅 2026-03-09 | 🏷️ `GPT`
-📝 Uses GCPs DocAI and OpenAI's GPT to extract text from a first year CS students schedule and tells them if they're missing any courses.
-🔗 https://github.com/Sayar-21223/queens-schedule-verification
+**7. 🇺🇸 🔥 [OpenAI] 🔥 vllm-omni**
+📅 2026-03-09 | 🏷️ `LLM`
+📝 🌟 Serve omni-modality models easily, quickly, and affordably, empowering users with seamless AI solutions across various platforms.
+🔗 https://github.com/fluke22020/vllm-omni
 
-**8. 🇺🇸 🔥 [Anthropic] 🔥 claude4-audit-recon**
+**8. 🇺🇸 🔥 [Anthropic] 🔥 claude-guardrails**
 📅 2026-03-09 | 🏷️ `Claude`
-📝 🐙 Ethical red-team audit of Claude 4 with clear introspection and policy visibility. Includes JSON data and Python tooling; Mermaid diagrams map model
-🔗 https://github.com/Yosuraki/claude4-audit-recon
+📝 Global Claude Code hooks that prevent retry loops, duplicate reads, context overload and token waste — one-line install
+🔗 https://github.com/mijevski-aleksandar/claude-guardrails
 
-**9. 🇺🇸 🔥 [Anthropic] 🔥 Text-Editor-CLI**
-📅 2026-03-09 | 🏷️ `AI`
-📝 Text-Editor-CLI is a Python command-line tool to read, edit, analyze, and save text files with word counts, terms, replacements, highlights, and an in
-🔗 https://github.com/Selahaddin67/Text-Editor-CLI
+**9. 🇺🇸 🔥 [Anthropic] 🔥 kiro-openai-gateway**
+📅 2026-03-09 | 🏷️ `API`
+📝 🌐 Enable seamless access to OpenAI models with the Kiro OpenAI Gateway, an easy-to-use proxy for the Kiro IDE API.
+🔗 https://github.com/ronald919/kiro-openai-gateway
 
-**10. 🇺🇸 🔥 [Google AI] 🔥 Faraday-Web-Researcher-Agent**
-📅 2026-03-09 | 🏷️ `AI Agent` | `API`
-📝 Faraday: An Autonomous Web Research Agent (LangGraph/Streamlit). 🕵️♀️ Investigates queries using dynamic tools (Tavily, Google, NewsAPI, etc.), gather
-🔗 https://github.com/DennisDRX/Faraday-Web-Researcher-Agent
+**10. 🇺🇸 🔥 [Google AI] 🔥 korea-food-lists**
+📅 2026-03-09 | 🏷️ `Gemini` | `RAG`
+📝 Full-stack geospatial discovery platform built with Node.js and Google Gemini, featuring RAG architecture to provide hallucination-free dining recomme
+🔗 https://github.com/Gwanmog/korea-food-lists
 
-**11. 🇺🇸 🔥 [Google AI] 🔥 gemini-live**
+**11. 🇺🇸 🔥 [Google AI] 🔥 gemini-business2api**
 📅 2026-03-09 | 🏷️ `Gemini` | `API`
-📝 This project enables real-time streaming of audio (and optionally video or screen captures) from your local device to Google Gemini using the Live API
-🔗 https://github.com/Creature-112/gemini-live
+📝 💎 Transform Google Gemini Business API to an OpenAI-compatible interface, offering multi-account load balancing and smart file handling.
+🔗 https://github.com/bdbsb155/gemini-business2api
 
-**12. 🇺🇸 🔥 [Meta AI] 🔥 AlphaExtract**
+**12. 🇺🇸 🔥 [Meta AI] 🔥 SDMaker**
 📅 2026-03-09 | 🏷️ `AI`
-📝 AlphaExtract is a sophisticated PDF summarization tool that combines cutting-edge AI technology with efficient document processing. The project is bui
-🔗 https://github.com/LoupXpro/AlphaExtract
+📝 An AI-powered Streamlit app that synthesizes Business Requirements (BRD) and Regulatory documents into perfectly structured Solution Documents using G
+🔗 https://github.com/Strikezor/SDMaker
 
-**13. 🇺🇸 🔥 [Meta AI] 🔥 metabolic-care-assistant**
+**13. 🇺🇸 🔥 [Meta AI] 🔥 AI-Meeting-Companion-STT**
 📅 2026-03-09 | 🏷️ `AI`
-📝 Provide AI-based dietary advice and blood sugar tracking tailored for people managing diabetes with real-world clinical safety.
-🔗 https://github.com/yebgallery/metabolic-care-assistant
+📝 📝 Capture, transcribe, and summarize meetings effortlessly with AI using Whisper and Llama 3 for clear insights and key points extraction.
+🔗 https://github.com/Sameer125132/AI-Meeting-Companion-STT
 
-**14. 🇨🇳 🔥 [月之暗面] 🔥 kimi-agent-internals**
-📅 2026-03-09 | 🏷️ `AI Agent`
-📝 🔍 Analyze the architecture of Moonshot AI's Kimi agent (K2.5 model) with insights on its performance and conversational extraction methodology.
-🔗 https://github.com/Visakan08/kimi-agent-internals
-
-**15. 🇨🇳 🔥 [月之暗面] 🔥 Kimi-K2**
+**14. 🇨🇳 🔥 [月之暗面] 🔥 Kimi-K2**
 📅 2026-03-09 | 🏷️ `AI Agent`
 📝 🤖 Build intelligent agents with Kimi-K2, a platform designed for developing open agentic AI models that enhance interaction and learning.
 🔗 https://github.com/bach999-vamous/Kimi-K2
+
+**15. 🇨🇳 🔥 [月之暗面] 🔥 No-one**
+📅 2026-03-09 | 🏷️ `AI`
+📝 🌐 Manage Java WebShells effortlessly with No-one, a modern tool for secure testing and deeper understanding of web attack scenarios.
+🔗 https://github.com/gekonge/No-one
 
 ---
 
 ## 🔥 Hacker News Top Stories
 
 ### 1. 🤖 US Court of Appeals: TOS may be updated by email, use can imply consent [pdf]
-- 🔥 **113** points | 💬 **24** comments
+- 🔥 **141** points | 💬 **30** comments
 - 🏷️ 分类：`AI` | 🌐 来源：cdn.ca9.uscourts.gov
 
-### 2. 📰 Agent Safehouse – macOS-native sandboxing for local agents
-- 🔥 **548** points | 💬 **47** comments
-- 🏷️ 分类：`General` | 🌐 来源：agent-safehouse.dev
+### 2. 🤖 Grammarly is offering ‘expert’ AI reviews from famous dead and living writers
+- 🔥 **18** points | 💬 **6** comments
+- 🏷️ 分类：`AI` | 🌐 来源：wired.com
 
 ### 3. 📰 Show HN: Mcp2cli – One CLI for every API, 96-99% fewer tokens than native MCP
-- 🔥 **38** points | 💬 **14** comments
+- 🔥 **57** points | 💬 **20** comments
 - 🏷️ 分类：`General` | 🌐 来源：github.com
 
-### 4. 📰 Microscopes can see video on a laserdisc
-- 🔥 **403** points | 💬 **14** comments
+### 4. 📰 Agent Safehouse – macOS-native sandboxing for local agents
+- 🔥 **562** points | 💬 **49** comments
+- 🏷️ 分类：`General` | 🌐 来源：agent-safehouse.dev
+
+### 5. 📰 Microscopes can see video on a laserdisc
+- 🔥 **425** points | 💬 **14** comments
 - 🏷️ 分类：`General` | 🌐 来源：youtube.com
 
-### 5. 📰 PCB devboard the size of a USB-C plug
-- 🔥 **153** points | 💬 **10** comments
+### 6. 📰 PCB devboard the size of a USB-C plug
+- 🔥 **168** points | 💬 **11** comments
 - 🏷️ 分类：`General` | 🌐 来源：github.com
 
-### 6. 📰 Ask HN: What Are You Working On? (March 2026)
-- 🔥 **133** points | 💬 **336** comments
+### 7. 📰 Ask HN: What Are You Working On? (March 2026)
+- 🔥 **141** points | 💬 **362** comments
 - 🏷️ 分类：`General` | 🌐 来源：news.ycombinator.com
 
-### 7. 📰 Every single board computer I tested in 2025
-- 🔥 **157** points | 💬 **9** comments
+### 8. 💻 We should revisit literate programming in the agent era
+- 🔥 **232** points | 💬 **46** comments
+- 🏷️ 分类：`Dev` | 🌐 来源：silly.business
+
+### 9. 📰 Every single board computer I tested in 2025
+- 🔥 **163** points | 💬 **9** comments
 - 🏷️ 分类：`General` | 🌐 来源：bret.dk
 
-### 8. 📰 FrameBook
-- 🔥 **417** points | 💬 **29** comments
+### 10. 📰 FrameBook
+- 🔥 **428** points | 💬 **31** comments
 - 🏷️ 分类：`General` | 🌐 来源：fb.edoo.gg
-
-### 9. 🤖 The death of social media is the renaissance of RSS (2025)
-- 🔥 **104** points | 💬 **24** comments
-- 🏷️ 分类：`AI` | 🌐 来源：smartlab.at
-
-### 10. 💻 We should revisit literate programming in the agent era
-- 🔥 **223** points | 💬 **45** comments
-- 🏷️ 分类：`Dev` | 🌐 来源：silly.business
 
 ---
 
@@ -163,4 +163,4 @@
 
 ---
 
-*Generated by OpenClaw | 2026-03-09 16:29*
+*Generated by OpenClaw | 2026-03-09 17:30*
