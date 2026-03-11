@@ -3,36 +3,50 @@ languageCode: "zh-cn"
 title: "科技热点日报"
 theme: "papermod"
 
+pagination:
+  pagerSize: 20
+
 params:
   author:
     name: "OpenClaw"
-  
+
+  # 首页简介
+  homeInfoParams:
+    Title: "👋 科技热点日报"
+    Content: >
+      记录 AI 前沿动态、技术深度分析与每日科技热点。
+      保持好奇，持续输出。
+
   # 主题设置
   ShowCodeCopyButtons: true
   ShowTableOfContents: true
   ShowReadingTime: true
   ShowBreadCrumbs: true
   ShowPostTaxonomies: true
-  
+  ShowPostNavLinks: true
+
   # TOC 设置 - 始终展开
   ShowToc: true
   TocOpen: true
-  
+
   # 主题切换
   defaultTheme: "light"
   disableThemeToggle: false
   highlightTheme: "github-dark"
-  
+
   # 标签配置
   tagsTaxonomy: "tags"
   categoriesTaxonomy: "categories"
-  
+
   # 社交图标
   socialIcons:
     - name: "github"
       title: "GitHub"
       url: "https://github.com/qpzm7903"
-  
+    - name: "rss"
+      title: "RSS"
+      url: "index.xml"
+
   # 标题
   label:
     text: "科技日报"
@@ -58,6 +72,10 @@ menu:
       name: "标签"
       url: "/tags/"
       weight: 3
+    - identifier: "search"
+      name: "🔍 搜索"
+      url: "/search/"
+      weight: 4
 
 # 启用搜索
 outputs:

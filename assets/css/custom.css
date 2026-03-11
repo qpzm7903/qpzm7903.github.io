@@ -1,6 +1,94 @@
-/* 桌面端：撑宽文章容器，content + TOC 并排 */
+/* ===== CSS 变量 ===== */
+:root {
+    --entry-radius: 12px;
+    --entry-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    --entry-hover-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
+    --primary-color: #2563eb;
+    --code-bg: #f8fafc;
+}
+
+/* ===== 首页文章卡片 ===== */
+.post-entry {
+    border-radius: var(--entry-radius);
+    padding: 22px 26px;
+    margin-bottom: 20px;
+    box-shadow: var(--entry-shadow);
+    border: 1px solid var(--border);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.post-entry:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--entry-hover-shadow);
+    border-color: var(--primary-color);
+}
+
+.entry-header h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.45;
+}
+
+.entry-content {
+    font-size: 0.93rem;
+    line-height: 1.65;
+    color: var(--secondary);
+    margin-top: 6px;
+}
+
+/* ===== 文章页标题与正文 ===== */
+.post-title {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+}
+
+.post-content {
+    line-height: 1.85;
+    font-size: 1.02rem;
+}
+
+/* ===== 代码块 ===== */
+.post-content pre {
+    background: var(--code-bg) !important;
+    border-radius: 8px;
+    padding: 1.2em 1.4em !important;
+    border: 1px solid #e2e8f0;
+}
+
+.post-content :not(pre) > code {
+    background: #eff6ff;
+    color: #1d4ed8;
+    padding: 0.18em 0.42em;
+    border-radius: 4px;
+    font-size: 0.88em;
+}
+
+/* ===== 标签胶囊 ===== */
+.post-tags a,
+.post-footer .post-tags a {
+    display: inline-block;
+    background: #eff6ff;
+    color: var(--primary-color);
+    padding: 3px 12px;
+    border-radius: 20px;
+    font-size: 0.78rem;
+    font-weight: 500;
+    border: 1px solid #dbeafe;
+    transition: background 0.15s, color 0.15s;
+    margin: 2px 4px 2px 0;
+}
+
+.post-tags a:hover,
+.post-footer .post-tags a:hover {
+    background: var(--primary-color);
+    color: #fff;
+    border-color: var(--primary-color);
+}
+
+/* ===== TOC 侧边栏（桌面端，原有样式扩充） ===== */
 @media only screen and (min-width: 900px) {
-    /* 用 :has() 只在文章页扩展容器宽度，不影响首页/列表页 */
     .main:has(.post-body-wrapper) {
         max-width: 1100px;
     }
@@ -29,11 +117,11 @@
     .toc-sidebar .toc {
         background: var(--entry);
         border: 1px solid var(--border);
+        border-left: 3px solid var(--primary-color);
         border-radius: 8px;
         padding: 0.8rem 1rem;
     }
 
-    /* 目录标题 */
     .toc-sidebar .toc::before {
         content: "目录";
         display: block;
@@ -47,7 +135,6 @@
         border-bottom: 1px solid var(--border);
     }
 
-    /* 始终展开，隐藏 summary 折叠按钮 */
     .toc-sidebar .toc details {
         display: block;
     }
@@ -62,7 +149,6 @@
         overflow: visible;
     }
 
-    /* 目录链接样式 */
     .toc-sidebar .toc ul {
         list-style: none;
         padding-left: 0;
@@ -94,14 +180,19 @@
     }
 
     .toc-sidebar .toc a:hover {
-        color: var(--primary);
+        color: var(--primary-color);
         background: var(--border);
     }
 }
 
-/* 移动端：TOC 在内容上方正常流 */
+/* ===== 移动端 TOC ===== */
 @media only screen and (max-width: 899px) {
     .toc details[open] .inner {
         display: block;
     }
+}
+
+/* ===== 搜索框 ===== */
+#search-input {
+    border-radius: 8px;
 }
