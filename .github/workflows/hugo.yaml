@@ -28,7 +28,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --cleanDestinationDir
+        run: hugo --minify --cleanDestinationDir --buildFuture
 
       - name: Verify generated posts
         run: python3 scripts/verify-generated-posts.py
