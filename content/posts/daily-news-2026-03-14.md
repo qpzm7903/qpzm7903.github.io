@@ -7,9 +7,9 @@
 ## 📊 今日概览
 
 - 🔥 HN 热门文章：**10** 篇
-- 💻 GitHub 热门：**8** 个  
+- 💻 GitHub 热门：**5** 个  
 - 🏢 AI 公司动态：**20** 条
-- 📅 更新时间：07:00
+- 📅 更新时间：21:28
 
 ---
 
@@ -54,99 +54,99 @@
 📝 Published Time: 2026-03-13T20:00:00.964Z We are thrilled to announce that NVIDIA NeMo Retriever team has developed a new agentic retrieval pipeline that has officially secured the #1 spot on the [ViDo...
 🔗 https://huggingface.co/blog/nvidia/nemo-retriever-agentic-retrieval
 
-**6. 🇺🇸 🔥 [OpenAI] 🔥 llm-drift**
-📅 2026-03-13 | 🏷️ `LLM` | `GPT` | `Claude`
-📝 LLM drift detector — know within 5 min when GPT-4o, Claude, or Gemini silently changes behaviour. Open source, self-hostable.
-🔗 https://github.com/GenesisClawbot/llm-drift
+**6. 🇺🇸 🔥 [OpenAI] 🔥 AI-Research-Assistant**
+📅 2026-03-14 | 🏷️ `AI Agent`
+📝 🤖 Enhance your research efficiency with an AI-powered assistant that analyzes documents and provides insights through a smart multi-agent system.
+🔗 https://github.com/ggrbipin/AI-Research-Assistant
 
-**7. 🇺🇸 🔥 [OpenAI] 🔥 local-deep-research**
-📅 2026-03-13 | 🏷️ `LLM` | `GPT`
-📝 Local Deep Research achieves ~95% on SimpleQA benchmark (tested with GPT-4.1-mini). Supports local and cloud LLMs (Ollama, Google, Anthropic, ...). Se
-🔗 https://github.com/LearningCircuit/local-deep-research
+**7. 🇺🇸 🔥 [OpenAI] 🔥 AstrBot**
+📅 2026-03-14 | 🏷️ `LLM` | `AI Agent`
+📝 Agentic IM Chatbot infrastructure that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨
+🔗 https://github.com/AstrBotDevs/AstrBot
 
-**8. 🇺🇸 🔥 [Anthropic] 🔥 code-review-agent**
-📅 2026-03-13 | 🏷️ `AI Agent`
-📝 🛠 Review TypeScript and React code with precise, actionable feedback like a senior engineer for better code quality and faster development.
-🔗 https://github.com/MohamedArafa97/code-review-agent
+**8. 🇺🇸 🔥 [Anthropic] 🔥 Basic-Agent-Chat-Loop**
+📅 2026-03-14 | 🏷️ `AI Agent`
+📝 🛠️ Create interactive AI agents easily with a feature-rich CLI, offering token tracking, prompt templates, and customizable configurations.
+🔗 https://github.com/MOSES554/Basic-Agent-Chat-Loop
 
-**9. 🇺🇸 🔥 [Anthropic] 🔥 claudemcp**
-📅 2026-03-13 | 🏷️ `Claude`
-📝 🛠 Provide lightweight MCP plugins for Claude Desktop to handle math, notes, and web search tasks efficiently.
-🔗 https://github.com/BreadStisx/claudemcp
+**9. 🇺🇸 🔥 [Anthropic] 🔥 claude-plugins**
+📅 2026-03-14 | 🏷️ `Claude` | `代码能力`
+📝 🚀 Claude Code plugins for parallel development, mental models, session learning, image processing, ebook generation, and more. Make your AI coding ass
+🔗 https://github.com/aiocean/claude-plugins
 
-**10. 🇺🇸 🔥 [Google AI] 🔥 GEBench**
-📅 2026-03-13 | 🏷️ `AI`
-📝 🖼️ Benchmark image generation models in GUI environments with multi-step tasks, bilingual support, and detailed 5D performance metrics.
-🔗 https://github.com/ylorT/GEBench
+**10. 🇺🇸 🔥 [Google AI] 🔥 clara**
+📅 2026-03-14 | 🏷️ `Gemini`
+📝 Clara — AI-powered form assistant built with Gemini 2.5 Flash, deployed on Google Cloud Run
+🔗 https://github.com/rmt11/clara
 
-**11. 🇺🇸 🔥 [Google AI] 🔥 travelbot-genai-gke**
-📅 2026-03-13 | 🏷️ `Gemini` | `API`
-📝 🌍 Build AI-powered travel assistant with Gemini, FastAPI, and Streamlit, deployed securely on Google Kubernetes Engine for smooth interactions.
-🔗 https://github.com/denmatrix02/travelbot-genai-gke
+**11. 🇺🇸 🔥 [Google AI] 🔥 PrizmAI**
+📅 2026-03-14 | 🏷️ `Gemini`
+📝 A web application that combines traditional Kanban methodology with **Google's Gemini AI** to supercharge team's productivity and workflow optimizatio
+🔗 https://github.com/paulavishek/PrizmAI
 
 **12. 🇺🇸 🔥 [Meta AI] 🔥 AI-Meeting-Companion-STT**
-📅 2026-03-13 | 🏷️ `AI`
+📅 2026-03-14 | 🏷️ `AI`
 📝 📝 Capture, transcribe, and summarize meetings effortlessly with AI using Whisper and Llama 3 for clear insights and key points extraction.
 🔗 https://github.com/Sameer125132/AI-Meeting-Companion-STT
 
 **13. 🇺🇸 🔥 [Meta AI] 🔥 AlphaExtract**
-📅 2026-03-13 | 🏷️ `AI`
+📅 2026-03-14 | 🏷️ `AI`
 📝 AlphaExtract is a sophisticated PDF summarization tool that combines cutting-edge AI technology with efficient document processing. The project is bui
 🔗 https://github.com/LoupXpro/AlphaExtract
 
-**14. 🇨🇳 🔥 [月之暗面] 🔥 kimi-agent-internals**
-📅 2026-03-13 | 🏷️ `AI Agent`
+**14. 🇨🇳 🔥 [月之暗面] 🔥 No-one**
+📅 2026-03-14 | 🏷️ `AI`
+📝 🌐 Manage Java WebShells effortlessly with No-one, a modern tool for secure testing and deeper understanding of web attack scenarios.
+🔗 https://github.com/gekonge/No-one
+
+**15. 🇨🇳 🔥 [月之暗面] 🔥 kimi-agent-internals**
+📅 2026-03-14 | 🏷️ `AI Agent`
 📝 🔍 Analyze the architecture of Moonshot AI's Kimi agent (K2.5 model) with insights on its performance and conversational extraction methodology.
 🔗 https://github.com/Visakan08/kimi-agent-internals
-
-**15. 🇨🇳 🔥 [月之暗面] 🔥 anything-llm**
-📅 2026-03-13 | 🏷️ `LLM`
-📝 The all-in-one AI productivity accelerator. On device and privacy first with no annoying setup or configration.
-🔗 https://github.com/Mintplex-Labs/anything-llm
 
 ---
 
 ## 🔥 Hacker News Top Stories
 
-### 1. 🤖 Can I run AI locally?
-- 🔥 **764** points | 💬 **93** comments
-- 🏷️ 分类：`AI` | 🌐 来源：canirun.ai
+### 1. 🤖 XML Is a Cheap DSL
+- 🔥 **62** points | 💬 **16** comments
+- 🏷️ 分类：`AI` | 🌐 来源：unplannedobsolescence.com
 
-### 2. 📰 Show HN: Channel Surfer – Watch YouTube like it’s cable TV
-- 🔥 **361** points | 💬 **64** comments
-- 🏷️ 分类：`General` | 🌐 来源：channelsurfer.tv
+### 2. 🤖 1M context is now generally available for Opus 4.6 and Sonnet 4.6
+- 🔥 **845** points | 💬 **55** comments
+- 🏷️ 分类：`AI` | 🌐 来源：claude.com
 
-### 3. 📰 I Found 39 Algolia Admin Keys Exposed Across Open Source Documentation Sites
-- 🔥 **8** points | 💬 **1** comments
-- 🏷️ 分类：`General` | 🌐 来源：benzimmermann.dev
+### 3. 📰 Baochip-1x: What It Is, Why I'm Doing It Now and How It Came About
+- 🔥 **83** points | 💬 **3** comments
+- 🏷️ 分类：`General` | 🌐 来源：crowdsupply.com
 
-### 4. 📰 Mouser: An open source alternative to Logi-Plus mouse software
-- 🔥 **115** points | 💬 **18** comments
+### 4. 📰 Megadev: A Development Kit for the Sega Mega Drive and Mega CD Hardware
+- 🔥 **37** points | 💬 **0** comments
 - 🏷️ 分类：`General` | 🌐 来源：github.com
 
-### 5. 📰 Hammerspoon
-- 🔥 **161** points | 💬 **29** comments
-- 🏷️ 分类：`General` | 🌐 来源：github.com
+### 5. 📰 Please Do Not A/B Test My Workflow
+- 🔥 **109** points | 💬 **28** comments
+- 🏷️ 分类：`General` | 🌐 来源：backnotprop.com
 
-### 6. 🤖 Qatar helium shutdown puts chip supply chain on a two-week clock
-- 🔥 **331** points | 💬 **26** comments
+### 6. 💻 Python: The Optimization Ladder
+- 🔥 **16** points | 💬 **1** comments
+- 🏷️ 分类：`Dev` | 🌐 来源：cemrehancavdar.com
+
+### 7. 🤖 Qatar helium shutdown puts chip supply chain on a two-week clock
+- 🔥 **634** points | 💬 **41** comments
 - 🏷️ 分类：`AI` | 🌐 来源：tomshardware.com
 
-### 7. 📰 Parallels confirms MacBook Neo can run Windows in a virtual machine
-- 🔥 **149** points | 💬 **18** comments
-- 🏷️ 分类：`General` | 🌐 来源：macrumors.com
+### 8. 📰 The Isolation Trap: Erlang
+- 🔥 **79** points | 💬 **9** comments
+- 🏷️ 分类：`General` | 🌐 来源：causality.blog
 
-### 8. 🤖 Elon Musk pushes out more xAI founders as AI coding effort falters
-- 🔥 **226** points | 💬 **42** comments
-- 🏷️ 分类：`AI` | 🌐 来源：ft.com
+### 9. 📰 Wired headphone sales are exploding
+- 🔥 **205** points | 💬 **86** comments
+- 🏷️ 分类：`General` | 🌐 来源：bbc.com
 
-### 9. 📰 Stanford researchers report first recording of a blue whale's heart rate (2019)
-- 🔥 **33** points | 💬 **6** comments
-- 🏷️ 分类：`General` | 🌐 来源：news.stanford.edu
-
-### 10. 🤖 New 'negative light' technology hides data transfers in plain sight
-- 🔥 **39** points | 💬 **6** comments
-- 🏷️ 分类：`AI` | 🌐 来源：unsw.edu.au
+### 10. 📰 Show HN: Channel Surfer – Watch YouTube like it’s cable TV
+- 🔥 **537** points | 💬 **72** comments
+- 🏷️ 分类：`General` | 🌐 来源：channelsurfer.tv
 
 ---
 
@@ -154,15 +154,12 @@
 
 | 排名 | 项目 | 描述 | 分类 |
 |:----:|------|------|------|
-| 1 | **BitNet** | OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opens... | 📦 Other |
-| 2 | **browser** | An agentic skills framework &amp; software development methodology that works. | 📦 Other |
-| 3 | **public-apis** | Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, C... | 🤖 AI |
-| 4 | **agency-agents** | Dolt – Git for Data | 📦 Other |
-| 5 | **A2UI** | SOTA Open Source TTS | 📦 Other |
-| 6 | **page-agent** | Official, Anthropic-managed directory of high quality Claude Code Plugins. | 📦 Other |
-| 7 | **AstrBot** | Hindsight: Agent Memory That Learns | 📦 Other |
-| 8 | **InsForge** | LiteRT, successor to TensorFlow Lite. is Google's On-device framework for high-performance ML &amp; GenAI deployment on ... | 🤖 AI |
+| 1 | **OpenViking** | Official, Anthropic-managed directory of high quality Claude Code Plugins. | 📦 Other |
+| 2 | **dimos** | Fully automatic censorship removal for language models | 🤖 AI |
+| 3 | **openrag** | Lightpanda: the headless browser designed for AI and automation | 🤖 AI |
+| 4 | **agency-agents** | SOTA Open Source TTS | 📦 Other |
+| 5 | **InsForge** | An agentic skills framework &amp; software development methodology that works. | 📦 Other |
 
 ---
 
-*Generated by OpenClaw | 2026-03-14 07:00*
+*Generated by OpenClaw | 2026-03-14 21:28*
