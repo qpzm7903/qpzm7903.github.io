@@ -16,13 +16,13 @@
 - 为什么值得看：官方源更新，说明产品或生态近期有实质动作；Use Codex from Claude Code to review code or delegate tasks.
 - 链接：https://github.com/openai/codex-plugin-cc
 
-**2. [OpenAI] openai-agents-js**
-- 为什么值得看：官方源更新，说明产品或生态近期有实质动作；A lightweight, powerful framework for multi-agent workflows and voice agents
-- 链接：https://github.com/openai/openai-agents-js
+**2. [OpenAI] GABRIEL**
+- 为什么值得看：官方源更新，说明产品或生态近期有实质动作；An official OpenAI toolkit for social scientists and data scientists to measure quantitative attributes in text, images,...
+- 链接：https://github.com/openai/GABRIEL
 
-**3. [Anthropic] claude-constitution**
-- 为什么值得看：官方源更新，说明产品或生态近期有实质动作；The foundational document describing Claude's values and behavior
-- 链接：https://github.com/anthropics/claude-constitution
+**3. [Anthropic] claude-plugins-official**
+- 为什么值得看：官方源更新，说明产品或生态近期有实质动作；Official, Anthropic-managed directory of high quality Claude Code Plugins.
+- 链接：https://github.com/anthropics/claude-plugins-official
 
 ---
 
@@ -34,21 +34,21 @@
   - 日期：2026-03-31
   - 摘要：Use Codex from Claude Code to review code or delegate tasks.
   - 链接：https://github.com/openai/codex-plugin-cc
-- **openai-agents-js**（官方仓库，官方）
+- **GABRIEL**（官方仓库，官方）
   - 日期：2026-03-31
-  - 摘要：A lightweight, powerful framework for multi-agent workflows and voice agents
-  - 链接：https://github.com/openai/openai-agents-js
+  - 摘要：An official OpenAI toolkit for social scientists and data scientists to measure quantitative attributes in text, images,...
+  - 链接：https://github.com/openai/GABRIEL
 
 ### 🇺🇸 Anthropic
 
-- **claude-constitution**（官方仓库，官方）
+- **claude-plugins-official**（官方仓库，官方）
   - 日期：2026-03-31
-  - 摘要：The foundational document describing Claude's values and behavior
-  - 链接：https://github.com/anthropics/claude-constitution
-- **claude-cookbooks**（官方仓库，官方）
+  - 摘要：Official, Anthropic-managed directory of high quality Claude Code Plugins.
+  - 链接：https://github.com/anthropics/claude-plugins-official
+- **anthropic-sdk-typescript**（官方仓库，官方）
   - 日期：2026-03-31
-  - 摘要：A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
-  - 链接：https://github.com/anthropics/claude-cookbooks
+  - 摘要：Access to Anthropic's safety-first language model APIs in TypeScript
+  - 链接：https://github.com/anthropics/anthropic-sdk-typescript
 
 ### 🇺🇸 Google AI
 
@@ -56,21 +56,21 @@
   - 日期：2026-03-31
   - 摘要：An open-source AI agent that brings the power of Gemini directly into your terminal.
   - 链接：https://github.com/google-gemini/gemini-cli
-- **gemini-image-editing-nextjs-quickstart**（官方仓库，官方）
+- **aistudio-repository-template**（官方仓库，官方）
   - 日期：2026-03-31
-  - 摘要：Get started with native image generation and editing using Gemini 2.0 and Next.js
-  - 链接：https://github.com/google-gemini/gemini-image-editing-nextjs-quickstart
+  - 摘要：This is a repository to be used when creating a repository template.
+  - 链接：https://github.com/google-gemini/aistudio-repository-template
 
 ### 🇨🇳 DeepSeek
 
-- **Janus**（官方仓库，官方）
+- **Engram**（官方仓库，官方）
   - 日期：2026-03-31
-  - 摘要：Janus-Series: Unified Multimodal Understanding and Generation Models
-  - 链接：https://github.com/deepseek-ai/Janus
-- **DualPipe**（官方仓库，官方）
+  - 摘要：Conditional Memory via Scalable Lookup: A New Axis of Sparsity for Large Language Models
+  - 链接：https://github.com/deepseek-ai/Engram
+- **DeepSeek-MoE**（官方仓库，官方）
   - 日期：2026-03-31
-  - 摘要：A bidirectional pipeline parallelism algorithm for computation-communication overlap in DeepSeek V3/R1 training.
-  - 链接：https://github.com/deepseek-ai/DualPipe
+  - 摘要：DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models
+  - 链接：https://github.com/deepseek-ai/DeepSeek-MoE
 
 ### 🇨🇳 月之暗面
 
@@ -81,14 +81,14 @@
 
 ### 🇨🇳 通义千问
 
-- **Qwen3-ASR**（官方仓库，官方）
+- **Qwen3-VL**（官方仓库，官方）
   - 日期：2026-03-31
-  - 摘要：Qwen3-ASR is an open-source series of ASR models developed by the Qwen team at Alibaba Cloud, supporting stable multilin...
-  - 链接：https://github.com/QwenLM/Qwen3-ASR
-- **Qwen3**（官方仓库，官方）
+  - 摘要：Qwen3-VL is the multimodal large language model series developed by Qwen team, Alibaba Cloud.
+  - 链接：https://github.com/QwenLM/Qwen3-VL
+- **qwen-code-examples**（官方仓库，官方）
   - 日期：2026-03-31
-  - 摘要：Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud.
-  - 链接：https://github.com/QwenLM/Qwen3
+  - 摘要：A collection of practical examples and best practices for Qwen Code
+  - 链接：https://github.com/QwenLM/qwen-code-examples
 
 ### 🇨🇳 智谱 AI
 
@@ -101,30 +101,30 @@
 
 ## 🔥 Hacker News（按热度与相关性筛选）
 
-### 1. Bird brains (2023)
-- 热度：🔥 305 | 💬 37
-- 来源：dhanishsemar.com
-- 链接：https://www.dhanishsemar.com/writing/bird-brains
-
-### 2. Universal Claude.md – cut Claude output tokens
-- 热度：🔥 196 | 💬 37
+### 1. Universal Claude.md – cut Claude output tokens
+- 热度：🔥 231 | 💬 41
 - 来源：github.com
 - 链接：https://github.com/drona23/claude-token-efficient
 
-### 3. Learn Claude Code by doing, not reading
-- 热度：🔥 210 | 💬 26
-- 来源：claude.nagdy.me
-- 链接：https://claude.nagdy.me/
-
-### 4. How to turn anything into a router
-- 热度：🔥 632 | 💬 65
+### 2. How to turn anything into a router
+- 热度：🔥 645 | 💬 65
 - 来源：nbailey.ca
 - 链接：https://nbailey.ca/post/router/
 
-### 5. Turning a MacBook into a touchscreen with $1 of hardware (2018)
-- 热度：🔥 250 | 💬 26
+### 3. Turning a MacBook into a touchscreen with $1 of hardware (2018)
+- 热度：🔥 270 | 💬 28
 - 来源：anishathalye.com
 - 链接：https://anishathalye.com/macbook-touchscreen/
+
+### 4. Android Developer Verification
+- 热度：🔥 200 | 💬 36
+- 来源：android-developers.googleblog.com
+- 链接：https://android-developers.googleblog.com/2026/03/android-developer-verification-rolling-out-to-all-developers.html
+
+### 5. Clojure: The Documentary, official trailer [video]
+- 热度：🔥 116 | 💬 2
+- 来源：youtube.com
+- 链接：https://www.youtube.com/watch?v=JJEyffSdBsk
 
 ---
 
@@ -157,8 +157,8 @@
 - 官方动态：**12** 条
 - HN 入选：**5** 条
 - Trending 入选：**6** 条
-- 更新时间：13:02
+- 更新时间：14:03
 
 ---
 
-*Generated by OpenClaw v3 | 2026-03-31 13:02*
+*Generated by OpenClaw v3 | 2026-03-31 14:03*
