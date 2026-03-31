@@ -16,9 +16,9 @@
 - 为什么值得看：官方源更新，说明产品或生态近期有实质动作；Use Codex from Claude Code to review code or delegate tasks.
 - 链接：https://github.com/openai/codex-plugin-cc
 
-**2. [OpenAI] swarm**
-- 为什么值得看：官方源更新，说明产品或生态近期有实质动作；Educational framework exploring ergonomic, lightweight multi-agent orchestration.
-- 链接：https://github.com/openai/swarm
+**2. [OpenAI] openai-realtime-console**
+- 为什么值得看：官方源更新，说明产品或生态近期有实质动作；React app for inspecting, building and debugging with the Realtime API
+- 链接：https://github.com/openai/openai-realtime-console
 
 **3. [Anthropic] claude-code**
 - 为什么值得看：官方源更新，说明产品或生态近期有实质动作；Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster...
@@ -34,10 +34,10 @@
   - 日期：2026-03-31
   - 摘要：Use Codex from Claude Code to review code or delegate tasks.
   - 链接：https://github.com/openai/codex-plugin-cc
-- **swarm**（官方仓库，官方）
+- **openai-realtime-console**（官方仓库，官方）
   - 日期：2026-03-31
-  - 摘要：Educational framework exploring ergonomic, lightweight multi-agent orchestration.
-  - 链接：https://github.com/openai/swarm
+  - 摘要：React app for inspecting, building and debugging with the Realtime API
+  - 链接：https://github.com/openai/openai-realtime-console
 
 ### 🇺🇸 Anthropic
 
@@ -45,17 +45,21 @@
   - 日期：2026-03-31
   - 摘要：Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster...
   - 链接：https://github.com/anthropics/claude-code
+- **claude-plugins-official**（官方仓库，官方）
+  - 日期：2026-03-31
+  - 摘要：Official, Anthropic-managed directory of high quality Claude Code Plugins.
+  - 链接：https://github.com/anthropics/claude-plugins-official
 
 ### 🇺🇸 Google AI
 
-- **gemini-cli**（官方仓库，官方）
+- **gemini-fullstack-langgraph-quickstart**（官方仓库，官方）
   - 日期：2026-03-31
-  - 摘要：An open-source AI agent that brings the power of Gemini directly into your terminal.
-  - 链接：https://github.com/google-gemini/gemini-cli
-- **aistudio-repository-template**（官方仓库，官方）
+  - 摘要：Get started with building Fullstack Agents using Gemini 2.5 and LangGraph
+  - 链接：https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart
+- **gemini-live-api-examples**（官方仓库，官方）
   - 日期：2026-03-31
-  - 摘要：This is a repository to be used when creating a repository template.
-  - 链接：https://github.com/google-gemini/aistudio-repository-template
+  - 摘要：Gemini Live provides multimodal realtime agent capabilities.
+  - 链接：https://github.com/google-gemini/gemini-live-api-examples
 
 ### 🇨🇳 DeepSeek
 
@@ -63,10 +67,6 @@
   - 日期：2026-03-31
   - 摘要：Conditional Memory via Scalable Lookup: A New Axis of Sparsity for Large Language Models
   - 链接：https://github.com/deepseek-ai/Engram
-- **DeepSeek-VL2**（官方仓库，官方）
-  - 日期：2026-03-31
-  - 摘要：DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for Advanced Multimodal Understanding
-  - 链接：https://github.com/deepseek-ai/DeepSeek-VL2
 
 ### 🇨🇳 月之暗面
 
@@ -77,54 +77,54 @@
 
 ### 🇨🇳 通义千问
 
-- **Qwen3-TTS**（官方仓库，官方）
+- **Qwen-Image**（官方仓库，官方）
   - 日期：2026-03-31
-  - 摘要：Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, express...
-  - 链接：https://github.com/QwenLM/Qwen3-TTS
-- **Qwen3.5**（官方仓库，官方）
+  - 摘要：Qwen-Image is a powerful image generation foundation model capable of complex text rendering and precise image editing.
+  - 链接：https://github.com/QwenLM/Qwen-Image
+- **Qwen3-Omni**（官方仓库，官方）
   - 日期：2026-03-31
-  - 摘要：Qwen3.5 is the large language model series developed by Qwen team, Alibaba Cloud.
-  - 链接：https://github.com/QwenLM/Qwen3.5
+  - 摘要：Qwen3-omni is a natively end-to-end, omni-modal LLM developed by the Qwen team at Alibaba Cloud, capable of understandin...
+  - 链接：https://github.com/QwenLM/Qwen3-Omni
 
 ### 🇨🇳 智谱 AI
 
-- **AgentRL**（官方仓库，官方）
-  - 日期：2026-03-31
-  - 摘要：Scaling Agentic Reinforcement Learning with a Multi-Turn, Multi-Task Framework
-  - 链接：https://github.com/THUDM/AgentRL
 - **AgentBench**（官方仓库，官方）
   - 日期：2026-03-31
   - 摘要：A Comprehensive Benchmark to Evaluate LLMs as Agents (ICLR'24)
   - 链接：https://github.com/THUDM/AgentBench
+- **AgentRL**（官方仓库，官方）
+  - 日期：2026-03-31
+  - 摘要：Scaling Agentic Reinforcement Learning with a Multi-Turn, Multi-Task Framework
+  - 链接：https://github.com/THUDM/AgentRL
 
 ---
 
 ## 🔥 Hacker News（按热度与相关性筛选）
 
 ### 1. Universal Claude.md – cut Claude output tokens
-- 热度：🔥 247 | 💬 43
+- 热度：🔥 275 | 💬 46
 - 来源：github.com
 - 链接：https://github.com/drona23/claude-token-efficient
 
 ### 2. How to turn anything into a router
-- 热度：🔥 653 | 💬 66
+- 热度：🔥 661 | 💬 66
 - 来源：nbailey.ca
 - 链接：https://nbailey.ca/post/router/
 
 ### 3. Turning a MacBook into a touchscreen with $1 of hardware (2018)
-- 热度：🔥 287 | 💬 29
+- 热度：🔥 302 | 💬 32
 - 来源：anishathalye.com
 - 链接：https://anishathalye.com/macbook-touchscreen/
 
-### 4. Android Developer Verification
-- 热度：🔥 221 | 💬 37
+### 4. Axios compromised on NPM – Malicious versions drop remote access trojan
+- 热度：🔥 632 | 💬 56
+- 来源：stepsecurity.io
+- 链接：https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan
+
+### 5. Android Developer Verification
+- 热度：🔥 236 | 💬 40
 - 来源：android-developers.googleblog.com
 - 链接：https://android-developers.googleblog.com/2026/03/android-developer-verification-rolling-out-to-all-developers.html
-
-### 5. Clojure: The Documentary, official trailer [video]
-- 热度：🔥 135 | 💬 4
-- 来源：youtube.com
-- 链接：https://www.youtube.com/watch?v=JJEyffSdBsk
 
 ---
 
@@ -157,8 +157,8 @@
 - 官方动态：**12** 条
 - HN 入选：**5** 条
 - Trending 入选：**6** 条
-- 更新时间：15:05
+- 更新时间：16:07
 
 ---
 
-*Generated by OpenClaw v3 | 2026-03-31 15:05*
+*Generated by OpenClaw v3 | 2026-03-31 16:07*
