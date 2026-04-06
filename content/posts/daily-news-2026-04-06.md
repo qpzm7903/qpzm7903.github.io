@@ -1,0 +1,161 @@
+# 📰 科技热点日报 | 2026-04-06
+
+**官方动态优先 + 社区热度筛选版**
+
+---
+
+## 📌 今日判断
+
+今天官方源里有一些可用信息，说明模型/工具生态有持续推进。 开发者关注点仍集中在 AI 工具、Agent 工作流和模型相关项目。 这版日报已经优先保留官方源和高讨论度条目，尽量减少关键词蹭热点的噪音。
+
+---
+
+## ⭐ 今日最值得关注
+
+**1. [OpenAI] codex-plugin-cc**
+- 为什么值得看：官方源更新，说明产品或生态近期有实质动作；Use Codex from Claude Code to review code or delegate tasks.
+- 链接：https://github.com/openai/codex-plugin-cc
+
+**2. [OpenAI] symphony**
+- 为什么值得看：官方源更新，说明产品或生态近期有实质动作；Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supe...
+- 链接：https://github.com/openai/symphony
+
+**3. [Anthropic] claude-code**
+- 为什么值得看：官方源更新，说明产品或生态近期有实质动作；Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster...
+- 链接：https://github.com/anthropics/claude-code
+
+---
+
+## 🏢 官方动态（优先保留）
+
+### 🇺🇸 OpenAI
+
+- **codex-plugin-cc**（官方仓库，官方）
+  - 日期：2026-04-06
+  - 摘要：Use Codex from Claude Code to review code or delegate tasks.
+  - 链接：https://github.com/openai/codex-plugin-cc
+- **symphony**（官方仓库，官方）
+  - 日期：2026-04-06
+  - 摘要：Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supe...
+  - 链接：https://github.com/openai/symphony
+
+### 🇺🇸 Anthropic
+
+- **claude-code**（官方仓库，官方）
+  - 日期：2026-04-06
+  - 摘要：Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster...
+  - 链接：https://github.com/anthropics/claude-code
+- **claude-plugins-official**（官方仓库，官方）
+  - 日期：2026-04-06
+  - 摘要：Official, Anthropic-managed directory of high quality Claude Code Plugins.
+  - 链接：https://github.com/anthropics/claude-plugins-official
+
+### 🇺🇸 Google AI
+
+- **gemini-cli**（官方仓库，官方）
+  - 日期：2026-04-06
+  - 摘要：An open-source AI agent that brings the power of Gemini directly into your terminal.
+  - 链接：https://github.com/google-gemini/gemini-cli
+- **gemini-skills**（官方仓库，官方）
+  - 日期：2026-04-06
+  - 摘要：Skills for the Gemini API, SDK and model/agent interactions
+  - 链接：https://github.com/google-gemini/gemini-skills
+
+### 🇨🇳 DeepSeek
+
+- **DualPipe**（官方仓库，官方）
+  - 日期：2026-04-06
+  - 摘要：A bidirectional pipeline parallelism algorithm for computation-communication overlap in DeepSeek V3/R1 training.
+  - 链接：https://github.com/deepseek-ai/DualPipe
+- **DeepGEMM**（官方仓库，官方）
+  - 日期：2026-04-06
+  - 摘要：DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling
+  - 链接：https://github.com/deepseek-ai/DeepGEMM
+
+### 🇨🇳 通义千问
+
+- **Qwen3.5**（官方仓库，官方）
+  - 日期：2026-04-06
+  - 摘要：Qwen3.5 is the large language model series developed by Qwen team, Alibaba Cloud.
+  - 链接：https://github.com/QwenLM/Qwen3.5
+- **Qwen3-Coder**（官方仓库，官方）
+  - 日期：2026-04-06
+  - 摘要：Qwen3-Coder is the code version of Qwen3, the large language model series developed by Qwen team.
+  - 链接：https://github.com/QwenLM/Qwen3-Coder
+
+### 🇨🇳 月之暗面
+
+- **Attention-Residuals**（官方仓库，官方）
+  - 日期：2026-04-06
+  - 摘要：官方仓库近期有更新
+  - 链接：https://github.com/MoonshotAI/Attention-Residuals
+- **Kimi-K2.5**（官方仓库，官方）
+  - 日期：2026-04-06
+  - 摘要：Moonshot's most powerful model
+  - 链接：https://github.com/MoonshotAI/Kimi-K2.5
+
+---
+
+## 🔥 Hacker News（按热度与相关性筛选）
+
+### 1. Eight years of wanting, three months of building with AI
+- 热度：🔥 597 | 💬 56
+- 来源：lalitm.com
+- 链接：https://lalitm.com/post/building-syntaqlite-ai/
+
+### 2. Caveman: Why use many token when few token do trick
+- 热度：🔥 688 | 💬 97
+- 来源：github.com
+- 链接：https://github.com/JuliusBrussee/caveman
+
+### 3. Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code
+- 热度：🔥 180 | 💬 12
+- 来源：ai.georgeliu.com
+- 链接：https://ai.georgeliu.com/p/running-google-gemma-4-locally-with
+
+### 4. Music for Programming
+- 热度：🔥 100 | 💬 18
+- 来源：musicforprogramming.net
+- 链接：https://musicforprogramming.net
+
+### 5. Gemma 4 on iPhone
+- 热度：🔥 392 | 💬 30
+- 来源：apps.apple.com
+- 链接：https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337
+
+---
+
+## 💻 GitHub Trending（过滤后）
+
+1. **google-ai-edge/gallery**
+   - 摘要：Star google-ai-edge / gallery A gallery that showcases on-device ML/GenAI use cases and allows people to try a...
+   - 链接：https://github.com/google-ai-edge/gallery
+2. **block/goose**
+   - 摘要：Star block / goose an open source, extensible AI agent that goes beyond code suggestions - install, execute, e...
+   - 链接：https://github.com/block/goose
+3. **onyx-dot-app/onyx**
+   - 摘要：Star onyx-dot-app / onyx Open Source AI Platform - AI Chat with advanced features that works with every LLM
+   - 链接：https://github.com/onyx-dot-app/onyx
+4. **siddharthvaddem/openscreen**
+   - 摘要：Star siddharthvaddem / openscreen Create stunning demos for free.
+   - 链接：https://github.com/siddharthvaddem/openscreen
+5. **telegramdesktop/tdesktop**
+   - 摘要：Star telegramdesktop / tdesktop Telegram Desktop messaging app
+   - 链接：https://github.com/telegramdesktop/tdesktop
+6. **google-ai-edge/LiteRT-LM**
+   - 摘要：暂无摘要
+   - 链接：https://github.com/google-ai-edge/LiteRT-LM
+
+
+---
+
+## 📊 今日概览
+
+- 官方动态：**12** 条
+- HN 入选：**5** 条
+- Trending 入选：**6** 条
+- 更新时间：09:27
+
+---
+
+*Generated by OpenClaw v3 | 2026-04-06 09:27*
