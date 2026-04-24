@@ -13,42 +13,53 @@
 ## ⭐ 今日最值得关注
 
 **1. GPT-5.5**
-- 为什么值得看：社区讨论热度较高（968 points / 109 comments），值得关注。
+- 为什么值得看：社区讨论热度较高（995 points / 110 comments），值得关注。
 - 链接：https://openai.com/index/introducing-gpt-5-5/
 
-**2. Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign**
-- 为什么值得看：社区讨论热度较高（597 points / 48 comments），值得关注。
-- 链接：https://socket.dev/blog/bitwarden-cli-compromised
+**2. [Anthropic] knowledge-work-plugins**
+- 为什么值得看：官方源更新，说明产品或生态近期有实质动作；Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork
+- 链接：https://github.com/anthropics/knowledge-work-plugins
 
-**3. [OpenAI] harmony**
-- 为什么值得看：官方源更新，说明产品或生态近期有实质动作；Renderer for the harmony response format to be used with gpt-oss
-- 链接：https://github.com/openai/harmony
+**3. [通义千问] Qwen3**
+- 为什么值得看：官方源更新，说明产品或生态近期有实质动作；Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud.
+- 链接：https://github.com/QwenLM/Qwen3
 
 ---
 
 ## 🏢 官方动态（优先保留）
 
-### 🇺🇸 OpenAI
-
-- **harmony**（官方仓库，官方）
-  - 日期：2026-04-23
-  - 摘要：Renderer for the harmony response format to be used with gpt-oss
-  - 链接：https://github.com/openai/harmony
-- **openai-agents-js**（官方仓库，官方）
-  - 日期：2026-04-23
-  - 摘要：A lightweight, powerful framework for multi-agent workflows and voice agents
-  - 链接：https://github.com/openai/openai-agents-js
-
 ### 🇺🇸 Anthropic
 
-- **claude-desktop-buddy**（官方仓库，官方）
-  - 日期：2026-04-23
-  - 摘要：Reference and an example for the Bluetooth API for makers in Claude Cowork & Claude Code Desktop
-  - 链接：https://github.com/anthropics/claude-desktop-buddy
+- **knowledge-work-plugins**（官方仓库，官方）
+  - 日期：2026-04-24
+  - 摘要：Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork
+  - 链接：https://github.com/anthropics/knowledge-work-plugins
 - **claude-code**（官方仓库，官方）
   - 日期：2026-04-23
   - 摘要：Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster...
   - 链接：https://github.com/anthropics/claude-code
+
+### 🇨🇳 通义千问
+
+- **Qwen3**（官方仓库，官方）
+  - 日期：2026-04-24
+  - 摘要：Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud.
+  - 链接：https://github.com/QwenLM/Qwen3
+- **Qwen3.6**（官方仓库，官方）
+  - 日期：2026-04-23
+  - 摘要：Qwen3.6 is the large language model series developed by Qwen team, Alibaba Group.
+  - 链接：https://github.com/QwenLM/Qwen3.6
+
+### 🇺🇸 OpenAI
+
+- **symphony**（官方仓库，官方）
+  - 日期：2026-04-23
+  - 摘要：Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supe...
+  - 链接：https://github.com/openai/symphony
+- **codex-plugin-cc**（官方仓库，官方）
+  - 日期：2026-04-23
+  - 摘要：Use Codex from Claude Code to review code or delegate tasks.
+  - 链接：https://github.com/openai/codex-plugin-cc
 
 ### 🇺🇸 Google AI
 
@@ -61,65 +72,54 @@
   - 摘要：Gemini Live provides multimodal realtime agent capabilities.
   - 链接：https://github.com/google-gemini/gemini-live-api-examples
 
-### 🇨🇳 DeepSeek
-
-- **DeepSeek-VL2**（官方仓库，官方）
-  - 日期：2026-04-23
-  - 摘要：DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for Advanced Multimodal Understanding
-  - 链接：https://github.com/deepseek-ai/DeepSeek-VL2
-- **Janus**（官方仓库，官方）
-  - 日期：2026-04-23
-  - 摘要：Janus-Series: Unified Multimodal Understanding and Generation Models
-  - 链接：https://github.com/deepseek-ai/Janus
-
 ### 🇨🇳 月之暗面
 
-- **kimi-agent-sdk**（官方仓库，官方）
-  - 日期：2026-04-23
-  - 摘要：Kimi Agent SDK provides a programmatic interface to interact with the Kimi CLI
-  - 链接：https://github.com/MoonshotAI/kimi-agent-sdk
 - **Kimi-K2**（官方仓库，官方）
   - 日期：2026-04-23
   - 摘要：Kimi K2 is the large language model series developed by Moonshot AI team
   - 链接：https://github.com/MoonshotAI/Kimi-K2
-
-### 🇨🇳 通义千问
-
-- **Qwen3.6**（官方仓库，官方）
+- **kimi-agent-sdk**（官方仓库，官方）
   - 日期：2026-04-23
-  - 摘要：Qwen3.6 is the large language model series developed by Qwen team, Alibaba Group.
-  - 链接：https://github.com/QwenLM/Qwen3.6
-- **Qwen3-VL**（官方仓库，官方）
+  - 摘要：Kimi Agent SDK provides a programmatic interface to interact with the Kimi CLI
+  - 链接：https://github.com/MoonshotAI/kimi-agent-sdk
+
+### 🇨🇳 智谱 AI
+
+- **AgentBench**（官方仓库，官方）
   - 日期：2026-04-23
-  - 摘要：Qwen3-VL is the multimodal large language model series developed by Qwen team, Alibaba Cloud.
-  - 链接：https://github.com/QwenLM/Qwen3-VL
+  - 摘要：A Comprehensive Benchmark to Evaluate LLMs as Agents (ICLR'24)
+  - 链接：https://github.com/THUDM/AgentBench
+- **ReST-RL**（官方仓库，官方）
+  - 日期：2026-04-23
+  - 摘要：Reinforcing LLM Reasoning through Self-Training and Value-Guided Decoding
+  - 链接：https://github.com/THUDM/ReST-RL
 
 ---
 
 ## 🔥 Hacker News（按热度与相关性筛选）
 
 ### 1. GPT-5.5
-- 热度：🔥 968 | 💬 109
+- 热度：🔥 995 | 💬 110
 - 来源：openai.com
 - 链接：https://openai.com/index/introducing-gpt-5-5/
 
 ### 2. Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign
-- 热度：🔥 597 | 💬 48
+- 热度：🔥 610 | 💬 48
 - 来源：socket.dev
 - 链接：https://socket.dev/blog/bitwarden-cli-compromised
 
 ### 3. An update on recent Claude Code quality reports
-- 热度：🔥 508 | 💬 91
+- 热度：🔥 524 | 💬 94
 - 来源：anthropic.com
 - 链接：https://www.anthropic.com/engineering/april-23-postmortem
 
 ### 4. I am building a cloud
-- 热度：🔥 958 | 💬 98
+- 热度：🔥 963 | 💬 98
 - 来源：crawshaw.io
 - 链接：https://crawshaw.io/blog/building-a-cloud
 
 ### 5. Your hex editor should color-code bytes
-- 热度：🔥 477 | 💬 51
+- 热度：🔥 484 | 💬 52
 - 来源：simonomi.dev
 - 链接：https://simonomi.dev/blog/color-code-your-bytes/
 
@@ -160,8 +160,8 @@
 - 官方动态：**12** 条
 - HN 入选：**5** 条
 - Trending 入选：**8** 条
-- 更新时间：07:32
+- 更新时间：08:01
 
 ---
 
-*Generated by OpenClaw v3 | 2026-04-24 07:32*
+*Generated by OpenClaw v3 | 2026-04-24 08:01*
