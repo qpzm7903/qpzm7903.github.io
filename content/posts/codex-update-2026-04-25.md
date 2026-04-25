@@ -1,0 +1,87 @@
+---
+title: "🔧 Codex 更新日报 2026-04-25"
+date: 2026-04-25T10:00:00+08:00
+draft: false
+tags: ["codex", "AI 编程", "更新日志"]
+categories: ["工具更新"]
+---
+
+# 🔧 Codex 更新 rust-v0.125.0
+
+**发布日期**: 2026-04-25  
+**⚠️ 新版本发布**
+
+## New Features
+
+- App-server integrations now support Unix socket transport, pagination-friendly resume/fork, sticky environments, and remote thread config/store plumbing. (#18255, #18892, #18897, #18908, #19008, #19014)
+- App-server plugin management can install remote plugins and upgrade configured marketplaces. (#18917, #19074)
+- Permission profiles now round-trip across TUI sessions, user turns, MCP sandbox state, shell escalation, and app-server APIs. (#18284, #18285, #18286, #18287, #19231)
+- Model providers now own model discovery, with AWS/Bedrock account state exposed to app clients. (#18950, #19048)
+- `codex exec --json` now reports reasoning-token usage for programmatic consumers. (#19308)
+- Rollout tracing now records tool, code-mode, session, and multi-agent relationships, with a debug reducer command for inspection. (#18878, #18879, #18880)
+
+## Bug Fixes
+
+- Interrupting `/review` and exiting the TUI no longer leaves the interface wedged on delegate startup or unsubscribe. (#18921)
+- Exec-server no longer drops buffered output after process exit and now waits correctly for stream closure. (#18946, #19130)
+- App-server now respects explicitly untrusted project config instead of auto-persisting trust. (#18626)
+- WebSocket app-server clients are less likely to disconnect during bursts of turn and tool-output notifications. (#19246)
+- Windows sandbox startup handles multiple CLI versions and installed app directories better, and background `Start-Process` calls avoid visible PowerShell windows. (#19044, #19180, #19214)
+- Config/schema handling now rejects conflicting MultiAgentV2 thread limits, resolves relative agent-role config paths, hides unsupported MCP bearer-token fields, and rejects invalid `js_repl` image MIME types. (#19129, #19261, #19294, #19292)
+
+## Documentation
+
+- App-server docs and generated schemas were refreshed for the new transport, thread, marketplace, sticky environment, and permission-profile APIs. (#18255, #18897, #19014, #19074, #19231)
+- Rollout-trace documentation now covers the debug trace reduction workflow. (#18880)
+
+## Chores
+
+- Refreshed `models.json` and related core, app-server, SDK, and TUI fixtures for the latest model catalog and reasoning defaults. (#19323)
+- Windows Bazel CI now uses a stable PATH and shared query startup path for better cache reuse. (#19161, #19232)
+- Plugin marketplace add/remove/startup-sync internals moved out of `codex-core`, and curated plugin cache versions now use short SHAs. (#19099, #19095)
+- Reverted a macOS signing entitlement change after it caused alpha startup failures. (#19167, #19350)
+- Stabilized flaky approval-popup and plugin MCP tool-discovery tests. (#19178, #19191)
+
+## Changelog
+
+- #19129 Reject agents.max_threads with multi_agent_v2 @jif-oai
+- #19130 exec-server: wait for close after observed exit @jif-oai
+- #19149 Update safety check wording @etraut-openai
+- #18284 tui: sync session permission profiles @bolinfest
+- #18710 [codex] Fix plugin marketplace help usage @xli-oai
+- #19127 feat: drop spawned-agent context instructions @jif-oai
+- #18892 Add remote thread config loader protos @rasmusrygaard
+- #19014 Add excludeTurns parameter to thread/resume and thread/fork @ddr-oai
+- #18882 [codex] Route live thread writes through ThreadStore @wiltzius-openai
+- #19008 [codex] Implement remote thread store methods @wiltzius-openai
+- #18626 Respect explicit untrusted project config @etraut-openai
+- #18255 app-server: add Unix socket transport @euroelessar
+
+
+---
+
+## 💡 深度点评
+
+Codex rust-v0.125.0 版本发布，这一迭代重点加强了 App-server 的架构能力、完善了权限生命周期管理，并提升了 programmatic 环境下的可观测性。以下是本次更新的深度点评：
+
+### 核心亮点
+
+*   **App-server 架构深度解耦与功能增强**：新版本引入了 Unix socket 传输支持，并实现了远程线程配置与存储的底层对接。特别是支持 pagination-friendly 的线程恢复（resume）与分叉（fork）功能，配合“粘性环境”（sticky environments）特性，显著提升了在复杂状态下跨 session 的环境连续性。
+*   **权限配置文件的全链路打通**：权限配置文件（Permission profiles）现在能够跨 TUI 会话、用户轮次、MCP 沙箱、Shell 提权及 App-server API 实现完整的回环同步。这种全场景的一致性确保了在多模态交互和自动化执行过程中，安全策略能够得到严格且连续的执行。
+*   **推理 Token 的编程式暴露**：`codex exec --json` 现在支持报告推理（reasoning）Token 的使用情况。这对于需要精准控制模型调用成本、分析逻辑思考深度的 programmatic 消费者而言，是一个非常关键的元数据补充。
+
+### 值得注意的修复
+
+*   **执行流稳定性优化**：修复了 exec-server 在进程退出后可能丢失缓冲输出的问题，通过正确等待流关闭（stream closure），保证了日志输出的完整性；同时优化了 WebSocket 客户端在面对突发通知时的连接稳定性。
+*   **TUI 与配置安全性纠偏**：解决了中断 `/review` 可能导致 TUI 界面卡死的异常；在安全性方面，系统现在会尊重显式设置为“不受信任”的项目配置，不再盲目自动持久化信任状态。
+*   **多代理边界追踪**：Rollout tracing 增加了对 tool、code-mode 以及多代理协作关系的记录，并配套了 debug 还原命令，大幅降低了排查 Agent 间复杂调用链的难度。
+
+### 个人评价
+
+rust-v0.125.0 是一个典型的从“本地工具”向“平台级服务”转型的版本。App-server 在远程存储和传输层面的增强，意味着 Codex 正在为更大规模的工业化部署做准备。权限管理的闭环和推理 Token 的暴露，体现了 OpenAI 对企业级安全和成本精细化运营的重视。整体来看，这是一个在保持核心功能稳定的基础上，大幅强化基础设施和可观测性的务实更新。
+
+---
+
+**数据来源**: [GitHub openai/codex](https://github.com/openai/codex)
+
+*Generated by OpenClaw at 2026-04-25 08:00:59*
