@@ -1,0 +1,85 @@
+---
+title: "🔧 Codex 更新日报 2026-05-02"
+date: 2026-05-02T10:00:00+08:00
+draft: false
+tags: ["codex", "AI 编程", "更新日志"]
+categories: ["工具更新"]
+---
+
+# 🔧 Codex 更新 rust-v0.128.0
+
+**发布日期**: 2026-05-02  
+**⚠️ 新版本发布**
+
+## New Features
+
+- Added persisted `/goal` workflows with app-server APIs, model tools, runtime continuation, and TUI controls for create, pause, resume, and clear. (#18073, #18074, #18075, #18076, #18077, #20082)
+- Added `codex update`, configurable TUI keymaps, plan-mode nudges, action-required terminal titles, and active-turn `/statusline` and `/title` edits. (#19933, #18593, #19901, #18372, #19917)
+- Expanded permission profiles with built-in defaults, sandbox CLI profile selection, cwd controls, and active-profile metadata for clients. (#19900, #20117, #20118, #20095)
+- Improved plugin workflows with marketplace installation, remote bundle caching, remote uninstall, plugin-bundled hooks, hook enablement state, and external-agent config import. (#18704, #19914, #19456, #19705, #19840, #19949)
+- Added external agent session import, including background imports and imported-session title handling. (#19895, #20284, #20261)
+- Made MultiAgentV2 configuration more explicit with thread caps, wait-time controls, root/subagent hints, and v2-specific depth handling. (#19360, #19792, #19805, #20052, #20180)
+
+## Bug Fixes
+
+- Fixed several resume and interruption issues, including stale interrupt hangs, persisted provider restoration, large remote resume responses, and slow filtered resume lists. (#18392, #19287, #19920, #19591)
+- Improved TUI reliability around terminal resize reflow, markdown list spacing, slash-command popup layout, keyboard cleanup, shell-mode escape, and working status updates. (#18575, #19706, #19511, #19625, #19986, #19939)
+- Hardened managed network behavior for deferred denials, proxy bypass defaults, resolved target checks, IPv6 host matching, and `git -C` approval handling. (#19184, #20002, #19999, #19995, #20085)
+- Fixed Windows sandbox and PTY edge cases, including pseudoconsole startup, elevated runner process handling, core shell environment inheritance, and named-pipe validation. (#20042, #19211, #20089, #19283)
+- Fixed Bedrock model support for `apply_patch`, GPT-5.4 reasoning levels, and updated Bedrock GPT-5.4 endpoint/model metadata. (#19416, #19461, #20109)
+- Fixed MCP/plugin edge cases around stdio server cleanup, plugin MCP approval persistence, and custom MCP metadata isolation. (#19753, #19537, #19836, #19875)
+
+## Documentation
+
+- Updated the bundled OpenAI Docs skill for GPT-5.5, `gpt-image-2`, and clearer upgrade guidance. (#19407, #19443, #19422)
+- Clarified contributor-facing docs, including the PR template, Rust async trait guidance, and README wording. (#19912, #20242, #19514)
+- Added a checked-in `codex-core` public API listing and a ThreadManager sample crate. (#20243, #20141)
+
+## Chores
+
+- Published `codex-app-server` release artifacts, stopped publishing GNU Linux binaries, and increased release workflow timeouts. (#19447, #19445, #20271, #20343)
+- Added Codex-pinned versioning for the Python app-server SDK package. (#18996)
+- Deprecated `--full-auto` while steering users toward explicit permission profiles and trust flows. (#20133)
+- Stabilized CI and release plumbing with Bazel setup migration, release smoke-test pinning, and updated workflow pins/timeouts. (#19851, #19854, #19472, #19609)
+
+## Changelog
+
+- #19124 Make MultiAgentV2 interruption markers assistant-authored @jif-oai
+- #19354 chore: alias max_concurrent_threads_per_session @jif-oai
+- #19360 feat: surface multi-agent thread limit in spawn description @jif-oai
+- #19351 Add agents.interrupt_message for interruption markers @jif-oai
+- #18392 Fix hang on turn/interrupt @danwang-oai
+- #19380 chore: drop MCP Plugins and App from Morpheus @jif-oai
+- #18907 respect workspace option for disabling plugins @zamoshchin-openai
+- #19283 check PID of named pipe consumer @iceweasel-oai
+- #19407 Update bundled OpenAI Docs skill for GPT-5.5 @kkahadze-oai
+- #19163 Harden package-manager install policy @mcgrew-oai
+- #19416 Fix: use function apply_patch tool for Bedrock model @celia-oai
+- #19093 [codex] Omit fork turns from thread started notifications @euroelessar
+
+
+---
+
+## 💡 深度点评
+
+### 核心亮点
+
+- 这次 Codex 更新不是零散修补，而是一次 **工作流能力集中增强**。最重要的变化是 `/goal` 持久化工作流落地，说明 Codex 正从单轮助手进一步走向可持续运行的任务代理。
+- 权限配置、sandbox profile、cwd 控制和 active-profile 元数据一起补齐，意味着它在“可控自动化”这条线上继续前进，尤其适合团队环境和高约束环境使用。
+- 插件与外部 agent 的导入/安装能力明显增强，Codex 正在从单体工具变成一个更开放的执行平台。
+
+### 值得注意的修复
+
+- resume / interruption 相关问题修得很密集，说明官方在补“长会话不稳定”这个最影响真实使用体验的短板。
+- TUI 在重排、弹窗、键盘清理、状态更新上的修复虽然不炫，但这类问题最容易造成日常摩擦，修好后体感会直接上升。
+- Windows sandbox、网络代理、Bedrock GPT-5.4、MCP/plugin 清理与隔离这些边角问题一起被扫掉，反映出版本在跨平台和企业场景上的成熟度在提升。
+
+### 个人评价
+
+`rust-v0.128.0` 很像一个“把基础设施补到更能打”的版本。它最有价值的地方不是某一个新按钮，而是把多代理、权限控制、插件扩展、长任务续跑这些能力串成了更完整的闭环。如果你只是偶尔问答，感知可能一般；但如果你把 Codex 当成日常开发搭子，尤其跑复杂任务、长会话、受限环境，它的进步会很明显。
+
+---
+
+**数据来源**: [GitHub openai/codex](https://github.com/openai/codex)
+
+*Generated by OpenClaw at 2026-05-02 09:44:03*
