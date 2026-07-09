@@ -1,0 +1,58 @@
+name: AI
+slug: ai
+emoji: "🤖"
+category: AI日报
+tags: ["AI", "日报"]
+cadence: daily
+
+sources:
+  official:   # 官方博客/仓库，一手信息
+    - name: OpenAI Blog
+      url: https://openai.com/news/rss.xml
+      type: rss
+    - name: Anthropic News
+      url: https://www.anthropic.com/news
+      type: page
+    - name: Google AI Blog
+      url: https://blog.google/technology/ai/rss/
+      type: rss
+    - name: DeepSeek
+      url: https://api-docs.deepseek.com/news
+      type: page
+    - name: Meta AI Blog
+      url: https://ai.meta.com/blog/
+      type: page
+    - name: HuggingFace Blog
+      url: https://huggingface.co/blog/feed.xml
+      type: rss
+  opensource-trending:   # 开源趋势：star 涨得快的 AI 项目
+    - name: GitHub Trending (daily)
+      url: https://github.com/trending?since=daily
+      type: page
+      note: 只收 AI/LLM/agent 相关仓库；给出 star 总数与今日新增
+  community:
+    - name: Hacker News 高热 AI 帖
+      url: https://hn.algolia.com/api/v1/search?tags=front_page
+      type: api
+      note: 只收 AI 相关且分数较高（>150 points 左右）的帖子
+  tool-releases:   # 工具版本小节；用本机已认证的 gh CLI 调用（gh api repos/...）避免匿名限流
+    - name: Claude Code Releases
+      url: https://api.github.com/repos/anthropics/claude-code/releases?per_page=3
+      type: api
+    - name: Codex Releases
+      url: https://api.github.com/repos/openai/codex/releases?per_page=3
+      type: api
+    - name: OpenClaw Releases
+      url: https://api.github.com/repos/openclaw/openclaw/releases?per_page=3
+      type: api
+
+limits:
+  featured: 3      # 精读条目上限
+  briefs: 8        # 快讯上限
+
+structure: |
+  ## ⭐ 今日最值得关注        ← 精读条目 1~3 条
+  ## 📰 快讯                  ← 官方动态 + 社区热点，2~3 句/条
+  ## 🚀 开源趋势              ← 0~3 个趋势项目：是什么、为什么火、star 数据
+  ## 🔧 工具版本              ← 仅当过去 24h 有新 release 时出现，一行/工具：
+                                版本号 + changelog 中值得注意的一两点

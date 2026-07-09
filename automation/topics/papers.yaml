@@ -1,0 +1,24 @@
+name: 论文
+slug: papers
+emoji: "📄"
+category: 论文日报
+tags: ["AI", "论文", "日报"]
+cadence: daily
+
+sources:
+  - name: HuggingFace Daily Papers
+    url: https://huggingface.co/api/daily_papers
+    type: api
+    note: 社区已投票筛选；按 upvotes 排序取前若干篇，需再抓论文页/摘要确认内容
+
+limits:
+  featured: 1      # 当天最重要的一篇给精读导读
+  briefs: 5        # 其余精选，每篇 2~3 句
+
+structure: |
+  ## ⭐ 今日必读               ← 1 篇精读导读：解决什么问题、方法核心、为什么重要
+  ## 📄 精选论文               ← 每篇：中文一句话定位 + 2~3 句摘要 + arXiv/HF 链接
+
+style: |
+  - 面向工程师读者：讲清"这篇解决什么实际问题、能不能用上"，少复述数学细节。
+  - 保留论文英文原标题。

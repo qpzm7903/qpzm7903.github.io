@@ -1,0 +1,31 @@
+name: 科技
+slug: tech
+emoji: "🌐"
+category: 科技日报
+tags: ["科技", "日报"]
+cadence: daily
+
+sources:
+  - name: Hacker News 首页高分帖
+    url: https://hn.algolia.com/api/v1/search?tags=front_page
+    type: api
+    note: 取高分帖（>200 points 左右）；剔除已被 AI 话题收录的条目
+  - name: The Verge
+    url: https://www.theverge.com/rss/index.xml
+    type: rss
+    note: 只收重大产品/行业新闻，忽略测评和消费导购
+  - name: Ars Technica
+    url: https://feeds.arstechnica.com/arstechnica/index
+    type: rss
+    note: 只收科技行业实质进展
+
+limits:
+  featured: 2
+  briefs: 6
+
+structure: |
+  ## ⭐ 今日最值得关注        ← 精读条目 1~2 条
+  ## 📰 快讯                  ← 2~3 句/条
+
+style: |
+  - 与 AI 日报跨话题去重：AI 相关条目归 AI 日报，这里不重复收录。

@@ -1,0 +1,37 @@
+name: 股票
+slug: stock
+emoji: "📈"
+category: 股票日报
+tags: ["股票", "财经", "日报"]
+cadence: trading-days   # A股或美股至少一个市场有交易的日子才发
+
+sources:
+  indices:
+    - name: 美股三大指数
+      url: https://query1.finance.yahoo.com/v8/finance/chart/{symbol}
+      type: api
+      symbols: ["^GSPC", "^IXIC", "^DJI"]
+      note: 昨夜收盘价与涨跌幅
+    - name: A股指数
+      url: https://query1.finance.yahoo.com/v8/finance/chart/{symbol}
+      type: api
+      symbols: ["000001.SS", "399001.SZ", "399006.SZ"]
+      note: 上证/深证成指/创业板指，昨日收盘
+  macro-news:
+    - name: 华尔街见闻
+      url: https://dedicated.wallstreetcn.com/rss.xml
+      type: rss
+      note: 只收宏观/大盘级别事件（央行、政策、大宗商品、重大财报），不收个股炒作
+
+limits:
+  events: 5        # 大事条数上限
+
+structure: |
+  ## 📊 大盘一览               ← 指数表：指数名 | 收盘 | 涨跌幅（A股昨日 + 美股昨夜）
+  ## 📰 影响市场的大事          ← 3~5 条，每条 2~3 句
+  ## 🧭 新手解读               ← 一段话：今天市场整体在发生什么、为什么，
+                                 解释用到的术语（如"加息""美债收益率"）
+
+style: |
+  - 读者是股票新手：只看整体、不荐股、不看个股；术语必须顺手解释。
+  - 严禁给出任何买卖建议；解读只陈述"发生了什么和市场为什么这样反应"。
