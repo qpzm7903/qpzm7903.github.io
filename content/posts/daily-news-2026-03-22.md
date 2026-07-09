@@ -1,3 +1,11 @@
+---
+title: "📰 科技热点日报 | 2026-03-22"
+date: 2026-03-22T07:01:13+08:00
+draft: false
+tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
+categories: ["日报"]
+---
+
 # 📰 科技热点日报 | 2026-03-22
 
 **AI 大厂动态 + Hacker News + GitHub Trending**
