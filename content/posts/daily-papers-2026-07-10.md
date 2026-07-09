@@ -12,7 +12,7 @@ categories: ["论文日报"]
 
 论文链接：[arXiv:2607.07508](https://arxiv.org/abs/2607.07508) ｜ [HuggingFace Daily Papers](https://huggingface.co/papers/2607.07508)
 
-**人话版**：你想训练一个 AI 助手帮你自动修代码 Bug——它得学着从打开仓库、搜索代码、改文件、跑测试一路走完一整轮，最后拿"修好没修好"的分数来更新自己。这个完整过程叫 [rollout（展开）](/concepts/rollout/)。问题是：旧训练方式是"攒一批一齐学"，但 agent 完成一轮可能要好几分钟、甚至十几分钟，效率太低；新方式（异步训练）让模型边出结果边学，可这样一来，模型在不停更新参数的时候，那些慢悠悠才执行完的教训已经基于旧参数做出来了——unuz"数据"其实是对应"旧自己"的行为，和"现在的自己"已经脱节。这就是 [off-policy（异策略）偏差](/concepts/off-policy/)。搞不好训练会崩——Loss 来回震荡、agent 越训越傻。本文提出 SAO（Single-rollout Asynchronous Optimization），把旧训练方式里"同一道题让 agent 重做几遍取平均"改成"一道题只做一次"，并结合一个用于预估分数的辅助值模型和"双侧 token 级别裁剪"技巧，把崩溃风险压住。
+**人话版**：你想训练一个 AI 助手帮你自动修代码 Bug——它得学着从打开仓库、搜索代码、改文件、跑测试一路走完一整轮，最后拿"修好没修好"的分数来更新自己。这个完整过程叫 [rollout（展开）](/concepts/rollout/)。问题是：旧训练方式是"攒一批一齐学"，但 agent 完成一轮可能要好几分钟、甚至十几分钟，效率太低；新方式（异步训练）让模型边出结果边学，可这样一来，模型在不停更新参数的时候，那些慢悠悠才执行完的教训已经基于旧参数做出来了——这些"数据"其实是对应"旧自己"的行为，和"现在的自己"已经脱节。这就是 [off-policy（异策略）偏差](/concepts/off-policy/)。搞不好训练会崩——Loss 来回震荡、agent 越训越傻。本文提出 SAO（Single-rollout Asynchronous Optimization），把旧训练方式里"同一道题让 agent 重做几遍取平均"改成"一道题只做一次"，并结合一个用于预估分数的辅助值模型和"双侧 token 级别裁剪"技巧，把崩溃风险压住。
 
 **为什么重要**：这不是纸面实验——它已经实际部署到开源 [GLM-5.2](https://github.com/zai-org/GLM-5)（750 亿参数-激活 40B 的 [MoE](https://arxiv.org/abs/2405.17539)）的 agentic RL 训练管线中，跑了上千步稳定不崩，在 SWE-Bench Verified、BeyondAIME、IMOAnswerBench 等"让 agent 真去修代码 / 做数学"的基准上一致超过了 GRPO 及其变体。这意味着：如果你也在做"用强化学习训练 agent 模型"且已经卡在"agent 慢、训练不稳"这个痛点上，SAO 是一份可对照复用的方案，而不是实验室玩具。
 
