@@ -4,7 +4,7 @@ import os
 import subprocess
 import sys
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import unquote, urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
 PUBLIC_DIR = ROOT / "public"
@@ -24,7 +24,9 @@ def run_hugo_list_all() -> str:
 
 def permalink_to_output_path(permalink: str) -> Path:
     parsed = urlparse(permalink)
-    rel = parsed.path.lstrip("/")
+    # hugo list all 输出的 permalink 对非 ASCII slug 做了 percent 编码，
+    # 而 Hugo 落盘目录用的是 UTF-8 原字符，比对前必须解码。
+    rel = unquote(parsed.path).lstrip("/")
     if not rel:
         return PUBLIC_DIR / "index.html"
     return PUBLIC_DIR / rel / "index.html"
