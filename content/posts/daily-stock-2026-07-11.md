@@ -76,3 +76,19 @@ SK海力士美国存托凭证（ADR）周五在纳斯达克上市，募资规模
 - **PCE（Personal Consumption Expenditures）价格指数**：美联储最喜欢用来衡量通胀的指标。PCE 比大家更熟悉的CPI覆盖范围更广，且能反映价格变动后的消费替代效应。最新读数约为2%目标的两倍，意味着通胀仍很高。
 - **60/40股债组合**：经典的"60%股票+40%债券"被动投资组合，被华尔街视作"懒人投资"基准。摩根大通实验中AI基金经理跑赢60/40就是把自己和这个老基准做对比。
 - **LEO卫星**：近地轨道（Low Earth Orbit）卫星。SpaceX的Starlink星链就是LEO卫星网络的代表，高盛预计2031年这类卫星装机量将暴增。
+
+---
+
+## 📖 今日英语
+
+**ADR（American Depositary Receipt）** — "ADR（American Depositary Receipt）：美国存托凭证，让外国公司股票可在美股交易所交易。"（出处：新手解读 · 关键术语解释）
+美国存托凭证：由美国银行发行的代表外国公司股票的凭证，让外国公司无需在美直接上市就能被美国投资者交易。常见搭配：ADR listing（ADR 上市）、ADR premium（ADR 相对正股的溢价）、unsponsored ADR（无保荐 ADR）。IPO 语境里是高频词——SK海力士以 ADR 形式赴美上市即指此。
+
+**PCE（Personal Consumption Expenditures）价格指数** — "PCE（Personal Consumption Expenditures）价格指数：美联储最喜欢用来衡量通胀的指标。PCE 比 CPI 覆盖范围更广，且能反映价格变动后的消费替代效应。"（出处：新手解读 · 关键术语解释）
+个人消费支出价格指数：美联储首选的通胀指标，比大众熟悉的 CPI 覆盖范围更广，还能捕捉消费者因价格变化而转向替代品带来的效果（substitution effect）。常见搭配：core PCE（核心 PCE，剔除食品和能源）、PCE index、PCE price index。美联储 2% 的通胀目标指的就是 PCE 口径。
+
+**60/40 portfolio** — "60/40股债组合：经典的"60%股票+40%债券"被动投资组合，被华尔街视作"懒人投资"基准。摩根大通实验中AI基金经理跑赢60/40就是把自己和这个老基准做对比。"（出处：新手解读 · 关键术语解释）
+经典的 60% 股票 + 40% 债券稳健配置组合，长期以来被视为「懒人投资」基准。常见搭配：beat/outperform the 60/40、rebalance the 60/40、60/40 split。摩根大通把 AI 基金经理和它做对比，本质上是自比「能否用算法打败教科书配置」。
+
+**overbought** — "大摩泼冷水：芯片股"明显超买"，AI资本开支开始放缓"（出处：影响市场的大事 · 第5条标题）
+超买：技术分析术语，指资产价格短期内被推高到超出基本面支撑的水平，通常暗示回调风险。常见搭配：overbought conditions、RSI indicates overbought、clearly overbought。反义词是 oversold（超卖）。这是阅读美股研报和财经新闻时最常见的词之一。
