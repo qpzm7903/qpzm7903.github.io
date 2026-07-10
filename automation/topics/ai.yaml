@@ -45,6 +45,15 @@ sources:
     - name: OpenClaw Releases
       url: https://api.github.com/repos/openclaw/openclaw/releases?per_page=3
       type: api
+    - name: opencode Releases
+      url: https://api.github.com/repos/anomalyco/opencode/releases?per_page=3
+      type: api
+    - name: pi Releases
+      url: https://api.github.com/repos/earendil-works/pi/releases?per_page=3
+      type: api
+    - name: oh-my-pi (omp) Releases
+      url: https://api.github.com/repos/can1357/oh-my-pi/releases?per_page=3
+      type: api
 
 limits:
   featured: 3      # 精读条目上限
