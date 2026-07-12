@@ -54,6 +54,9 @@ sources:
     - name: oh-my-pi (omp) Releases
       url: https://api.github.com/repos/can1357/oh-my-pi/releases?per_page=3
       type: api
+    - name: Hermes Agent Releases
+      url: https://api.github.com/repos/nousresearch/hermes-agent/releases?per_page=3
+      type: api
 
 limits:
   featured: 3      # 精读条目上限
