@@ -35,9 +35,10 @@ Front matter（强制，缺失即事故）：
 ```yaml
 ---
 title: "<emoji> <话题名>日报 | YYYY-MM-DD"
-date: YYYY-MM-DDTHH:MM:SS+08:00   # 必须是实际生成时刻（用 date 命令取当前北京时间）。
-                                  # 绝不允许写未来时间：本站未开 buildFuture，
-                                  # 未来日期的文章不会被构建（= 隐形文章事故）。
+date: YYYY-MM-DDTHH:MM:SS+08:00   # 必须用命令 `TZ=Asia/Shanghai date '+%FT%T+08:00'`
+                                  # 的实际输出填写，禁止手写或估算时间戳（包括给多篇
+                                  # 文章预排递增时间）。绝不允许出现未来时间：本站未开
+                                  # buildFuture，未来日期的文章不会被构建（= 隐形文章事故）。
 draft: false
 tags: [<话题 YAML 中的 tags>]
 categories: ["<话题 YAML 中的 category>"]
