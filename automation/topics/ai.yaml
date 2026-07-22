@@ -25,6 +25,27 @@ sources:
     - name: HuggingFace Blog
       url: https://huggingface.co/blog/feed.xml
       type: rss
+  official-cn:   # 中国 AI 厂商官方源，一手信息；与海外同等权重
+    - name: 通义千问 Qwen Blog
+      url: https://qwenlm.github.io/blog/
+      type: page
+      note: 备用 https://qwen.ai/blog
+    - name: 字节 Seed Blog
+      url: https://seed.bytedance.com/zh/blog
+      type: page
+    - name: MiniMax News
+      url: https://www.minimax.io/news
+      type: page
+    - name: 智谱 GLM（GitHub 组织）
+      url: https://api.github.com/orgs/zai-org/repos?sort=pushed&per_page=10
+      type: api
+      note: z.ai 无博客页，以组织仓库近期动态为准
+    - name: 月之暗面 Kimi（GitHub 组织）
+      url: https://api.github.com/orgs/MoonshotAI/repos?sort=pushed&per_page=10
+      type: api
+    - name: 腾讯混元（GitHub 组织）
+      url: https://api.github.com/orgs/Tencent-Hunyuan/repos?sort=pushed&per_page=10
+      type: api
   opensource-trending:   # 开源趋势：star 涨得快的 AI 项目
     - name: GitHub Trending (daily)
       url: https://github.com/trending?since=daily
@@ -69,3 +90,8 @@ structure: |
   ## 🔧 工具版本              ← 仅当过去 24h 有新 release 时出现，一行/工具：
                                 版本号 + changelog 中值得注意的一两点
   ## 📖 今日英语              ← 必有小节，规则见 PIPELINE.md 通用约定
+
+style: |
+  - 中外均衡：中国厂商（DeepSeek/Qwen/GLM/Kimi/字节/MiniMax/混元）的模型发布、
+    开源动作与海外大厂同等优先级，精读区不应长期只有海外条目。
+  - GitHub Trending 里的中国团队项目照常收录，注明团队背景。
