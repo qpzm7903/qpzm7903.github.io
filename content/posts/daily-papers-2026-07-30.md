@@ -1,47 +1,59 @@
 ---
-title: "AI 论文日报 2026-07-30"
+title: "📄 论文日报 | 2026-07-30"
 date: 2026-07-30T06:39:03+08:00
 draft: false
-tags: ["AI", "论文", "机器学习", "日报"]
-categories: ["日报"]
-summary: "今日必读 Kimi K3 技术报告；另看仅凭高保真 UMI 数据部署机器人策略，以及用相关性先验引导语料库交互的 RARG 搜索代理。"
+tags: ["AI", "论文", "日报"]
+categories: ["论文日报"]
 ---
 
-## 今日必读
+## ⭐ 今日必读
 
-### Kimi K3：开放前沿智能模型的系统报告
+### HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone
 
-**作者：** Kimi Team 等 300 余位作者  
-**论文链接：** [arXiv:2607.24653](https://arxiv.org/abs/2607.24653)
-
-Kimi K3 是一个 2.8T 总参数、104B 激活参数的 MoE 模型，原生支持视觉与 100 万 token 上下文。其架构把 Kimi Delta Attention、Attention Residuals 与 Stable LatentMoE 组合起来：896 个路由专家中每个 token 激活 16 个。作者称，相比 Kimi K2，整体 scaling efficiency 提升约 2.5 倍。
-
-这篇报告值得读的地方不只是参数规模，而是训练系统与长程智能体训练的共同设计。团队描述了平衡专家并行、内存管理、百万 token agentic RL 的持久 rollout 和 sandbox 状态，以及部署侧优化。后训练同时覆盖通用、编程、智能体与不同 reasoning effort，目标是让复杂任务组合与长程执行更稳。
-
-论文没有回避边界：作者写明总体表现仍落后于最强闭源模型。与此同时，团队开放完整权重，为第三方复现实验、检查基准选择与测试长上下文行为提供了条件。
-
-> “We release the full Kimi K3 model weights to facilitate future research.”
-
-## 也值得了解
-
-### HiFi-UMI：不用真实机器人后训练，也能部署操作策略
-
-**作者：** Yuteng Wei、Jinming Ma、Jiawei Wang 等  
+**作者：** Yuteng Wei、Jinming Ma、Jiawei Wang 等
 **论文链接：** [arXiv:2607.25895](https://arxiv.org/abs/2607.25895)
 
-机器人操作数据长期在“高保真但昂贵的遥操作”和“便宜可扩展但误差较大的无机器人采集”之间取舍。HiFi-UMI 把重点放在提高后者的采集质量：头戴式离线双目惯性 SLAM、原生双夹爪相对位姿、微秒级 GPIO 同步，以及每只手约 200° 视野的双广角相机。
+**人话版：** 教机器人做家务或装配，通常要让真人遥控真实机器人录示范，准确但昂贵。HiFi-UMI 想证明：如果把“人手拿便携设备做示范”的数据采得足够准，就能不做真实机器人后训练，直接把策略部署到机器上。
 
-系统在不依赖外部追踪基础设施时达到 3 mm 工作区局部末端精度。只用 HiFi-UMI 演示做后训练的策略可直接部署到真实机器人；最强策略在精密插入任务上达到 85% 成功率。团队还开放 2,000 小时 HiFi-UMI-2K 数据集，并报告用同一体系 4,000 小时预训练后，十项未见任务的动作误差下降 41%。
+系统把头戴式双目惯性定位、双夹爪原生相对位姿、微秒级 GPIO 同步和每只手约 200° 视野的双广角相机组合起来，在没有外部追踪基础设施时达到 3 mm 工作区局部末端精度。只用 HiFi-UMI 演示做后训练的策略可直接部署到真实机器人；最强策略在精密插入任务上达到 85% 成功率。
 
-### RARG：让相关性不只负责检索，还直接指导 grep 顺序
+团队还开放 2,000 小时的 HiFi-UMI-2K 数据集，每条示范都通过仿真回放自动重建和检查。报告称，用同一体系的 4,000 小时数据预训练后，十项未见任务的动作误差下降 41%。重要性在于它尝试把机器人数据生产从昂贵设备使用时间，转向可规模化的人类示范采集。
 
-**作者：** Yuqing Li、Zexue He、Julian McAuley 等  
+**原文金句：** “We demonstrate zero-robot post-training.”
+**中文：** 我们展示了不使用真实机器人数据的后训练。
+
+## 📄 也值得了解
+
+### Self-Supervised Consistency Enhanced Disentangled Learning for Neural Decoding Generalization in Brain-Machine Interface
+
+**作者：** Jiyu Wei、Di Hong、Zhanjie Zhang 等
+**论文链接：** [arXiv:2607.24023](https://arxiv.org/abs/2607.24023)
+
+**人话版：** 脑机接口今天能读懂的神经信号，过几天可能“口音变了”，导致控制效果变差。这篇论文希望让解码器学会忽略这种日常漂移，并分别理解速度、方向和快慢，不必天天重新校准。
+
+SSCDL 先用教师—学生一致性约束和模拟扰动，学习对神经漂移不敏感的表示；再用三个专门解码器分别处理 velocity、direction 和 speed。作者报告其跨天解码性能与稳定性达到当前最佳水平。对长期使用的侵入式脑机接口而言，减少反复校准是从实验室走向康复与辅助设备的关键条件。
+
+### A New Role for Relevance: Guiding Corpus Interaction in Agentic Search
+
+**作者：** Yuqing Li、Zexue He、Julian McAuley 等
 **论文链接：** [arXiv:2607.24223](https://arxiv.org/abs/2607.24223)
 
-传统检索把相关性用于选 top-k 文档，但复杂问题还需要定位、组合和核验证据。直接语料交互（DCI）允许代理像使用 grep 一样探索文档，却可能很晚才遇到关键线索。RARG 把相关性变成执行先验：先决定文档遍历顺序，再用相关段落初始化入口，并重排 grep 匹配片段。
+**人话版：** 搜索代理像人在一大堆文件里用 grep 找答案；如果完全按文件顺序扫，关键线索可能很晚才出现。RARG 先给文件和段落排优先级，让代理先看更可能有用的地方。
 
-作者报告，RARG 在浏览问答和推理型检索上改善了准确率—效率前沿。核心启示是：相关性不必停留在“选哪些文档”，也可进入工具执行调度，让代理更早看到高信息量证据；代码已公开，适合进一步验证其成本与泛化能力。
+方法把相关性从一次性的 top-k 筛选变成执行先验：安排文档遍历顺序、用相关段落初始化入口，并重新排序 grep 命中片段。作者称它在浏览问答和推理型检索上改善了准确率—效率权衡。代码已经公开，下一步值得检查的是不同语料规模下的成本，以及重排模型本身是否会漏掉“看似不相关但决定答案”的证据。
+
+## 📖 今日英语
+
+1. **high-fidelity（高保真）**
+   原句（HiFi-UMI）： “Learning deployable manipulation policies is bottlenecked by the scarcity of data that is both high-fidelity and scalable.”
+   常用于数据、音频、仿真和传感器，强调与真实对象足够接近。
+2. **neural drift（神经漂移）**
+   原句（SSCDL）： “Due to neural drift, the performance of BMIs decreases over time.”
+   这是脑机接口长期稳定性讨论中的核心短语。
+3. **execution prior（执行先验）**
+   原句（RARG）： “RARG turns relevance into an execution prior for corpus interaction.”
+   适合描述一个评分不只做筛选，还直接决定工具执行顺序。
 
 ## 选稿说明
 
-今日候选来自 Hugging Face Daily Papers API，并按 upvotes 排序后与最近 7 天论文日报逐条做 arXiv ID 去重；以上三篇均未在历史日报的论文链接行出现。Kimi K3 同时出现在 AI 日报，但论文日报聚焦技术报告本身，属于不同编辑角度。
+候选来自 Hugging Face Daily Papers API，并按 upvotes 排序后与最近 7 天日报的“论文链接”行逐条做 arXiv ID 去重。Kimi K3 已归入 AI 日报，因此论文日报不重复收录其技术报告；以上三篇的 URL 均未在历史日报出现。
