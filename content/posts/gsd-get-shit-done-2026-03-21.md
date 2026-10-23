@@ -2,7 +2,7 @@
 title: "GSD：专门对抗 Context Rot 的 Claude Code 项目管理层"
 date: 2026-03-21
 tags: ["Claude Code", "GSD", "AI Coding", "开源项目", "工程实践"]
-categories: ["AI 工具"]
+categories: ["AI日报"]
 description: "深入分析 get-shit-done (GSD) 的架构设计，探讨它如何通过状态文件、编排架构和验证层，从底层消灭 AI 编码过程中的 context rot 问题。"
 draft: false
 ---

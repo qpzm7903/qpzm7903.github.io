@@ -329,9 +329,10 @@ def main() -> int:
         mm = re.match(r"/categories/([^/]+)/?$", unquote(entry["url"]))
         if mm:
             coverage_menu["category_entries"] += 1
-            covered_terms.add(mm.group(1))
+            # Hugo 生成的 term URL 会把 term 名小写化（AI日报 → ai日报），比较前统一小写
+            covered_terms.add(mm.group(1).lower())
     if cat_total:
-        covered = sum(v for k, v in cats.items() if k in covered_terms)
+        covered = sum(v for k, v in cats.items() if k.lower() in covered_terms)
         coverage_menu["posts_covered_by_categories"] = covered
         coverage_menu["ratio"] = round(covered / cat_total, 4)
 

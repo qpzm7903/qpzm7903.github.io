@@ -3,6 +3,12 @@ languageCode: "zh-cn"
 title: "科技热点日报"
 theme: "papermod"
 
+# 分类法：category/tag 为 Hugo 默认，series 需显式注册才会生成 /series/ 页面
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
 pagination:
   pagerSize: 20
 
@@ -57,7 +63,7 @@ params:
     includeScore: false
     threshold: 0.3
 
-# 菜单
+# 菜单（与 taxonomy 收敛后的模型一致；每个入口都能到达一类内容）
 menu:
   main:
     - identifier: "home"
@@ -80,26 +86,38 @@ menu:
       name: "股票"
       url: "/categories/股票日报/"
       weight: 5
+    - identifier: "tool-updates"
+      name: "工具更新"
+      url: "/categories/工具更新/"
+      weight: 6
+    - identifier: "tech-articles"
+      name: "技术"
+      url: "/categories/技术/"
+      weight: 7
     - identifier: "weekly"
       name: "周报"
       url: "/categories/周报/"
-      weight: 6
+      weight: 8
+    - identifier: "series"
+      name: "连载"
+      url: "/series/"
+      weight: 9
     - identifier: "concepts"
       name: "概念库"
       url: "/concepts/"
-      weight: 7
+      weight: 10
     - identifier: "archives"
       name: "归档"
       url: "/archives/"
-      weight: 8
+      weight: 11
     - identifier: "tags"
       name: "标签"
       url: "/tags/"
-      weight: 9
+      weight: 12
     - identifier: "search"
       name: "🔍 搜索"
       url: "/search/"
-      weight: 10
+      weight: 13
 
 # 启用搜索
 outputs:

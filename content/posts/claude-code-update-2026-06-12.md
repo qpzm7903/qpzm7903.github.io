@@ -4,6 +4,7 @@ date: 2026-06-12T10:00:00+08:00
 draft: false
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["Claude Code 更新"]
 ---
 
 # 🤖 Claude Code 更新 v2.1.173

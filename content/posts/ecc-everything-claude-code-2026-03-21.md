@@ -2,7 +2,7 @@
 title: "ECC 不是配置包：理解 everything-claude-code 的系统设计"
 date: 2026-03-21
 tags: ["AI", "Claude Code", "Agent", "工程实践", "开源项目"]
-categories: ["AI 工具"]
+categories: ["AI日报"]
 description: "深入分析 everything-claude-code (ECC) 的架构设计，探讨它如何通过技能、本能、记忆和验证四层体系，把 AI agent 变成可预测的工程执行单元。"
 draft: false
 ---

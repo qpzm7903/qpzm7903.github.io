@@ -3,7 +3,7 @@ title: "让 AI 在你睡觉时做研究：autoresearch 的设计哲学"
 date: 2026-03-11T14:13:00+08:00
 draft: false
 tags: ["AI", "Agent", "autoresearch", "Karpathy", "系统设计", "开源项目"]
-categories: ["AI 工具", "架构分析"]
+categories: ["技术"]
 description: "Karpathy 的 autoresearch 仓库表面是 ML 实验自动化工具，实质是一个关于如何设计真正自主 Agent 系统的完整示范。本文从三文件架构、固定预算设计、实验数据和系统宪法四个角度拆解它的设计哲学。"
 ---
 

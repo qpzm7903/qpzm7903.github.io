@@ -4,6 +4,7 @@ date: 2026-03-20T10:00:00+08:00
 draft: false
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["Codex 更新"]
 ---
 
 # 🔧 Codex 更新 rust-v0.116.0
