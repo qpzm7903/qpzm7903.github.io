@@ -268,6 +268,30 @@ def main() -> int:
             else:
                 sitemap["other"] += 1
 
+    sitemap_tag_terms = []
+    if sitemap_path.exists():
+        for loc in (el.text or "" for el in ET.parse(sitemap_path).iter() if el.tag.endswith("loc")):
+            path = unquote(urlparse(loc).path)
+            mm = re.match(r"^/tags/([^/]+)/$", path)
+            if mm:
+                sitemap_tag_terms.append(mm.group(1))
+
+    # ---- 索引策略（P2）：noindex 页面统计 + sitemap 中薄 term 检查
+    noindex_re = re.compile(r'name=["\']?robots["\']?\s+content=["\']?noindex', re.I)
+    noindex_pages = []
+    for f in public.rglob("index.html"):
+        try:
+            if noindex_re.search(f.read_text(encoding="utf-8", errors="replace")):
+                noindex_pages.append("/" + str(f.parent.relative_to(public)).replace("index.html", ""))
+        except OSError:
+            continue
+    # Hugo 会把 term 名 slug 化进 URL：小写 + 空格转连字符（"AI 编程" → "ai-编程"）
+    def _slug(term: str) -> str:
+        return term.lower().replace(" ", "-")
+
+    tags_lower = {_slug(k): v for k, v in tags.items()}
+    sitemap_thin_terms = sorted(t for t in sitemap_tag_terms if tags_lower.get(t, -1) != -1 and tags_lower[t] < THIN_TAG_POSTS)
+
     rss_path = public / "index.xml"
     rss = {"index_bytes": rss_path.stat().st_size if rss_path.exists() else 0,
            "index_items": 0,
@@ -394,6 +418,13 @@ def main() -> int:
             "sitemap": sitemap,
             "rss": rss,
             "robots": robots,
+            "index_policy": {
+                "noindex_pages": len(noindex_pages),
+                "noindex_samples": sorted(noindex_pages)[:10],
+                "sitemap_tag_terms": len(sitemap_tag_terms),
+                "sitemap_thin_tag_terms": len(sitemap_thin_terms),
+                "sitemap_thin_tag_samples": sitemap_thin_terms[:10],
+            },
         },
     }
     json.dump(result, sys.stdout, ensure_ascii=False, indent=2, sort_keys=True)
