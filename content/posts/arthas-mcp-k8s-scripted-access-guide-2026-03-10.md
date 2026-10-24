@@ -3,7 +3,7 @@ title: "一键打通本地 Agent 到远端 K8s Arthas MCP：脚本化接入实�
 date: 2026-03-10T14:12:00+08:00
 draft: false
 tags: ["Arthas", "MCP", "Kubernetes", "Java", "脚本化", "SSH", "port-forward", "排障"]
-categories: ["Java 性能分析", "Kubernetes", "实战指南"]
+categories: ["技术"]
 description: "上一篇讲清楚了为什么要用 SSH + kubectl port-forward 把远端 Arthas MCP 安全带到本地。这一篇继续往前走：把它做成一键脚本，讲清楚参数设计、执行流程、典型命令、常见故障和压测中的使用姿势。"
 ---
 

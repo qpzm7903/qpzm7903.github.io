@@ -1,0 +1,10 @@
+# https://qpzm7903.github.io/robots.txt
+# 索引策略见 docs/index-policy.md：
+#   * 文章、≥3 篇的 term 页、概念卡：索引
+#   * <3 篇的 term 页、跳转页、搜索页：noindex（且不进 sitemap）
+# 注意：不在此处 Disallow 任何 noindex 页面——被 Disallow 的 URL 爬虫读不到 noindex，
+# 反而可能以"无信号"被收录。
+User-agent: *
+Allow: /
+
+Sitemap: https://qpzm7903.github.io/sitemap.xml

@@ -2,7 +2,7 @@
 title: "AI 编程工作流增强框架三强对比：ECC、BMAD 还是 Superpowers？"
 date: 2026-03-15
 tags: [AI编程, Claude Code, 工具分析, 工程实践]
-categories: [技术分析]
+categories: ["技术"]
 ---
 
 everything-claude-code（ECC）、BMAD-METHOD 和 Superpowers 代表了 AI 编程工具增强的三种不同路径：ECC 是工具链性能层，旨在压榨 Agent 的执行上限；BMAD 是项目管理方法论，将敏捷开发引入 AI 时代；Superpowers 是最小化工作流约束系统，通过强制 TDD 纪律减少随意性。三者解决的问题维度不同，不存在绝对优劣。

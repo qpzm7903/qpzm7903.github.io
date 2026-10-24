@@ -1,0 +1,28 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+{{- /* P2: 只把"该被索引"的 URL 放进 sitemap。
+       排除规则与 docs/index-policy.md 一致：
+         1) front matter 标了 noindex / robotsNoIndex 的页面
+         2) 承载 < 3 篇文章的 term 页（薄 term 页，抓取预算不划算）
+       跳转页是 static/ 下的静态文件，本身不经过 Hugo，天然不在 sitemap 内。 */ -}}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {{- range .Data.Pages }}
+    {{- $skip := false }}
+    {{- if .Params.noindex }}{{ $skip = true }}{{ end }}
+    {{- if .Params.robotsNoIndex }}{{ $skip = true }}{{ end }}
+    {{- if eq .Kind "term" }}{{ if lt (len .Pages) 3 }}{{ $skip = true }}{{ end }}{{ end }}
+    {{- if not $skip }}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    {{- if not .Lastmod.IsZero }}
+    <lastmod>{{ safeHTML (.Lastmod.Format "2006-01-02T15:04:05-07:00") }}</lastmod>
+    {{- end }}
+    {{- with .Sitemap.ChangeFreq }}
+    <changefreq>{{ . }}</changefreq>
+    {{- end }}
+    {{- if ge .Sitemap.Priority 0.0 }}
+    <priority>{{ .Sitemap.Priority }}</priority>
+    {{- end }}
+  </url>
+    {{- end }}
+  {{- end }}
+</urlset>

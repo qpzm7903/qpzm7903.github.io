@@ -3,7 +3,7 @@ title: "📰 科技热点日报 | 2026-05-28"
 date: 2026-05-28T07:01:19+08:00
 draft: false
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
-categories: ["日报"]
+categories: ["AI日报"]
 ---
 
 # 📰 科技热点日报 | 2026-05-28
