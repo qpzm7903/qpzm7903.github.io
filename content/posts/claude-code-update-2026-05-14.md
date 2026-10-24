@@ -2,8 +2,10 @@
 title: "🤖 Claude Code 更新日报 2026-05-14"
 date: 2026-05-14T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-05-14：Added terminalSequence field to hook JSON output so hooks can emit desktop notifications…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["Claude Code 更新"]
 ---
 
 # 🤖 Claude Code 更新 v2.1.141

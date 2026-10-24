@@ -2,8 +2,10 @@
 title: "🔧 Codex 更新日报 2026-05-02"
 date: 2026-05-02T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-05-02：resume / interruption 相关问题修得很密集，说明官方在补“长会话不稳定”这个最影响真实使用体验的短板。"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["Codex 更新"]
 ---
 
 # 🔧 Codex 更新 rust-v0.128.0

@@ -2,8 +2,10 @@
 title: "🔧 Openclaw 更新日报 2026-03-16"
 date: 2026-03-16T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-03-16：Dashboard 渲染性能优化：修复了在执行工具密集型（tool-heavy）任务时，UI 频繁重载全量历史记录导致的重绘风暴和界面冻结问题。"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["openclaw 更新"]
 ---
 
 # 🔧 Openclaw 更新 2026.3.13

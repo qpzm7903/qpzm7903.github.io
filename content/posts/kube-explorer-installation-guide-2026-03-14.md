@@ -3,7 +3,7 @@ title: "kube-explorer：轻量级 Kubernetes Dashboard 替代方案"
 date: 2026-03-14T12:00:00+08:00
 draft: false
 tags: ["Kubernetes", "Dashboard", "kube-explorer", "Docker Desktop"]
-categories: ["工具推荐"]
+categories: ["技术"]
 description: "官方 Kubernetes Dashboard 在新版本 K8s 上存在兼容性问题，kube-explorer 是一个轻量、无依赖的替代方案，支持本地运行和集群部署。"
 ---
 

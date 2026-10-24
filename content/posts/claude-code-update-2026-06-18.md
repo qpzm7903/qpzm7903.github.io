@@ -2,8 +2,10 @@
 title: "🤖 Claude Code 更新日报 2026-06-18"
 date: 2026-06-18T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-06-18：Added /config key=value syntax to set any setting from the prompt (e.g. /config thinking=f…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["Claude Code 更新"]
 ---
 
 # 🤖 Claude Code 更新 v2.1.181

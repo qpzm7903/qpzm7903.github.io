@@ -2,8 +2,10 @@
 title: "🤖 Claude Code 更新日报 2026-06-30"
 date: 2026-06-30T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-06-30：Added support for organization default models — admins set it in the org console; it shows…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["Claude Code 更新"]
 ---
 
 # 🤖 Claude Code 更新 v2.1.196

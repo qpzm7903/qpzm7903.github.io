@@ -2,8 +2,10 @@
 title: "🔧 Openclaw 更新日报 2026-05-31"
 date: 2026-05-31T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-05-31：值得留意的是大量与中断恢复、超时边界、状态同步、日志收敛相关的修复。这类改动平时不显眼，但对长任务、跨端会话和自动化流程影响很大，能明显减少“任务卡住但没有明确报错”的情况。"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["openclaw 更新"]
 ---
 
 # 🔧 Openclaw 更新 2026.5.30

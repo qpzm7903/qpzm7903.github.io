@@ -2,6 +2,7 @@
 title: "🌐 科技日报 | 2026-07-19"
 date: 2026-07-19T06:41:00+08:00
 draft: false
+description: "今日精选：周末科技主线两条：一条是\"显示器通过 Windows Update 悄悄装 McAfee 推广弹窗\"——把硬件外设强装软件这条隐蔽供应链摆到了桌面，HN 一天 925 分"
 tags: ["科技", "日报"]
 categories: ["科技日报"]
 ---

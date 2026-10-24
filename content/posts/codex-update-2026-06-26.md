@@ -2,8 +2,10 @@
 title: "🔧 Codex 更新日报 2026-06-26"
 date: 2026-06-26T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-06-26：MCP tools now use tool search by default when supported, improving tool discovery while preservi…"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["Codex 更新"]
 ---
 
 # 🔧 Codex 更新 rust-v0.142.2

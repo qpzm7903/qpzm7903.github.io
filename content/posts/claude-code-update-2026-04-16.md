@@ -2,8 +2,10 @@
 title: "🤖 Claude Code 更新日报 2026-04-16"
 date: 2026-04-16T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-04-16：Added /tui command and tui setting — run /tui fullscreen to switch to flicker-free renderi…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["Claude Code 更新"]
 ---
 
 # 🤖 Claude Code 更新 v2.1.110

@@ -2,8 +2,10 @@
 title: "🔧 Openclaw 更新日报 2026-04-02"
 date: 2026-04-02T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-04-02：Tasks/chat: add /tasks as a chat-native background task board for the current session, with r…"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["openclaw 更新"]
 ---
 
 # 🔧 Openclaw 更新 2026.4.2

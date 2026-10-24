@@ -2,8 +2,10 @@
 title: "🔧 Openclaw 更新日报 2026-05-23"
 date: 2026-05-23T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-05-23：流式并发工具调用的数据损坏修复：针对 OpenAI 兼容接口，修改了并行 Tool-call 的 Delta 解析逻辑，为不同的并发调用分配独立的参数缓冲区，修复了因缓冲区复用导致的流式…"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["openclaw 更新"]
 ---
 
 # 🔧 Openclaw 更新 2026.5.22

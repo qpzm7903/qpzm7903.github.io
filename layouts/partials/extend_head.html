@@ -2,3 +2,13 @@
 {{- $css := resources.Get "css/custom.css" | minify | fingerprint -}}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous">
 {{- /* end custom head */ -}}
+
+{{- /* P2 索引策略：薄 term 页与显式标记的页面输出 noindex,follow --------------------
+     说明：PaperMod 的 head.html 固定输出一条 index,follow；这里额外输出 noindex 时，
+     搜索引擎（Google/Bing）按"最严格者生效"取 noindex。不覆写主题模板以避免升级冲突，
+     代价是页面里出现两条 robots 声明（已在 docs/index-policy.md 记录）。 */ -}}
+{{- $noindex := false -}}
+{{- if .Params.noindex }}{{ $noindex = true }}{{ end -}}
+{{- if and (eq .Kind "term") (lt (len .Pages) 3) }}{{ $noindex = true }}{{ end -}}
+{{- if $noindex }}<meta name="robots" content="noindex, follow">
+{{- end -}}

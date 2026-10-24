@@ -2,8 +2,9 @@
 title: "📰 科技热点日报 | 2026-04-10"
 date: 2026-04-10T02:40:13+08:00
 draft: false
+description: "今日精选：LittleSnitch for Linux"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
-categories: ["日报"]
+categories: ["AI日报"]
 ---
 
 # 📰 科技热点日报 | 2026-04-10

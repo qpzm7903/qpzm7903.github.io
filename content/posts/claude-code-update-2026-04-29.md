@@ -2,8 +2,10 @@
 title: "🤖 Claude Code 更新日报 2026-04-29"
 date: 2026-04-29T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-04-29：Added ANTHROPIC_BEDROCK_SERVICE_TIER environment variable to select a Bedrock service tier…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["Claude Code 更新"]
 ---
 
 # 🤖 Claude Code 更新 v2.1.122

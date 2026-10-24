@@ -2,8 +2,9 @@
 title: "📰 科技热点日报 | 2026-06-18"
 date: 2026-06-18T07:25:47+08:00
 draft: false
+description: "今日精选：Lore – Open source version control system designed for scalability"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
-categories: ["日报"]
+categories: ["AI日报"]
 ---
 
 # 📰 科技热点日报 | 2026-06-18

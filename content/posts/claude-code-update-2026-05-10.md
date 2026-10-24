@@ -2,8 +2,10 @@
 title: "🤖 Claude Code 更新日报 2026-05-10"
 date: 2026-05-10T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-05-10：执行可靠性优化：该版本重点针对内部处理逻辑进行了重构，旨在提升工具在复杂任务流中的运行稳定性。"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["Claude Code 更新"]
 ---
 
 # 🤖 Claude Code 更新 v2.1.138

@@ -2,8 +2,10 @@
 title: "🔧 Codex 更新日报 2026-04-11"
 date: 2026-04-11T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-04-11：Realtime voice sessions now default to the v2 WebRTC path, with configurable transport, voice se…"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["Codex 更新"]
 ---
 
 # 🔧 Codex 更新 rust-v0.119.0

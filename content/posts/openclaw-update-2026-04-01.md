@@ -2,8 +2,10 @@
 title: "🔧 Openclaw 更新日报 2026-04-01"
 date: 2026-04-01T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-04-01：模型失效切换与异常处理改进：修复了 Anthropic api_error 的瞬态错误识别，使其能正确触发重试而非直接崩溃；"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["openclaw 更新"]
 ---
 
 # 🔧 Openclaw 更新 2026.3.31

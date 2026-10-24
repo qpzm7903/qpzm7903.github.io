@@ -2,8 +2,9 @@
 title: "📰 科技热点日报 | 2026-06-25"
 date: 2026-06-25T08:58:59+08:00
 draft: false
+description: "今日精选：We’re making Bunny DNS free"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
-categories: ["日报"]
+categories: ["AI日报"]
 ---
 
 # 📰 科技热点日报 | 2026-06-25

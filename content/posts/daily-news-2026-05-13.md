@@ -2,8 +2,9 @@
 title: "📰 科技热点日报 | 2026-05-13"
 date: 2026-05-13T07:01:19+08:00
 draft: false
+description: "今日精选：Bambu Lab is abusing the open source social contract"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
-categories: ["日报"]
+categories: ["AI日报"]
 ---
 
 # 📰 科技热点日报 | 2026-05-13

@@ -2,8 +2,10 @@
 title: "🤖 Claude Code 更新日报 2026-05-15"
 date: 2026-05-15T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-05-15：Added new claude agents flags: --add-dir, --settings, --mcp-config, --plugin-dir, --permis…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["Claude Code 更新"]
 ---
 
 # 🤖 Claude Code 更新 v2.1.142

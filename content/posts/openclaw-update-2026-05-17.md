@@ -2,8 +2,10 @@
 title: "🔧 Openclaw 更新日报 2026-05-17"
 date: 2026-05-17T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-05-17：带推理过程模型的多轮工具调用断层：修复了 Anthropic 及兼容模型（包含 Xiaomi MiMo 和 Kimi 的思考模型）在多轮工具调用时的状态毒化问题。"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["openclaw 更新"]
 ---
 
 # 🔧 Openclaw 更新 2026.5.17

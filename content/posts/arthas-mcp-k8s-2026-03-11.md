@@ -3,7 +3,7 @@ title: "Arthas MCP 接远端 K8s：真正的挑战是链路，不是配置"
 date: 2026-03-11T10:00:00+08:00
 draft: false
 tags: ["Arthas", "MCP", "Kubernetes", "AI Agent", "Java", "性能分析"]
-categories: ["工程实践"]
+categories: ["技术"]
 description: "在远端 K8s 环境下接入 Arthas MCP，核心问题不是 MCP 参数配置，而是如何设计一条安全、可复用的连接链路，把复杂度留在连接层，让 Agent 只看到稳定的本地地址。"
 ---
 

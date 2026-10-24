@@ -2,6 +2,7 @@
 title: "🌐 科技日报 | 2026-07-31"
 date: 2026-07-31T06:34:36+08:00
 draft: false
+description: "今日精选：GitHub 宣布 stacked pull requests 进入公开预览。所谓 stack，是一组有顺序依赖的 pull request：每一层只承载一个小而聚焦的改动，并把下一层建立在上一层之上。"
 tags: ["科技", "日报"]
 categories: ["科技日报"]
 ---

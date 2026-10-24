@@ -2,8 +2,10 @@
 title: "🔧 Codex 更新日报 2026-03-26"
 date: 2026-03-26T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-03-26：冷启动挂起问题优化：针对 WebSocket 预热（prewarm）可能导致 turn/start 阶段卡死的 Bug，新版本增加了超时回退机制，确保了在网络环境不佳时仍能平稳降级启动。"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["Codex 更新"]
 ---
 
 # 🔧 Codex 更新 rust-v0.116.0

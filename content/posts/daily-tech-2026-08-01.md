@@ -2,6 +2,7 @@
 title: "🌐 科技日报 | 2026-08-01"
 date: 2026-08-01T06:35:57+08:00
 draft: false
+description: "今日精选：Tailscale 根据 Hugging Face 公布的入侵重建，分析自家产品为何没能阻止攻击者横向移动。"
 tags: ["科技", "日报"]
 categories: ["科技日报"]
 ---

@@ -2,8 +2,9 @@
 title: "📰 科技热点日报 | 2026-05-24"
 date: 2026-05-24T07:01:52+08:00
 draft: false
+description: "今日精选：[Hugging Face] Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
-categories: ["日报"]
+categories: ["AI日报"]
 ---
 
 # 📰 科技热点日报 | 2026-05-24

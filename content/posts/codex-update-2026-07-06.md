@@ -2,8 +2,10 @@
 title: "🔧 Codex 更新日报 2026-07-06"
 date: 2026-07-06T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-07-06：Prevented full Responses WebSocket request payloads from being written to trace logs. (#30771)"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["Codex 更新"]
 ---
 
 # 🔧 Codex 更新 rust-v0.142.5

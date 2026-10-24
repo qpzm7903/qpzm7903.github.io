@@ -2,8 +2,10 @@
 title: "🤖 Claude Code 更新日报 2026-04-30"
 date: 2026-04-30T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-04-30：Fixed OAuth authentication failing with a 401 retry loop when CLAUDE_CODE_DISABLE_EXPERIME…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["Claude Code 更新"]
 ---
 
 # 🤖 Claude Code 更新 v2.1.123

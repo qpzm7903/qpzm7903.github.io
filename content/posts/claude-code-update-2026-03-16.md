@@ -2,8 +2,10 @@
 title: "🤖 Claude Code 更新日报 2026-03-16"
 date: 2026-03-16T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-03-16：Added MCP elicitation support — MCP servers can now request structured input mid-task via…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["Claude Code 更新"]
 ---
 
 # 🤖 Claude Code 更新 v2.1.76

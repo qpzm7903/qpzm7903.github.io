@@ -2,6 +2,7 @@
 title: "🌐 科技日报 | 2026-07-22"
 date: 2026-07-22T06:38:00+08:00
 draft: false
+description: "今日精选：美国加州北区联邦法官 Araceli Martínez-Olguín 下发临时禁制令（TRO），要求 Paramount Skydance 与 Warner Bros. Discovery 暂停其 1110 亿美元合并案，无法在…"
 tags: ["科技", "日报"]
 categories: ["科技日报"]
 ---

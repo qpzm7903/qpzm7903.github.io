@@ -2,6 +2,7 @@
 title: "🌐 科技日报 | 2026-07-23"
 date: 2026-07-23T06:50:00+08:00
 draft: false
+description: "今日精选：自 5 月份 Valve 因 RAM/存储短缺把 Steam Deck 售价从 $400–$649 拉到 $789–$949 后，Steam 销量榜显示其位置从 5 名一路滑到 12 名。"
 tags: ["科技", "日报"]
 categories: ["科技日报"]
 ---

@@ -2,6 +2,7 @@
 title: "🌐 科技日报 | 2026-07-12"
 date: 2026-07-12T06:50:00+08:00
 draft: false
+description: "今日精选：LWN.net 创始编辑 Jonathan Corbet 写了一篇最新长文（HN 325 分 / 333 评论），回顾了一年半以来\"AI 训练用网页抓取\"对互联网生态的破坏现状——并给了具体方向。"
 tags: ["科技", "日报"]
 categories: ["科技日报"]
 ---

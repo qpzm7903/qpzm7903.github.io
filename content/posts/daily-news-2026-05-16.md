@@ -2,8 +2,9 @@
 title: "📰 科技热点日报 | 2026-05-16"
 date: 2026-05-16T07:01:37+08:00
 draft: false
+description: "今日精选：[OpenAI] euphony、Visualize harmony chat data and codex sessions in your browser"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
-categories: ["日报"]
+categories: ["AI日报"]
 ---
 
 # 📰 科技热点日报 | 2026-05-16

@@ -2,8 +2,10 @@
 title: "🔧 Openclaw 更新日报 2026-06-19"
 date: 2026-06-19T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-06-19：Richer Telegram delivery: Telegram now sends rich HTML, preserves rich markdown and sticker p…"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["openclaw 更新"]
 ---
 
 # 🔧 Openclaw 更新 2026.6.9

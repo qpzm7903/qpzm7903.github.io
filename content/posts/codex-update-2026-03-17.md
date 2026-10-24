@@ -2,8 +2,10 @@
 title: "🔧 Codex 更新日报 2026-03-17"
 date: 2026-03-17T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-03-17：子代理沙箱与网络规则继承优化：修复了子代理在继承沙箱规则、项目配置层（Project-profile layering）以及符号链接根目录权限时的一致性问题，确保了多代理环境下的安全隔离与权限…"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["Codex 更新"]
 ---
 
 # 🔧 Codex 更新 rust-v0.115.0

@@ -2,8 +2,10 @@
 title: "🔧 Codex 更新日报 2026-04-24"
 date: 2026-04-24T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-04-24：权限模式漂移修复：解决了在开启「侧边对话」（side conversations）后权限状态丢失的问题，确保 /permissions 的更改在不同上下文切换中依然有效，并能正确反映在 MCP…"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["Codex 更新"]
 ---
 
 # 🔧 Codex 更新 rust-v0.124.0

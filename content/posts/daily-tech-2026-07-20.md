@@ -2,6 +2,7 @@
 title: "🌐 科技日报 | 2026-07-20"
 date: 2026-07-20T06:30:25+08:00
 draft: false
+description: "今日精选：周日（7/19）Hacker News 迎来今天最被讨论的一篇 Show HN——一位自购乡下闲置保龄球馆的 SRE 用 ESP32 自搭计分系统。"
 tags: ["科技", "日报"]
 categories: ["科技日报"]
 ---

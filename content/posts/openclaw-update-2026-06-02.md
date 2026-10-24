@@ -2,8 +2,10 @@
 title: "🔧 Openclaw 更新日报 2026-06-02"
 date: 2026-06-02T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-06-02：大量修复集中在工具调用恢复、会话绑定、超时/轮询边界、消息投递失败后的重试与状态同步。"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["openclaw 更新"]
 ---
 
 # 🔧 Openclaw 更新 2026.6.2

@@ -2,8 +2,10 @@
 title: "🔧 Openclaw 更新日报 2026-07-02"
 date: 2026-07-02T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-07-02：OpenAI GPT-5.6 support: OpenClaw now recognizes the GPT-5.6 model family across catalog, capa…"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["openclaw 更新"]
 ---
 
 # 🔧 Openclaw 更新 2026.7.1

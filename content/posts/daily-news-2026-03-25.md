@@ -2,8 +2,9 @@
 title: "📰 科技热点日报 | 2026-03-25"
 date: 2026-03-25T07:43:18+08:00
 draft: false
+description: "今日精选：📝 Published Time: 2026-03-24T02:01:52.377Z * Background and Motivation"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
-categories: ["日报"]
+categories: ["AI日报"]
 ---
 
 # 📰 科技热点日报 | 2026-03-25

@@ -2,8 +2,10 @@
 title: "🔧 Openclaw 更新日报 2026-05-25"
 date: 2026-05-25T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-05-25：MCP 目录发现超时保护：针对挂起的 MCP 服务器，对 tools/list 发现过程设置了边界限制（bounding），防止单一异常节点阻塞整个会话的工具实例化过程。"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["openclaw 更新"]
 ---
 
 # 🔧 Openclaw 更新 2026.5.25

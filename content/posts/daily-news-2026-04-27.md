@@ -2,8 +2,9 @@
 title: "📰 科技热点日报 | 2026-04-27"
 date: 2026-04-27T07:23:49+08:00
 draft: false
+description: "今日精选：[OpenAI] chatgpt-retrieval-plugin、The ChatGPT Retrieval Plugin lets you easily find personal or work documents by a…"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
-categories: ["日报"]
+categories: ["AI日报"]
 ---
 
 # 📰 科技热点日报 | 2026-04-27

@@ -2,8 +2,10 @@
 title: "🔧 Openclaw 更新日报 2026-05-04"
 date: 2026-05-04T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-05-04：Malformed cron 数据不再炸白屏（#55047）——这个问题如果你跑过 Control UI 可能深有体会，属于那种一旦触发就让整个页面报废的 bug。"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["openclaw 更新"]
 ---
 
 # 🔧 Openclaw 更新 2026.5.2

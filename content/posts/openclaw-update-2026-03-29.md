@@ -2,8 +2,10 @@
 title: "🔧 Openclaw 更新日报 2026-03-29"
 date: 2026-03-29T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-03-29：模型思维链控制优化：针对 Ollama 模型，通过 thinkingLevel=off 显式路由 think: false 到底层扩展，解决了以往模型可能在后台静默生成隐藏推理 Toke…"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["openclaw 更新"]
 ---
 
 # 🔧 Openclaw 更新 2026.3.28-beta.1

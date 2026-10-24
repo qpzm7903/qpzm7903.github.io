@@ -2,8 +2,10 @@
 title: "🔧 Openclaw 更新日报 2026-05-19"
 date: 2026-05-19T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-05-19：内存层检索导致的事件循环阻塞：修复了当 sqlite-vec 降级扫描大体积数据表时卡死 Node.js 主线程的问题。"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["openclaw 更新"]
 ---
 
 # 🔧 Openclaw 更新 2026.5.19

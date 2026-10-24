@@ -2,8 +2,10 @@
 title: "🤖 Claude Code 更新日报 2026-06-13"
 date: 2026-06-13T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-06-13：Added footerLinksRegexes setting for regex-matched link badges in the footer row, configur…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["Claude Code 更新"]
 ---
 
 # 🤖 Claude Code 更新 v2.1.176

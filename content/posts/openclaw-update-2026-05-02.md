@@ -2,8 +2,10 @@
 title: "🔧 Openclaw 更新日报 2026-05-02"
 date: 2026-05-02T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-05-02：大规模会话稳定性（OOM 防护）：针对超长对话记录（Transcripts），引入了带边界的流式读取和分页加载机制，避免在生成摘要、清理快照或客户端请求历史时因一次性加载海量数据导致网关…"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["openclaw 更新"]
 ---
 
 # 🔧 Openclaw 更新 2026.4.30

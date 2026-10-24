@@ -2,8 +2,10 @@
 title: "🔧 Codex 更新日报 2026-03-18"
 date: 2026-03-18T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-03-18：子代理沙箱继承增强：修复了子代理在网络规则、项目配置分层以及符号链接写入权限上的继承缺陷，确保复杂编排下的权限隔离逻辑与预期一致。"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["Codex 更新"]
 ---
 
 # 🔧 Codex 更新 rust-v0.115.0

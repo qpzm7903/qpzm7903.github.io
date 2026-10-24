@@ -2,8 +2,10 @@
 title: "🔧 Openclaw 更新日报 2026-05-10"
 date: 2026-05-10T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-05-10：Windows 兼容性深度打磨：解决了 Windows 环境下因 Developer Mode 限制导致的符号链接创建失败（改为使用 Junctions），并修复了 WebView2 桥…"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["openclaw 更新"]
 ---
 
 # 🔧 Openclaw 更新 2026.5.9

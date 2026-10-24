@@ -2,8 +2,10 @@
 title: "🔧 Openclaw 更新日报 2026-05-27"
 date: 2026-05-27T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-05-27：并发锁泄漏与会话队列恢复：强制实施会话锁的最大持有时间回收（max-hold reclaim），并确保任何形式的退出分支都会释放 embedded-attempt 锁。"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["openclaw 更新"]
 ---
 
 # 🔧 Openclaw 更新 2026.5.26

@@ -3,7 +3,7 @@ title: "Arthas MCP + 远端 K8s 实战：让本地 Agent 在压测时直接分�
 date: 2026-03-10T14:05:00+08:00
 draft: false
 tags: ["Arthas", "MCP", "Kubernetes", "Java", "性能测试", "诊断", "Agent", "SSH"]
-categories: ["Java 性能分析", "Kubernetes", "实战指南"]
+categories: ["技术"]
 description: "Arthas 官方推出 MCP Server 后，AI Agent 已经可以直接调用 Java 诊断能力。本文结合远端 Kubernetes 场景，系统讲清楚如何通过 SSH + kubectl port-forward 安全接入 Arthas MCP，并给出一键连接脚本与压测诊断建议。"
 ---
 

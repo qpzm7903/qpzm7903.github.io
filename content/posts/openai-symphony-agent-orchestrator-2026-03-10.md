@@ -2,8 +2,8 @@
 title: "OpenAI 开源 Symphony：它不是 AI 编程助手，而是任务编排器"
 date: 2026-03-10T13:20:00+08:00
 draft: false
-tags: ["OpenAI", "Symphony", "AI 编程", "Agent", "Codex", "Linear", "开源", "架构解析"]
-categories: ["AI 工具", "开源项目", "架构分析"]
+tags: ["OpenAI", "Symphony", "AI 编程", "Agent", "codex", "Linear", "开源", "架构解析"]
+categories: ["技术"]
 description: "OpenAI 开源 Symphony 后，AI 编程工具开始从对话式辅助走向任务级自主执行。本文结合 README、SPEC.md 和 Elixir 参考实现，系统拆解 Symphony 的用途、架构、执行流程、适用场景与工程价值。"
 ---
 

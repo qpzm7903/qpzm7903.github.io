@@ -2,8 +2,10 @@
 title: "🔧 Openclaw 更新日报 2026-05-28"
 date: 2026-05-28T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-05-28：预检式工具架构验证：Doctor 诊断工具现在会在 Agent 轮次开始前，强制验证所有已配置内置 Agent 的运行时工具架构（Tool Schemas）。"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["openclaw 更新"]
 ---
 
 # 🔧 Openclaw 更新 2026.5.27

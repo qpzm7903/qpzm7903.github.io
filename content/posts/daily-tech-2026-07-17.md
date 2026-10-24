@@ -2,6 +2,7 @@
 title: "🌐 科技日报 | 2026-07-17"
 date: 2026-07-17T06:31:18+08:00
 draft: false
+description: "今日精选：Linux 创始人 Linus Torvalds 本周在 Linux 内核邮件列表发文，明确表态支持在 Linux 内核开发中使用 AI 工具。"
 tags: ["科技", "日报"]
 categories: ["科技日报"]
 ---

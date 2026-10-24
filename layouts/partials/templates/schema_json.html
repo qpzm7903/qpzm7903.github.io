@@ -1,0 +1,84 @@
+{{- /* 覆盖 PaperMod 的 layouts/partials/templates/schema_json.html（主题提交 3bb0ca2）。
+       与主题版的差异（每条都有实测依据，见 docs/meta-policy.md）：
+         1) 去掉 "articleBody"：主题把全文 plainify 塞进 JSON-LD，文章页 HTML 体积因此翻倍
+         2) 修 author 嵌套：site.Params.author 是 map，主题渲染成 {"name":{"name":"OpenClaw"}}
+         3) 不输出 wordCount：Hugo 的 .WordCount 对中文按空格断词，477 与实际字数差一个数量级
+         4) 补 image（与 og:image 同源）与 url 字段
+         5) inLanguage 取 site.Language.Lang（hugo.yaml 已设 defaultContentLanguage）
+       实现说明：JSON 由手工拼装 + 逐值 jsonify | safeJS（<script> 上下文里 html/template
+       会对字符串再按 JS 规则转义，不用 safeJS 会出现 \""值\"" 的二次引号——本次踩过）（对本 Hugo 版本，对 dict 整体 jsonify 会产出
+       JSON 字符串而不是对象），这样既避免转义错误，也避免依赖易变的模板行为。
+       维护：主题升级后需与主题原文件比对差异（docs/meta-policy.md §5）。 */ -}}
+
+{{- $logo := (site.Params.assets.favicon | default "favicon.ico") | absURL -}}
+{{- $pubType := (site.Params.schema.publisherType | default "Organization") | title -}}
+
+{{- if .IsHome }}
+{{- $desc := site.Params.description | default site.Params.homeInfoParams.Content | plainify | chomp -}}
+{{- $sameAs := slice -}}
+{{- with site.Params.schema.sameAs }}{{ range . }}{{ $sameAs = $sameAs | append (trim . " ") }}{{ end }}
+{{- else }}{{ range site.Params.socialIcons }}{{ $sameAs = $sameAs | append (absURL .url) }}{{ end }}{{ end -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": {{ $pubType | jsonify | safeJS }},
+  "name": {{ site.Title | jsonify | safeJS }},
+  "url": {{ site.Home.Permalink | jsonify | safeJS }},
+  "description": {{ $desc | jsonify | safeJS }},
+  {{- if eq $pubType "Person" }}
+  "image": {{ $logo | jsonify | safeJS }},
+  {{- else }}
+  "logo": { "@type": "ImageObject", "url": {{ $logo | jsonify | safeJS }} },
+  {{- end }}
+  "sameAs": {{ $sameAs | jsonify | safeJS }}
+}
+</script>
+
+{{- else if (or .IsPage .IsSection) }}
+{{- /* BreadcrumbList：首页 → 父级（如 posts 分区）→ 当前页 */ -}}
+{{- $crumbs := slice -}}
+{{- $pos := 1 -}}
+{{- $crumbs = $crumbs | append (printf `{"@type":"ListItem","position":%d,"name":%s,"item":%s}` $pos (site.Title | jsonify) (site.Home.Permalink | jsonify)) -}}
+{{- with .Parent }}{{ if ne .Kind "home" }}{{ $pos = add $pos 1 }}
+{{- $crumbs = $crumbs | append (printf `{"@type":"ListItem","position":%d,"name":%s,"item":%s}` $pos (.Name | jsonify) (.Permalink | jsonify)) }}{{ end }}{{ end -}}
+{{- $pos = add $pos 1 -}}
+{{- $crumbs = $crumbs | append (printf `{"@type":"ListItem","position":%d,"name":%s,"item":%s}` $pos (.Name | jsonify) (.Permalink | jsonify)) -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{{ delimit $crumbs "," | safeJS }}]
+}
+</script>
+
+{{- if .IsPage }}
+{{- $author := site.Params.author -}}
+{{- if reflect.IsMap $author }}{{ $author = $author.name }}{{ end -}}
+{{- /* 描述优先级：front matter description → 站点 description → 摘要（仅兜底） */ -}}
+{{- $desc := .Description | default site.Params.description | default (.Summary | plainify) | plainify | chomp -}}
+{{- /* 图片：front matter images → 站点默认 images（与 opengraph/twitter 同源） */ -}}
+{{- $img := "" -}}
+{{- with .Params.images }}{{ $img = (index . 0) | absURL }}
+{{- else }}{{ with site.Params.images }}{{ $img = (index . 0) | absURL }}{{ end }}{{ end -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ .Title | plainify | jsonify | safeJS }},
+  "name": {{ .Title | plainify | jsonify | safeJS }},
+  "description": {{ $desc | jsonify | safeJS }},
+  "inLanguage": {{ site.Language.Lang | jsonify | safeJS }},
+  "datePublished": {{ (.PublishDate.Format "2006-01-02T15:04:05-07:00") | jsonify | safeJS }},
+  "dateModified": {{ (.Lastmod.Format "2006-01-02T15:04:05-07:00") | jsonify | safeJS }},
+  "url": {{ .Permalink | jsonify | safeJS }},
+  "mainEntityOfPage": { "@type": "WebPage", "@id": {{ .Permalink | jsonify | safeJS }} },
+  "author": { "@type": "Person", "name": {{ $author | jsonify | safeJS }} },
+  "publisher": { "@type": {{ $pubType | jsonify | safeJS }}, "name": {{ site.Title | jsonify | safeJS }}, "logo": { "@type": "ImageObject", "url": {{ $logo | jsonify | safeJS }} } },
+  {{- with $img }}
+  "image": {{ . | jsonify | safeJS }},
+  {{- end }}
+  "keywords": {{ delimit (.Params.tags | default slice) ", " | jsonify | safeJS }}
+}
+</script>
+{{- end }}
+{{- end }}

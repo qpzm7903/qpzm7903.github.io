@@ -2,8 +2,10 @@
 title: "🔧 Openclaw 更新日报 2026-05-15"
 date: 2026-05-15T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-05-15：多代理心跳调度（Heartbeat）重构：修复了导致多代理心跳节奏崩溃的 7 个底层堆叠问题。"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
+series: ["openclaw 更新"]
 ---
 
 # 🔧 Openclaw 更新 2026.5.14
