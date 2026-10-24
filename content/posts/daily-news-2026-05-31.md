@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-05-31"
 date: 2026-05-31T09:36:01+08:00
 draft: false
+description: "📰 科技热点日报 | 2026-05-31：今日精选：[OpenAI] openai-cs-agents-demo、Demo of a customer service use case implemented with the OpenA…"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

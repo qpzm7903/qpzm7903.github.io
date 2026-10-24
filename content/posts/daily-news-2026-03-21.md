@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-03-21"
 date: 2026-03-21T07:01:16+08:00
 draft: false
+description: "📰 科技热点日报 | 2026-03-21：今日精选：📝 Published Time: 2026-03-17T16:37:55.002Z Open Source in Competition*"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

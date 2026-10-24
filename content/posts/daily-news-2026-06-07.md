@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-06-07"
 date: 2026-06-07T07:33:12+08:00
 draft: false
+description: "今日精选：[Hugging Face] Five labs, five minds: building a multi-model finance drama on small models"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

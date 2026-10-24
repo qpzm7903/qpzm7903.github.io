@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-03-24"
 date: 2026-03-24T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-03-24：Added --bare flag for scripted -p calls — skips hooks, LSP, plugin sync, and skill directo…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

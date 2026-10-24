@@ -2,6 +2,7 @@
 title: "🔧 Codex 更新日报 2026-04-22"
 date: 2026-04-22T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-04-22：过时 UI 状态清理：解决了 App-server 审批和 MCP 引导提示在被其他客户端解决后仍残留在 TUI 上的问题，消除了 stale prompts 带来的误操作风险。"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Codex 更新"]

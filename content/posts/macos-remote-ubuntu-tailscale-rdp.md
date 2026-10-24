@@ -2,6 +2,7 @@
 title: "从 macOS 远程连接 Ubuntu 桌面：Tailscale + GNOME Remote Desktop + 代理分流"
 date: 2026-10-23T21:53:15+08:00
 draft: false
+description: "场景：Ubuntu 机器放在家里（无公网 IP、无端口映射、且对外网络受限必须走代理），人带着 MacBook 在外面，要随时连上那台 Ubuntu 的图形桌面。"
 tags: ["Tailscale", "RDP", "Ubuntu", "macOS", "Clash", "远程桌面", "网络"]
 categories: ["技术"]
 ---

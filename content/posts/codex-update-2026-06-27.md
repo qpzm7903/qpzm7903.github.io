@@ -2,6 +2,7 @@
 title: "🔧 Codex 更新日报 2026-06-27"
 date: 2026-06-27T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-06-27：Maintenance-only patch release with no user-facing changes since 0.142.2."
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Codex 更新"]

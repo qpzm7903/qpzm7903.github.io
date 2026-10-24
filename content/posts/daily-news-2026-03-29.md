@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-03-29"
 date: 2026-03-29T07:01:23+08:00
 draft: false
+description: "今日精选：[OpenAI] evals、Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks."
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

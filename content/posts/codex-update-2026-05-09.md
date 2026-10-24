@@ -2,6 +2,7 @@
 title: "🔧 Codex 更新日报 2026-05-09"
 date: 2026-05-09T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-05-09：配置热加载与状态一致性：修复了应用服务器线程需重启才能读取配置更改的问题，实现了实时配置刷新。"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Codex 更新"]

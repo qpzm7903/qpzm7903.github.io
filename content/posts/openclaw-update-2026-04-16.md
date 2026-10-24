@@ -2,6 +2,7 @@
 title: "🔧 Openclaw 更新日报 2026-04-16"
 date: 2026-04-16T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-04-16：安全性与权限兜底：修复了多个高危逻辑漏洞，包括 memory_get 限制访问非规范 Markdown 路径，防止其被当作通用文件读取工具；"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["openclaw 更新"]

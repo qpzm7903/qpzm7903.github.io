@@ -2,6 +2,7 @@
 title: "🔧 Codex 更新日报 2026-06-25"
 date: 2026-06-25T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-06-25：Added opt-in Windows system proxy support for authentication, including PAC, WPAD, static proxie…"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Codex 更新"]

@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-06-27"
 date: 2026-06-27T07:51:01+08:00
 draft: false
+description: "今日精选：U.S. government will decide who gets to use GPT-5.6"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

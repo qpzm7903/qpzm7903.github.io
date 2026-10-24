@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-05-21"
 date: 2026-05-21T07:01:52+08:00
 draft: false
+description: "📰 科技热点日报 | 2026-05-21：今日精选：[OpenAI] codex-plugin-cc、[OpenAI] symphony"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

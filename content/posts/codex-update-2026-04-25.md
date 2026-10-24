@@ -2,6 +2,7 @@
 title: "🔧 Codex 更新日报 2026-04-25"
 date: 2026-04-25T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-04-25：执行流稳定性优化：修复了 exec-server 在进程退出后可能丢失缓冲输出的问题，通过正确等待流关闭（stream closure），保证了日志输出的完整性；"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Codex 更新"]

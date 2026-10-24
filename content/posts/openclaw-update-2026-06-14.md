@@ -2,6 +2,7 @@
 title: "🔧 Openclaw 更新日报 2026-06-14"
 date: 2026-06-14T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-06-14：大规模 Embedding 处理优化：针对超长请求导致的 431 错误，系统现在会自动拆分超大批次的 OpenAI Embedding 请求，确保了长文本索引的稳定性。"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["openclaw 更新"]

@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-03-17"
 date: 2026-03-17T07:01:25+08:00
 draft: false
+description: "📰 科技热点日报 | 2026-03-17：今日精选：📝 Published Time: 2026-03-10T00:00:00.680Z * Why we built Buckets"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

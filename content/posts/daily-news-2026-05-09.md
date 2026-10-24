@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-05-09"
 date: 2026-05-09T07:30:37+08:00
 draft: false
+description: "今日精选：[Hugging Face] CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

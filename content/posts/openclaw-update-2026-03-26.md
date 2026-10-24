@@ -2,6 +2,7 @@
 title: "🔧 Openclaw 更新日报 2026-03-26"
 date: 2026-03-26T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-03-26：安全沙箱漏洞封堵：修复了 mediaUrl 与 fileUrl 的别名绕过漏洞，防止外部工具或消息动作逃逸出预设的媒体根目录限制，强化了 workspaceOnly 策略的执行力度。"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["openclaw 更新"]

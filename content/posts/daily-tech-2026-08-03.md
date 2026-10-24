@@ -2,6 +2,7 @@
 title: "🌐 科技日报 | 2026-08-03"
 date: 2026-08-03T06:38:52+08:00
 draft: false
+description: "今日精选：开源 Linux 桌面策略管理系统 Bor 发布 0.8.0，新增 Thunderbird、Microsoft Edge for Business 和 Firewalld zone 三类策略。"
 tags: ["科技", "日报"]
 categories: ["科技日报"]
 ---

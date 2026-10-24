@@ -2,6 +2,7 @@
 title: "📄 论文日报 | 2026-07-20"
 date: 2026-07-20T06:30:25+08:00
 draft: false
+description: "今日精选：今日 HuggingFace Daily Papers API 抓取后按 upvotes 排序，去掉最近 7 天日报里已经出现过的 arxiv ID 后，留 42 篇未报道的新论文。"
 tags: ["AI", "论文", "日报"]
 categories: ["论文日报"]
 ---

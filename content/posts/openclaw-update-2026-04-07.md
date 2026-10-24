@@ -2,6 +2,7 @@
 title: "🔧 Openclaw 更新日报 2026-04-07"
 date: 2026-04-07T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-04-07：推理链路隔离与隐私保护：修复了在 Telegram 和飞书等频道中 思考标签外泄的问题，现在仅在显式开启 reasoning:stream 时才会显示推理过程，保证了普通对话界面的整洁。"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["openclaw 更新"]

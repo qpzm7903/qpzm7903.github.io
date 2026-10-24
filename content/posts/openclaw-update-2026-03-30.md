@@ -2,6 +2,7 @@
 title: "🔧 Openclaw 更新日报 2026-03-30"
 date: 2026-03-30T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-03-30：长消息处理与交付优化：Telegram 弃用了基于字符比例的粗略估算，转而使用验证 HTML 长度的搜索算法，确保消息在单词边界处正确拆分；"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["openclaw 更新"]

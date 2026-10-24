@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-05-12"
 date: 2026-05-12T07:01:17+08:00
 draft: false
+description: "今日精选：[OpenAI] codex-plugin-cc、[OpenAI] openai-realtime-meeting-assistant"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

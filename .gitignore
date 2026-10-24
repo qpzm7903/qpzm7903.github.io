@@ -16,3 +16,7 @@ resources/_gen/
 .idea/
 *.swp
 *.swo
+
+# Python 缓存
+__pycache__/
+*.pyc

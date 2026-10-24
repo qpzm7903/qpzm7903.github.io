@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-03-19"
 date: 2026-03-19T07:01:13+08:00
 draft: false
+description: "今日精选：📝 Published Time: 2026-03-17T23:17:07.438Z We are excited to introduce Nemotron 3 Nano 4B, the newest and most comp…"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

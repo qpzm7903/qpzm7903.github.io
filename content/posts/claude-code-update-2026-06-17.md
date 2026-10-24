@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-06-17"
 date: 2026-06-17T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-06-17：Fixed mid-stream connection drops: partial responses are now preserved instead of showing…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

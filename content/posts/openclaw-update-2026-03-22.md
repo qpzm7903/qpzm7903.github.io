@@ -2,6 +2,7 @@
 title: "🔧 Openclaw 更新日报 2026-03-22"
 date: 2026-03-22T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-03-22：Dashboard 性能优化：修复了 Dashboard v2 在工具执行过程中频繁重载完整历史记录导致的 UI 冻结现象，现在仅在最终事件触发时刷新持久化历史。"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["openclaw 更新"]

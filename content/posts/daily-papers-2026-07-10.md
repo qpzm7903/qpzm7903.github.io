@@ -2,6 +2,7 @@
 title: "📄 论文日报 | 2026-07-10"
 date: 2026-07-10T07:30:00+08:00
 draft: false
+description: "今日精选：论文链接：arXiv:2607.07508 ｜ HuggingFace Daily Papers"
 tags: ["AI", "论文", "日报"]
 categories: ["论文日报"]
 ---

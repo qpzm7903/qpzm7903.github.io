@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-05-18"
 date: 2026-05-18T07:01:39+08:00
 draft: false
+description: "今日精选：[OpenAI] codex-plugin-cc、[Anthropic] claude-plugins-official"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

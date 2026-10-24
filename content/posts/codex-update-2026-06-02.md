@@ -2,6 +2,7 @@
 title: "🔧 Codex 更新日报 2026-06-02"
 date: 2026-06-02T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-06-02：安全和恢复性修复很扎实。包括 /diff 避免执行仓库侧 Git hooks、浏览器来源 websocket 握手拦截、沙箱命令中断后的清理、以及恢复会话后的历史种子补全。"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Codex 更新"]

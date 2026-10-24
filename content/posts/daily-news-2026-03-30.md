@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-03-30"
 date: 2026-03-30T07:01:11+08:00
 draft: false
+description: "今日精选：[OpenAI] symphony、[Anthropic] claude-cookbooks"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

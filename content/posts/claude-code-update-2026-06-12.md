@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-06-12"
 date: 2026-06-12T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-06-12：Fixed Fable 5 model names with a [1m] suffix not being normalized — Fable 5 includes 1M co…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

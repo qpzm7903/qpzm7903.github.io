@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-03-19"
 date: 2026-03-19T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-03-19：Added --console flag to claude auth login for Anthropic Console (API billing) authenticati…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

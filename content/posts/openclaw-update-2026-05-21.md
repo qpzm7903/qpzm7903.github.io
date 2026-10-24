@@ -2,6 +2,7 @@
 title: "🔧 Openclaw 更新日报 2026-05-21"
 date: 2026-05-21T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-05-21：凭证读取的安全收紧（Fail-Closed）重构了 tryReadSecretFileSync 的安全契约。"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["openclaw 更新"]

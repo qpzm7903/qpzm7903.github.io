@@ -2,6 +2,7 @@
 title: "🔧 Codex 更新日报 2026-05-21"
 date: 2026-05-21T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-05-21：智能体循环保护机制：修复了目标持续执行（Goal continuations）在遇到用量限制或重复阻塞时可能陷入死循环的问题。"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Codex 更新"]

@@ -2,6 +2,7 @@
 title: "🔧 Codex 更新日报 2026-03-16"
 date: 2026-03-16T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-03-16：权限流与补丁应用稳定性： 修复了权限授予在多回合间持久化失效的问题，并确保 apply_patch 能够正确遵循已获得的权限许可。"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Codex 更新"]

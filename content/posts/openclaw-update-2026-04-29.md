@@ -2,6 +2,7 @@
 title: "🔧 Openclaw 更新日报 2026-04-29"
 date: 2026-04-29T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-04-29：DeepSeek 推理逻辑补全：修复了 DeepSeek V4 在常规 Assistant 消息重放中缺失 reasoning_content 的问题，确保了多轮对话中“思考链”逻辑的连…"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["openclaw 更新"]

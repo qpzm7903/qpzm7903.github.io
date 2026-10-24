@@ -2,6 +2,7 @@
 title: "🔧 Openclaw 更新日报 2026-06-25"
 date: 2026-06-25T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-06-25：Automatic fast mode for talks: OpenClaw can enable fast mode for short conversational turns…"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["openclaw 更新"]

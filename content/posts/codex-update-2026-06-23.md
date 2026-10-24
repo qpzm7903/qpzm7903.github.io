@@ -2,6 +2,7 @@
 title: "🔧 Codex 更新日报 2026-06-23"
 date: 2026-06-23T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-06-23：/usage can now show and redeem earned usage-limit reset credits, with confirmation, retry, and r…"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Codex 更新"]

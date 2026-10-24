@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-04-20"
 date: 2026-04-20T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-04-20：Fixed a crash in the permission dialog when an agent teams teammate requested tool permiss…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

@@ -2,6 +2,7 @@
 title: "🔧 Codex 更新日报 2026-05-19"
 date: 2026-05-19T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-05-19：Windows 沙箱安全加固：针对 Windows 环境下的 deny-read 规则执行、写权限根目录隔离、无效防火墙策略及 PowerShell 解析边缘场景进行了底层行为修复。"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Codex 更新"]

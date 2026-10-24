@@ -2,6 +2,7 @@
 title: "🔧 Openclaw 更新日报 2026-04-27"
 date: 2026-04-27T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-04-27：openclaw channels add 现在能在非交互环境里直接安装默认渠道插件，这对自动化部署和脚本化配置很关键。"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["openclaw 更新"]

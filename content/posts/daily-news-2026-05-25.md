@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-05-25"
 date: 2026-05-25T07:02:38+08:00
 draft: false
+description: "今日精选：[Anthropic] claude-code、[Anthropic] claude-plugins-official"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

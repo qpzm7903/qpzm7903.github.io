@@ -2,6 +2,7 @@
 title: "🔧 Openclaw 更新日报 2026-04-20"
 date: 2026-04-20T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-04-20：状态信息（/status）的 Token 持久化： 修复了当 Provider 漏发用量元数据时导致统计归零的问题。"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["openclaw 更新"]

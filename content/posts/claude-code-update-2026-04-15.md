@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-04-15"
 date: 2026-04-15T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-04-15：Added ENABLE_PROMPT_CACHING_1H env var to opt into 1-hour prompt cache TTL on API key, Bed…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

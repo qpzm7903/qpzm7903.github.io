@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-03-28"
 date: 2026-03-28T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-03-28：Added X-Claude-Code-Session-Id header to API requests so proxies can aggregate requests by…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

@@ -2,6 +2,7 @@
 title: "🔧 Codex 更新日报 2026-05-27"
 date: 2026-05-27T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-05-27：远程连接稳定性增强：优化了 exec-server 的 WebSocket 重连机制，支持在身份验证恢复后立即重试远程控制，并增强了远程压缩（v2）流的容错能力。"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Codex 更新"]

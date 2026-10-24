@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-06-24"
 date: 2026-06-24T08:19:39+08:00
 draft: false
+description: "今日精选：[Hugging Face] Build real agentic apps using CUGA: two dozen working examples on a lightweight harness"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

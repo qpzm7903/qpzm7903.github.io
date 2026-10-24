@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-06-06"
 date: 2026-06-06T07:23:23+08:00
 draft: false
+description: "今日精选：[Hugging Face] Thousand Token Wood: shipping a multi-agent economy on a 3B model"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

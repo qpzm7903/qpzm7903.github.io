@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-06-12"
 date: 2026-06-12T07:51:29+08:00
 draft: false
+description: "今日精选：[Hugging Face] Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

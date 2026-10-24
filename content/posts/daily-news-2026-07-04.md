@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-07-04"
 date: 2026-07-04T09:03:10+08:00
 draft: false
+description: "今日精选：[DeepSeek] DeepSpec、DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

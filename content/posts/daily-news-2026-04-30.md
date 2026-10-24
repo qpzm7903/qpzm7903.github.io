@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-04-30"
 date: 2026-04-30T07:01:37+08:00
 draft: false
+description: "今日精选：Zed 1.0"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

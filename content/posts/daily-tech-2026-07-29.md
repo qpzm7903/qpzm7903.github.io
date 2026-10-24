@@ -2,6 +2,7 @@
 title: "🌐 科技日报 | 2026-07-29"
 date: 2026-07-29T06:36:58+08:00
 draft: false
+description: "今日精选：英文原标题：Stop Killing The Internet: No Digital ID & No Age Verification"
 tags: ["科技", "日报"]
 categories: ["科技日报"]
 ---

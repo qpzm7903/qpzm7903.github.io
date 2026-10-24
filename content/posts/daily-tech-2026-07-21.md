@@ -2,6 +2,7 @@
 title: "🌐 科技日报 | 2026-07-21"
 date: 2026-07-21T06:33:00+08:00
 draft: false
+description: "今日精选：Ars Technica 报道，美国太空军（Space Force）正在推进一项高达 300 亿美元预算的火箭发射采购计划，这将是对军方发射需求的大规模集中采购。"
 tags: ["科技", "日报"]
 categories: ["科技日报"]
 ---

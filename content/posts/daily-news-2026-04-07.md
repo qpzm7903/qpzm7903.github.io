@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-04-07"
 date: 2026-04-07T07:28:38+08:00
 draft: false
+description: "今日精选：Issue: Claude Code is unusable for complex engineering tasks with Feb updates"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

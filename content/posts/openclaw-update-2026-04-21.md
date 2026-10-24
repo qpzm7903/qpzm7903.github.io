@@ -2,6 +2,7 @@
 title: "🔧 Openclaw 更新日报 2026-04-21"
 date: 2026-04-21T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-04-21：推理状态一致性管理 (#68907, #55787)：针对 Kimi 模型，修复了 /think 状态在 Session 结束后静默残留的问题，实现了推理载荷的标准化；"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["openclaw 更新"]

@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-05-13"
 date: 2026-05-13T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-05-13：Fixed /goal silently hanging when disableAllHooks or allowManagedHooksOnly is set — now sh…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

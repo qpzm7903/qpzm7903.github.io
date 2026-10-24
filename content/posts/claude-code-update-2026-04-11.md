@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-04-11"
 date: 2026-04-11T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-04-11：Added /team-onboarding command to generate a teammate ramp-up guide from your local Claude…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

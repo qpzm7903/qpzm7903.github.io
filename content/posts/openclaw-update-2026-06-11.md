@@ -2,6 +2,7 @@
 title: "🔧 Openclaw 更新日报 2026-06-11"
 date: 2026-06-11T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-06-11：会话恢复与清理机制：修复了 session 重绑定后残留过期审批、回复队列堆积等顽疾。"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["openclaw 更新"]

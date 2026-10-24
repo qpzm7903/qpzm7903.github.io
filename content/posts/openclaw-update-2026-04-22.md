@@ -2,6 +2,7 @@
 title: "🔧 Openclaw 更新日报 2026-04-22"
 date: 2026-04-22T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-04-22：Tokenizer 注入防御：修复了一个严重的安全隐患，系统现在会自动过滤外部内容中的 Qwen/ChatML、Llama 等模型专用特殊 Token，防止通过 User 文本进行角色边…"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["openclaw 更新"]

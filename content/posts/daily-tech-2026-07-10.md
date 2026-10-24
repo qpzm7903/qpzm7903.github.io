@@ -2,6 +2,7 @@
 title: "🌐 科技日报 | 2026-07-10"
 date: 2026-07-10T07:10:00+08:00
 draft: false
+description: "今日精选：一家安全研究团队发现了 Windows Defender 中的一个 0-day 漏洞，攻击者可利用该漏洞向目标系统的硬盘写入大量数据直至填满。"
 tags: ["科技", "日报"]
 categories: ["科技日报"]
 ---

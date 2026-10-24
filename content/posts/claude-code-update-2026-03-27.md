@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-03-27"
 date: 2026-03-27T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-03-27：Added CLAUDE_CODE_MCP_SERVER_NAME and CLAUDE_CODE_MCP_SERVER_URL environment variables to…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

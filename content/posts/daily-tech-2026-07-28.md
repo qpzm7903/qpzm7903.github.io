@@ -2,6 +2,7 @@
 title: "🌐 科技日报 | 2026-07-28"
 date: 2026-07-28T06:36:10+08:00
 draft: false
+description: "今日精选：英文原标题：Modern email can be built from borrowed parts"
 tags: ["科技", "日报"]
 categories: ["科技日报"]
 ---

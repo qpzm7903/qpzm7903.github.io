@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-05-12"
 date: 2026-05-12T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-05-12：Added agent view (Research Preview): a single list of every Claude Code session — running…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

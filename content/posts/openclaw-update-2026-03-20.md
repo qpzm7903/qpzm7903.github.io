@@ -2,6 +2,7 @@
 title: "🔧 Openclaw 更新日报 2026-03-20"
 date: 2026-03-20T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-03-20：控制台 UI 性能优化：修复了 Dashboard v2 在工具执行过程中频繁触发全量历史记录重载的问题。"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["openclaw 更新"]

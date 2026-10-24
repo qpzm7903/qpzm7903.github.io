@@ -308,15 +308,22 @@ def main() -> int:
 
     # ---- HTML 元数据抽检
     home_html = (public / "index.html").read_text(encoding="utf-8", errors="replace") if (public / "index.html").exists() else ""
-    lang_m = re.search(r"<html[^>]*\blang=[\"']([^\"']+)", home_html, re.I)
+    # minify 可能去掉属性引号：lang=zh-cn / lang="zh-cn" / lang='zh-cn'
+    lang_m = re.search(r"<html[^>]*\blang=[\"']?([a-zA-Z-]+)", home_html, re.I)
     og_image = "<meta property=\"og:image\"" in home_html or "property=og:image" in home_html
 
-    sample_url = post_urls[-1] if post_urls else None
+    sample_urls = post_urls[-3:] if len(post_urls) >= 3 else post_urls
+    sample_url = sample_urls[-1] if sample_urls else None
     sample_html = ""
     if sample_url:
         sp = public / sample_url.lstrip("/") / "index.html"
         if sp.exists():
             sample_html = sp.read_text(encoding="utf-8", errors="replace")
+    og_on_posts = 0
+    for u in sample_urls:
+        sp = public / u.lstrip("/") / "index.html"
+        if sp.exists() and re.search(r'og:image"?\s+content=', sp.read_text(encoding="utf-8", errors="replace")):
+            og_on_posts += 1
     jsonld_blocks = re.findall(r'<script type=[\'\"]application/ld\+json[\'\"]>(.*?)</script>',
                                sample_html, re.S)
     jsonld_types = []
@@ -401,6 +408,7 @@ def main() -> int:
             "coverage": coverage,
             "html_lang": lang_m.group(1) if lang_m else None,
             "og_image_on_home": og_image,
+            "og_image_on_posts": f"{og_on_posts}/{len(sample_urls)}",
             "jsonld": {"sample_url": sample_url, "types": jsonld_types, "issues": sorted(set(jsonld_issues))},
         },
         "output": {

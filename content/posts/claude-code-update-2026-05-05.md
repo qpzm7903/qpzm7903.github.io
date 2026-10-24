@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-05-05"
 date: 2026-05-05T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-05-05：Fixed focus mode briefly dimming the previous response when submitting a new prompt"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

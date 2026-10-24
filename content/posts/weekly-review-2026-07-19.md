@@ -2,6 +2,7 @@
 title: "🧭 周报 | 2026-07-19"
 date: 2026-07-19T06:45:00+08:00
 draft: false
+description: "延续上周 OpenAI GPT-5.6 在 cycle-double-cover 猜想上的进展（上期周报已把对应的 OpenAI 官方论文挂在主线之外），本周出现了第一例独立研究者在 OpenAI 自家问题之外、用 GPT-5.6 Sol…"
 tags: ["周报", "趋势"]
 categories: ["周报"]
 ---

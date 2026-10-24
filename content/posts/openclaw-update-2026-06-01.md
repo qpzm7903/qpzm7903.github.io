@@ -2,6 +2,7 @@
 title: "🔧 Openclaw 更新日报 2026-06-01"
 date: 2026-06-01T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-06-01：修复失效技能中断会话流的 Bug：针对携带失效 apiKey SecretRefs 的已禁用技能快照，运行时将正确跳过其环境变量覆盖，彻底解决了由此导致的嵌入式或渠道轮次意外中止问题（#…"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["openclaw 更新"]

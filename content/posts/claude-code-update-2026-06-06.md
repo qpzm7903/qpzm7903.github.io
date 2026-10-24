@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-06-06"
 date: 2026-06-06T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-06-06：根据 Claude Code v2.1.165 的更新说明，以下是本次版本的深度点评："
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

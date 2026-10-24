@@ -2,6 +2,7 @@
 title: "🔧 Codex 更新日报 2026-03-25"
 date: 2026-03-25T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-03-25：App-server TUI now supports device-code ChatGPT sign-in during onboarding and can refresh existi…"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Codex 更新"]

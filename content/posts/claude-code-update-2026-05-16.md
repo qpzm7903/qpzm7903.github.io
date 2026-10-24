@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-05-16"
 date: 2026-05-16T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-05-16：Added plugin dependency enforcement: claude plugin disable now refuses when another enable…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

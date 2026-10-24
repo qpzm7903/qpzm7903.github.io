@@ -2,6 +2,7 @@
 title: "🔧 Codex 更新日报 2026-03-23"
 date: 2026-03-23T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-03-23：Linux 沙箱兼容性深度优化；针对 Ubuntu、AppArmor 环境以及符号链接（symlinks）路径下的启动失败问题进行了专项修复。"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Codex 更新"]

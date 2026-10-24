@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-07-03"
 date: 2026-07-03T10:21:35+08:00
 draft: false
+description: "今日精选：[OpenAI] codex-plugin-cc、[OpenAI] human-eval"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

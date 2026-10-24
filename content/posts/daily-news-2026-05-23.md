@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-05-23"
 date: 2026-05-23T07:02:00+08:00
 draft: false
+description: "今日精选：[Hugging Face] Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-05-07"
 date: 2026-05-07T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-05-07：Added CLAUDE_CODE_SESSION_ID environment variable to the Bash tool subprocess environment…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

@@ -2,6 +2,7 @@
 title: "🌐 科技日报 | 2026-07-25"
 date: 2026-07-25T06:57:27+08:00
 draft: false
+description: "今日精选：安全研究者 hhh 对 Hanwha Wisenet XNP-9300RW 摄像头固件做逆向分析后发现，一枚 GitHub token 被重复写进约 30 个前端文件，并拥有该公司 GitHub 组织数百个仓库的管理员权限。"
 tags: ["科技", "日报"]
 categories: ["科技日报"]
 ---

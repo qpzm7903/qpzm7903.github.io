@@ -2,6 +2,7 @@
 title: "WSL2 开发深度指南 - Win10/11 深度工作流"
 date: 2026-03-07T17:00:00+08:00
 draft: false
+description: "WSL2 开发深度指南 - Win10/11 深度工作流：适用于 Windows + WSL2 + Java/前端开发"
 tags: ["WSL2", "Windows", "开发环境", "效率"]
 categories: ["技术"]
 ---

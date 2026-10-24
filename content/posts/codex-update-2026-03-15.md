@@ -2,6 +2,7 @@
 title: "🔧 Codex 更新日报 2026-03-15"
 date: 2026-03-15T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-03-15：权限持久化与审批流修复：修复了权限请求无法跨回合持久化的问题，并确保 apply_patch 等关键操作能正确遵循权限配置（如拒绝逻辑），解决了长会话中频繁授权的体验痛点。"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Codex 更新"]

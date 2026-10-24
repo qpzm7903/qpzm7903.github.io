@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-06-16"
 date: 2026-06-16T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-06-16：Added Tool(param:value) syntax for permission rules to match a tool's input parameters (wi…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

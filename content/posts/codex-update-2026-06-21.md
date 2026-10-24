@@ -2,6 +2,7 @@
 title: "🔧 Codex 更新日报 2026-06-21"
 date: 2026-06-21T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-06-21：Remote executors now use authenticated, end-to-end encrypted Noise relay channels. (#26242, #262…"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Codex 更新"]

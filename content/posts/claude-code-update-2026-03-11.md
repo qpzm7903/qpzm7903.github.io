@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-03-11"
 date: 2026-03-11T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-03-11：Added w key in /copy to write the focused selection directly to a file, bypassing the clip…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

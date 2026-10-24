@@ -2,6 +2,7 @@
 title: "🔧 Openclaw 更新日报 2026-04-24"
 date: 2026-04-24T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-04-24：长连接与进程退出稳定性：修复了 CLI/Gateway 在退出时因 WebSocket 关闭等待导致的挂起问题，确保了 status 或 version 命令在完成后能立即释放进程。"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["openclaw 更新"]

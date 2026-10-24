@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-04-25"
 date: 2026-04-25T07:01:41+08:00
 draft: false
+description: "今日精选：[Hugging Face] DeepSeek-V4: a million-token context that agents can actually use"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

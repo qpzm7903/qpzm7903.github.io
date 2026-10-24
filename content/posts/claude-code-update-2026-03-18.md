@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-03-18"
 date: 2026-03-18T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-03-18：Added StopFailure hook event that fires when the turn ends due to an API error (rate limit…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

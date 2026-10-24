@@ -2,6 +2,7 @@
 title: "🔧 Codex 更新日报 2026-05-22"
 date: 2026-05-22T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-05-22：TUI 状态与交互修正：修复了 TUI 复用本地 app-server 套接字时由于错误读取 CWD 导致的工作目录异常；"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Codex 更新"]

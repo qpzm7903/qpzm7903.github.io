@@ -2,6 +2,7 @@
 title: "🔧 Openclaw 更新日报 2026-07-01"
 date: 2026-07-01T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-07-01：More capable channel control: Slack relay mode, native Mattermost /oc_queue, and per-DM model…"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["openclaw 更新"]

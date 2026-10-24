@@ -2,6 +2,7 @@
 title: "📄 论文日报 | 2026-07-18"
 date: 2026-07-18T06:38:00+08:00
 draft: false
+description: "今日精选：今天三篇论文有个共同主题：开源 + agentic——一篇视频理解、一篇 zero-RL 大规模化、一篇 agentic RL 自蒸馏。"
 tags: ["AI", "论文", "日报"]
 categories: ["论文日报"]
 ---

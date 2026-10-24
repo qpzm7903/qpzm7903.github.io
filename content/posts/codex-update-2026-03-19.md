@@ -2,6 +2,7 @@
 title: "🔧 Codex 更新日报 2026-03-19"
 date: 2026-03-19T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-03-19：子代理沙箱安全性增强：修复了子代理在继承沙箱规则、网络权限、项目配置文件（Profiles）及符号链接写入权限时的可靠性问题，确保了多层级代理在隔离环境下的权限表现一致。"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Codex 更新"]

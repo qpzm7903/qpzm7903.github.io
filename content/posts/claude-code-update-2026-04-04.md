@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-04-04"
 date: 2026-04-04T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-04-04：Added forceRemoteSettingsRefresh policy setting: when set, the CLI blocks startup until re…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

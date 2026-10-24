@@ -2,6 +2,7 @@
 title: "🔧 Openclaw 更新日报 2026-04-09"
 date: 2026-04-09T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-04-09：交互式 SSRF 隔离防护：修复了一个关键安全漏洞（#63226），确保在点击、评估或钩子触发的页面跳转后，重新执行黑名单地址检测，防止通过交互式导航绕过 SSRF 隔离区。"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["openclaw 更新"]

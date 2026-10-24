@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-06-14"
 date: 2026-06-14T07:41:06+08:00
 draft: false
+description: "今日精选：[OpenAI] tiktoken、tiktoken is a fast BPE tokeniser for use with OpenAI's models."
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

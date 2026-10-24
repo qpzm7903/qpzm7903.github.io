@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-06-10"
 date: 2026-06-10T08:20:26+08:00
 draft: false
+description: "今日精选：Claude Fable 5"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

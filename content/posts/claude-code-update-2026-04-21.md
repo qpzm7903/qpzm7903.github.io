@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-04-21"
 date: 2026-04-21T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-04-21：Fixed Devanagari and other Indic scripts rendering with broken column alignment in the ter…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

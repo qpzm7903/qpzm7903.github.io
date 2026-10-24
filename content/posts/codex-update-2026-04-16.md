@@ -2,6 +2,7 @@
 title: "🔧 Codex 更新日报 2026-04-16"
 date: 2026-04-16T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-04-16：沙箱与网络安全强化：修复了 macOS 沙箱下私有 DNS 的处理问题，并移除了风险较高的 danger-full-access 网络模式。"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Codex 更新"]

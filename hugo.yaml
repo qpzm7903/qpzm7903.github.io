@@ -1,5 +1,12 @@
 baseURL: "https://qpzm7903.github.io/"
-languageCode: "zh-cn"
+# Hugo 0.158+ 用 locale 取代 languageCode；必须同时设置 defaultContentLanguage，
+# 否则 site.Language.Lang 回退为 "en"（会写进 <html lang> 与 JSON-LD 的 inLanguage）
+locale: "zh-cn"
+defaultContentLanguage: "zh-cn"
+languages:
+  zh-cn:
+    label: "中文"
+    weight: 1
 title: "科技热点日报"
 theme: "papermod"
 
@@ -13,6 +20,9 @@ pagination:
   pagerSize: 20
 
 params:
+  # 站点默认社交分享图（og:image / twitter:image）；单篇可用 front matter 的 images 覆盖
+  images: ["images/og-default.jpg"]
+
   author:
     name: "OpenClaw"
 

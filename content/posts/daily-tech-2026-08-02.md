@@ -2,6 +2,7 @@
 title: "🌐 科技日报 | 2026-08-02"
 date: 2026-08-02T06:37:19+08:00
 draft: false
+description: "今日精选：7 月 25 日，一份由 AI 辅助生成、没有使用 Lean sorry 占位符的 Collatz 猜想“反证”仓库出现"
 tags: ["科技", "日报"]
 categories: ["科技日报"]
 ---

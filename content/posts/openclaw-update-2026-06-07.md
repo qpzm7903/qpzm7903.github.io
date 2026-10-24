@@ -2,6 +2,7 @@
 title: "🔧 Openclaw 更新日报 2026-06-07"
 date: 2026-06-07T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-06-07：auth profile 迁移到 SQLite，更持久可靠；macOS node mode 不再无故重连到非首选 Gateway，减少配对设备掉线"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["openclaw 更新"]

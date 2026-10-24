@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-03-08"
 date: 2026-03-08T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-03-08：Added /loop command to run a prompt or slash command on a recurring interval (e.g. /loop 5…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

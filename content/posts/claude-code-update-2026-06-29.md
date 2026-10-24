@@ -2,6 +2,7 @@
 title: "🤖 Claude Code 更新日报 2026-06-29"
 date: 2026-06-29T10:00:00+08:00
 draft: false
+description: "🤖 Claude Code 更新日报 2026-06-29：Added CLAUDE_CODE_DISABLE_MOUSE_CLICKS to disable mouse click/drag/hover in fullscreen mod…"
 tags: ["Claude Code", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Claude Code 更新"]

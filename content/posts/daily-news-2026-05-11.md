@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-05-11"
 date: 2026-05-11T07:31:15+08:00
 draft: false
+description: "今日精选：[Hugging Face] MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

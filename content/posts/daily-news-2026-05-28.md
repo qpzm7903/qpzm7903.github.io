@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-05-28"
 date: 2026-05-28T07:01:19+08:00
 draft: false
+description: "今日精选：[Hugging Face] ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks —…"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

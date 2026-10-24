@@ -2,6 +2,7 @@
 title: "🔧 Codex 更新日报 2026-03-22"
 date: 2026-03-22T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-03-22：Linux 沙箱稳定性提升：针对 Ubuntu/AppArmor 宿主机以及存在软链接、缺少可写根目录的复杂环境进行了优化。"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Codex 更新"]

@@ -2,6 +2,7 @@
 title: "🔧 Openclaw 更新日报 2026-04-25"
 date: 2026-04-25T10:00:00+08:00
 draft: false
+description: "🔧 Openclaw 更新日报 2026-04-25：MCP 环回安全策略强化：修复了 127.0.0.1/mcp 的鉴权漏洞，现在非 Owner 调用者无法通过本地 MCP 路径列出或调用 cron、gateway 等敏感工具，实现了与…"
 tags: ["openclaw", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["openclaw 更新"]

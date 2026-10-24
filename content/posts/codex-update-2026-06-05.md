@@ -2,6 +2,7 @@
 title: "🔧 Codex 更新日报 2026-06-05"
 date: 2026-06-05T10:00:00+08:00
 draft: false
+description: "🔧 Codex 更新日报 2026-06-05：这版的修复质量也很高，尤其是 prompt 取消后草稿/附件恢复、插件加载去重、权限审批带环境身份、以及本地会话历史在压缩/标题重命名/side-chat reload 下的稳定性。"
 tags: ["codex", "AI 编程", "更新日志"]
 categories: ["工具更新"]
 series: ["Codex 更新"]

@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-06-03"
 date: 2026-06-03T18:53:04+08:00
 draft: false
+description: "今日精选：Gmail thinks I'm stupid, so I left"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

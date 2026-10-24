@@ -2,6 +2,7 @@
 title: "📰 科技热点日报 | 2026-06-29"
 date: 2026-06-29T08:00:30+08:00
 draft: false
+description: "今日精选：[OpenAI] openai-realtime-meeting-assistant"
 tags: ["AI", "科技", "日报", "Hacker News", "GitHub"]
 categories: ["AI日报"]
 ---

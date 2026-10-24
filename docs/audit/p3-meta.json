@@ -1,0 +1,388 @@
+{
+  "build": {
+    "hugo_warnings": 3
+  },
+  "concept_pages": 7,
+  "content": {
+    "date": {
+      "first": "2026-03-07",
+      "last": "2026-10-23",
+      "last_two_gap_days": 81,
+      "posts_last_30d": 1
+    },
+    "md_bytes": {
+      "max": 22444,
+      "median": 6937,
+      "p90": 10127
+    },
+    "thin_posts": {
+      "count": 7,
+      "files": [
+        "content/posts/claude-code-update-2026-06-21.md",
+        "content/posts/claude-code-update-2026-07-01.md",
+        "content/posts/claude-code-update-2026-07-04.md",
+        "content/posts/codex-update-2026-06-25.md",
+        "content/posts/codex-update-2026-06-27.md",
+        "content/posts/codex-update-2026-06-30.md",
+        "content/posts/codex-update-2026-07-06.md"
+      ],
+      "threshold_bytes": 1500
+    }
+  },
+  "generated_at": "2026-10-23T23:33:21-07:00",
+  "links": {
+    "external_total": 954,
+    "internal_per_post_median": 0.0,
+    "internal_total": 144,
+    "orphan_posts": {
+      "count": 303,
+      "ratio": 0.8279,
+      "samples": [
+        "/posts/arthas-mcp-k8s-2026-03-11",
+        "/posts/arthas-mcp-k8s-remote-guide-2026-03-10",
+        "/posts/arthas-mcp-k8s-scripted-access-guide-2026-03-10",
+        "/posts/autoresearch-design-philosophy-2026-03-11",
+        "/posts/blog-ecc-bmad-superpowers-2026-03-15",
+        "/posts/claude-code-update-2026-03-08",
+        "/posts/claude-code-update-2026-03-09",
+        "/posts/claude-code-update-2026-03-10",
+        "/posts/claude-code-update-2026-03-11",
+        "/posts/claude-code-update-2026-03-12"
+      ]
+    },
+    "posts_without_internal_link": 343
+  },
+  "metadata": {
+    "coverage": {
+      "aliases": 0,
+      "description": 366,
+      "draft_false": 364,
+      "draft_missing": 2,
+      "lastmod": 0,
+      "series": 163,
+      "slug": 0
+    },
+    "html_lang": "zh-cn",
+    "jsonld": {
+      "issues": [],
+      "sample_url": "/posts/架构设计四层法-2026-04-17",
+      "types": []
+    },
+    "og_image_on_home": true,
+    "og_image_on_posts": "3/3"
+  },
+  "output": {
+    "archives_html_bytes": 172154,
+    "home_html_bytes": 50974,
+    "html_bytes_posts": {
+      "count": 366,
+      "max": 90830,
+      "median": 22260,
+      "p90": 27051
+    },
+    "index_policy": {
+      "noindex_pages": 50,
+      "noindex_samples": [
+        "/categories/AI 工具",
+        "/categories/Java 性能分析",
+        "/categories/Kubernetes",
+        "/categories/实战指南",
+        "/categories/工具推荐",
+        "/categories/工程实践",
+        "/categories/开源项目",
+        "/categories/技术分析",
+        "/categories/技术教程",
+        "/categories/技术管理"
+      ],
+      "sitemap_tag_terms": 23,
+      "sitemap_thin_tag_samples": [],
+      "sitemap_thin_tag_terms": 0
+    },
+    "md_to_html_ratio_median": 3.41,
+    "robots": {
+      "declares_sitemap": true,
+      "exists": true
+    },
+    "rss": {
+      "index_bytes": 168554,
+      "index_items": 372,
+      "per_page_rss_files": 366
+    },
+    "sitemap": {
+      "categories": 8,
+      "other": 9,
+      "posts": 367,
+      "series": 4,
+      "tags": 24,
+      "total": 412
+    }
+  },
+  "posts": 366,
+  "root": "/private/tmp/pages",
+  "taxonomy": {
+    "categories": {
+      "all": {
+        "AI日报": 126,
+        "周报": 4,
+        "工具更新": 163,
+        "技术": 10,
+        "科技日报": 23,
+        "股票日报": 17,
+        "论文日报": 23
+      },
+      "below_threshold": {
+        "count": 0,
+        "threshold": 3
+      },
+      "single_use": 0,
+      "terms": 7,
+      "top": [
+        [
+          "工具更新",
+          163
+        ],
+        [
+          "AI日报",
+          126
+        ],
+        [
+          "科技日报",
+          23
+        ],
+        [
+          "论文日报",
+          23
+        ],
+        [
+          "股票日报",
+          17
+        ],
+        [
+          "技术",
+          10
+        ],
+        [
+          "周报",
+          4
+        ]
+      ]
+    },
+    "menu": [
+      {
+        "name": "首页",
+        "url": "/"
+      },
+      {
+        "name": "AI",
+        "url": "/categories/ai日报/"
+      },
+      {
+        "name": "论文",
+        "url": "/categories/论文日报/"
+      },
+      {
+        "name": "科技",
+        "url": "/categories/科技日报/"
+      },
+      {
+        "name": "股票",
+        "url": "/categories/股票日报/"
+      },
+      {
+        "name": "工具更新",
+        "url": "/categories/工具更新/"
+      },
+      {
+        "name": "技术",
+        "url": "/categories/技术/"
+      },
+      {
+        "name": "周报",
+        "url": "/categories/周报/"
+      },
+      {
+        "name": "连载",
+        "url": "/series/"
+      },
+      {
+        "name": "概念库",
+        "url": "/concepts/"
+      },
+      {
+        "name": "归档",
+        "url": "/archives/"
+      },
+      {
+        "name": "标签",
+        "url": "/tags/"
+      },
+      {
+        "name": "🔍 搜索",
+        "url": "/search/"
+      }
+    ],
+    "menu_coverage": {
+      "category_entries": 7,
+      "entries": 13,
+      "posts_covered_by_categories": 366,
+      "ratio": 1.0
+    },
+    "series": {
+      "all": {
+        "Claude Code 更新": 81,
+        "Codex 更新": 36,
+        "openclaw 更新": 46
+      },
+      "below_threshold": {
+        "count": 0,
+        "threshold": 3
+      },
+      "single_use": 0,
+      "terms": 3,
+      "top": [
+        [
+          "Claude Code 更新",
+          81
+        ],
+        [
+          "openclaw 更新",
+          46
+        ],
+        [
+          "Codex 更新",
+          36
+        ]
+      ]
+    },
+    "tags": {
+      "all": {
+        "AI": 149,
+        "AI Agent": 1,
+        "AI Coding": 1,
+        "AI 编程": 164,
+        "AI编程": 1,
+        "Agent": 4,
+        "Arthas": 3,
+        "Clash": 1,
+        "Claude Code": 84,
+        "Dashboard": 1,
+        "Docker Desktop": 1,
+        "GSD": 1,
+        "GitHub": 100,
+        "Hacker News": 100,
+        "Java": 3,
+        "Karpathy": 1,
+        "Kubernetes": 4,
+        "Linear": 1,
+        "MCP": 3,
+        "OpenAI": 1,
+        "RDP": 1,
+        "SSH": 2,
+        "Symphony": 1,
+        "Tailscale": 1,
+        "Ubuntu": 1,
+        "WSL2": 1,
+        "Windows": 1,
+        "autoresearch": 1,
+        "codex": 37,
+        "kube-explorer": 1,
+        "macOS": 1,
+        "openclaw": 46,
+        "port-forward": 1,
+        "周报": 4,
+        "工具分析": 1,
+        "工程实践": 3,
+        "开发环境": 1,
+        "开源": 1,
+        "开源项目": 3,
+        "性能分析": 1,
+        "性能测试": 1,
+        "排障": 1,
+        "效率": 1,
+        "方法论": 1,
+        "日报": 186,
+        "更新日志": 163,
+        "架构图": 1,
+        "架构解析": 1,
+        "科技": 123,
+        "系统设计": 2,
+        "网络": 1,
+        "股票": 17,
+        "脚本化": 1,
+        "论文": 23,
+        "诊断": 1,
+        "财经": 17,
+        "趋势": 4,
+        "远程桌面": 1
+      },
+      "below_threshold": {
+        "count": 36,
+        "threshold": 3
+      },
+      "single_use": 34,
+      "terms": 58,
+      "top": [
+        [
+          "日报",
+          186
+        ],
+        [
+          "AI 编程",
+          164
+        ],
+        [
+          "更新日志",
+          163
+        ],
+        [
+          "AI",
+          149
+        ],
+        [
+          "科技",
+          123
+        ],
+        [
+          "GitHub",
+          100
+        ],
+        [
+          "Hacker News",
+          100
+        ],
+        [
+          "Claude Code",
+          84
+        ],
+        [
+          "openclaw",
+          46
+        ],
+        [
+          "codex",
+          37
+        ],
+        [
+          "论文",
+          23
+        ],
+        [
+          "股票",
+          17
+        ],
+        [
+          "财经",
+          17
+        ],
+        [
+          "Agent",
+          4
+        ],
+        [
+          "Kubernetes",
+          4
+        ]
+      ]
+    }
+  }
+}
